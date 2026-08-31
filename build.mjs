@@ -10,9 +10,18 @@ import { readFileSync, writeFileSync } from "fs";
 //  SRC — усі джерела даних в одному місці.
 //  Будь-який ID можна перевизначити без правки коду: Settings → Secrets and
 //  variables → Actions → вкладка Variables (напр. змінна SLAVIK_SHEET).
-//  Порожнє значення змінної = джерело вимкнене.
+//
+//  Змінна не задана або порожня → береться значення за замовчуванням звідси.
+//  (GitHub Actions підставляє незадану змінну як порожній рядок, тому саме
+//   порожній рядок означає «не задано», а не «вимкнути».)
+//  Щоб вимкнути джерело — задайте значення «off».
 // ============================================================================
-const env = (k, d) => (process.env[k] !== undefined ? process.env[k].trim() : d);
+const env = (k, d) => {
+  const v = (process.env[k] || "").trim();
+  if (v === "") return d;      // не задано → значення за замовчуванням
+  if (v === "off") return "";  // явне вимкнення джерела
+  return v;
+};
 const SRC = {
   // — таблиці постачальників (публічні, чужі акаунти) —
   sakoenergy: env("SAKOENERGY_SHEET", "1fL5fwlGeWSeiogJFD6NeXQrmtdD3-SeDZljh0XYMBRc"),
@@ -479,6 +488,7 @@ async function ratechTab(tab) {
 }
 async function ratech() {
   const items = [];
+  if (!RATECH_ID) { console.log("RaTech: джерело вимкнене"); return items; }
   // 1) Deye інвертори + АКБ
   try {
     const rows = await ratechTab("Гібридні інвертори/АКБ");
@@ -526,6 +536,7 @@ async function ratech() {
 const AVTONOMKA_ID = SRC.avtonomka;
 async function avtonomka() {
   const items = [];
+  if (!AVTONOMKA_ID) { console.log("Avtonomka: джерело вимкнене"); return items; }
   try {
     const res = await fetch(`https://docs.google.com/spreadsheets/d/${AVTONOMKA_ID}/gviz/tq?tqx=out:csv`, { headers: { "user-agent": "Mozilla/5.0 (catalog-bot ESCORE)" }, redirect: "follow" });
     if (!res.ok) { console.warn("Avtonomka: HTTP " + res.status); return items; }
@@ -558,6 +569,7 @@ async function avtonomka() {
 const SLAVIK_ID = SRC.slavik;
 async function slavik() {
   const items = [];
+  if (!SLAVIK_ID) { console.log("Slavik: джерело вимкнене"); return items; }
   try {
     const res = await fetch(`https://docs.google.com/spreadsheets/d/${SLAVIK_ID}/gviz/tq?tqx=out:csv`, { headers: { "user-agent": "Mozilla/5.0 (catalog-bot ESCORE)" }, redirect: "follow" });
     if (!res.ok) { console.warn("Slavik: HTTP " + res.status); return items; }
@@ -597,6 +609,7 @@ function refCode(name) { // найдовший токен з літерами+ц
 }
 async function datasheets() {
   const list = [];
+  if (!DS_SHEET) { console.log("datasheets: джерело вимкнене"); return list; }
   try {
     const res = await fetch(`https://docs.google.com/spreadsheets/d/${DS_SHEET}/gviz/tq?tqx=out:csv`, {
       headers: { "user-agent": "Mozilla/5.0 (catalog-bot ESCORE)" }, redirect: "follow",
