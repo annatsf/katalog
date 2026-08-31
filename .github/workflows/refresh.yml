@@ -1,0 +1,58 @@
+name: refresh-catalog
+on:
+  workflow_dispatch: {}
+  schedule:
+    # раз на 3 години, зі зсувом на 17 хв — щоб не бити по джерелах одночасно з іншими копіями
+    - cron: "17 */3 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: refresh-catalog
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build catalog
+        env:
+          # секрети: Settings → Secrets and variables → Actions → Secrets
+          YUGTORG_COOKIE: ${{ secrets.YUGTORG_COOKIE }}
+          YUGTORG_EMAIL: ${{ secrets.YUGTORG_EMAIL }}
+          YUGTORG_PASSWORD: ${{ secrets.YUGTORG_PASSWORD }}
+          ATMO_EMAIL: ${{ secrets.ATMO_EMAIL }}
+          ATMO_PASSWORD: ${{ secrets.ATMO_PASSWORD }}
+          # необов'язкові змінні: Settings → Secrets and variables → Actions → Variables.
+          # Якщо змінна не задана — береться значення за замовчуванням з блоку SRC у build.mjs.
+          SAKOENERGY_SHEET: ${{ vars.SAKOENERGY_SHEET }}
+          INTERSOLAR_SHEET: ${{ vars.INTERSOLAR_SHEET }}
+          SUNRISE_SHEET: ${{ vars.SUNRISE_SHEET }}
+          PRICEH_SHEET: ${{ vars.PRICEH_SHEET }}
+          RATECH_SHEET: ${{ vars.RATECH_SHEET }}
+          AVTONOMKA_SHEET: ${{ vars.AVTONOMKA_SHEET }}
+          SLAVIK_SHEET: ${{ vars.SLAVIK_SHEET }}
+          SOLARITY_MIRROR: ${{ vars.SOLARITY_MIRROR }}
+          DS_SHEET: ${{ vars.DS_SHEET }}
+        run: node build.mjs
+
+      - name: Sanity check
+        # каталог не має «обнулятися»: якщо позицій підозріло мало — не комітимо
+        run: |
+          COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('catalog.json','utf8')).items.length)")
+          echo "позицій у каталозі: $COUNT"
+          if [ "$COUNT" -lt 50 ]; then
+            echo "::error::у каталозі лише $COUNT позицій — схоже на збій джерел, коміт скасовано"
+            exit 1
+          fi
+
+      - name: Commit if changed
+        run: |
+          git config user.name "catalog-bot"
+          git config user.email "catalog-bot@users.noreply.github.com"
+          git add catalog.json
+          git diff --staged --quiet || git commit -m "chore: refresh catalog"
+          git push
