@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ESCORE — Пошук обладнання у постачальників</title>
+<style>
+  :root{--brand:#1f4e5f;--brand2:#2c6b80;--line:#e2e8ea;--muted:#6b7b82;--bg:#f4f6f7;
+        --ok:#1f7a3d;--okbg:#e4f4e4;--soon:#b7791f;--soonbg:#fff3c4;--no:#9aa5aa;--nobg:#eef1f2}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:#1a2529}
+  header{background:var(--brand);color:#fff;padding:16px 20px}
+  header h1{margin:0;font-size:18px;font-weight:600}
+  header p{margin:4px 0 0;font-size:13px;opacity:.85}
+  main{max-width:960px;margin:0 auto;padding:16px}
+  .banner{background:#fff8e1;border:1px solid #f0e0a0;border-radius:10px;padding:10px 14px;font-size:13px;color:#7a5b00;margin-bottom:14px}
+  .tabs{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+  .tab{background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 16px;cursor:pointer;font-size:14px}
+  .tab.active{background:var(--brand);color:#fff;border-color:var(--brand)}
+  .search{width:100%;border:1px solid #cfd8db;border-radius:10px;padding:11px 14px;font:inherit;margin-bottom:12px}
+  .search:focus{outline:2px solid var(--brand2);border-color:var(--brand2)}
+  .tabs.searching .tab{opacity:.45}
+  .tag{display:inline-block;font-size:11px;padding:1px 8px;border-radius:7px;background:#eef3f4;color:var(--brand);white-space:nowrap}
+  .filters{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:14px}
+  .f{display:flex;flex-direction:column;gap:4px}
+  .f label{font-size:12px;color:var(--muted)}
+  .f input,.f select{border:1px solid #cfd8db;border-radius:8px;padding:8px 10px;font:inherit;min-width:110px}
+  .chk{display:flex;align-items:center;gap:6px;font-size:14px}
+  .pricebar{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin:-2px 0 12px}
+  .pricebar label{font-size:13px;color:var(--muted);display:flex;align-items:center;gap:6px}
+  .pricebar select{border:1px solid #cfd8db;border-radius:8px;padding:7px 10px;font:inherit}
+  td.price{font-weight:600;white-space:nowrap}
+  .cur{color:#c0392b;font-weight:700}
+  table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);font-size:14px;vertical-align:top}
+  th{background:#f1f5f6;color:var(--brand);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.03em}
+  tr:last-child td{border-bottom:0}
+  .badge{display:inline-block;font-size:12px;padding:2px 9px;border-radius:9px;white-space:nowrap}
+  .b-yes{background:var(--okbg);color:var(--ok)} .b-soon{background:var(--soonbg);color:var(--soon)} .b-no{background:var(--nobg);color:var(--no)}
+  .count{font-size:13px;color:var(--muted);margin:10px 2px}
+  .spec{color:var(--muted);font-size:13px}
+  .empty{padding:24px;text-align:center;color:var(--muted)}
+  a{color:var(--brand2)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Пошук обладнання у постачальників</h1>
+  <p>Знайти обладнання за характеристиками — і побачити, у кого воно є в наявності.</p>
+</header>
+<main>
+  <div class="banner" id="banner">Завантаження каталогу…</div>
+  <input id="q" class="search" type="search" autocomplete="off" placeholder="🔎 Пошук за назвою — усі групи (напр. «Deye 12K SG04» або «Jinko 620»)">
+  <div class="pricebar">
+    <label>Ціна:
+      <select id="pmode"><option value="cash">Готівка</option><option value="vat">З ПДВ</option></select>
+    </label>
+    <label title="Впливає на оптовий тариф Solarity для панелей">Кількість:
+      <select id="qty"><option value="0">до 36 шт</option><option value="1">36–108 шт</option><option value="2">понад 108 шт</option></select>
+    </label>
+  </div>
+  <div class="tabs" id="tabs">
+    <div class="tab active" data-cat="inv">Інвертори Deye/Felicity</div>
+    <div class="tab" data-cat="bat">Батареї Deye/Felicity</div>
+    <div class="tab" data-cat="pan">Панелі</div>
+  </div>
+  <div class="filters" id="filters"></div>
+  <div class="count" id="count"></div>
+  <table><thead id="thead"></thead><tbody id="tbody"></tbody></table>
+</main>
+
+<script>
+let DATA = [];
+const AV = {yes:['b-yes','В наявності'], soon:['b-soon','Очікується'], no:['b-no','Немає']};
+const SIZE_L = {small:'малий', med:'середній', large:'великий'};
+const TYPE_L = {inv:'Інвертор', bat:'Батарея', pan:'Панель'};
+// Ярлик постачальника для показу (місто поруч із назвою). Ключ у даних лишається без змін.
+const SUP_LABEL = {Intersolar:'Intersolar (Одеса)', Sakoenergy:'Sakoenergy (Одеса)', YugTorg:'YugTorg (Одеса)'};
+const supL = s => SUP_LABEL[s] || s || '';
+let cat='inv';
+const state={onlyAvail:true, ph:'', hv:'', kwMin:'', kwMax:'', kwhMin:'', kwhMax:'', wattMin:'', wattMax:'', size:'', q:'', priceMode:'cash', qty:'0'};
+const tabs=document.getElementById('tabs'), filtersEl=document.getElementById('filters'),
+      thead=document.getElementById('thead'), tbody=document.getElementById('tbody'),
+      countEl=document.getElementById('count'), banner=document.getElementById('banner'),
+      qEl=document.getElementById('q'),
+      pmodeEl=document.getElementById('pmode'), qtyEl=document.getElementById('qty');
+// Плашки ціни — статичні (не в блоці фільтрів), тому не перебудовуються і працюють у всіх режимах.
+pmodeEl.addEventListener('change',e=>{state.priceMode=e.target.value;renderTable();});
+qtyEl.addEventListener('change',e=>{state.qty=e.target.value;renderTable();});
+
+fetch('catalog.json',{cache:'no-store'}).then(r=>r.json()).then(j=>{
+  DATA = j.items || [];
+  const when = j.generated && j.generated!=='SAMPLE' ? ('оновлено: '+j.generated) : 'зразкові дані';
+  banner.innerHTML = '<b>Джерело:</b> '+DATA.length+' позицій ('+when+'). «Наявність» — зі слів постачальника, перед замовленням підтверджуйте.';
+  renderFilters(); renderTable();
+}).catch(e=>{ banner.textContent='Не вдалося завантажити catalog.json'; });
+
+tabs.addEventListener('click',e=>{const t=e.target.closest('.tab');if(!t)return;
+  if(state.q){state.q='';qEl.value='';tabs.classList.remove('searching');} // клік по вкладці виходить з пошуку
+  cat=t.dataset.cat;
+  [...tabs.children].forEach(x=>x.classList.toggle('active',x===t));renderFilters();renderTable();});
+// Глобальний пошук за назвою — по ВСІХ групах. Поле статичне (не в блоці фільтрів) → фокус не втрачається.
+qEl.addEventListener('input',e=>{state.q=e.target.value;tabs.classList.toggle('searching',state.q.trim()!=='');renderFilters();renderTable();});
+function num(v){return v===''||v==null?null:Number(v);}
+function filtersHtml(){
+  const avail='<div class="f"><label>&nbsp;</label><span class="chk"><input type="checkbox" id="f-avail" '+(state.onlyAvail?'checked':'')+'> лише в наявності</span></div>';
+  if(state.q.trim())return avail; // режим пошуку за назвою — з фільтрів лишаємо тільки «в наявності»
+  if(cat==='inv')return `
+    <div class="f"><label>Потужність від, кВт</label><input type="number" id="f-kwmin" value="${state.kwMin}"></div>
+    <div class="f"><label>до, кВт</label><input type="number" id="f-kwmax" value="${state.kwMax}"></div>
+    <div class="f"><label>Фазність</label><select id="f-ph"><option value="">будь-яка</option><option value="1">1-фазний</option><option value="3">3-фазний</option></select></div>
+    <div class="f"><label>Напруга</label><select id="f-hv"><option value="">будь-яка</option><option value="hv">HV</option><option value="lv">LV</option></select></div>${avail}`;
+  if(cat==='bat')return `
+    <div class="f"><label>Ємність від, кВт·год</label><input type="number" inputmode="decimal" id="f-kwhmin" value="${state.kwhMin}"></div>
+    <div class="f"><label>до, кВт·год</label><input type="number" inputmode="decimal" id="f-kwhmax" value="${state.kwhMax}"></div>
+    <div class="f"><label>Напруга</label><select id="f-hv"><option value="">будь-яка</option><option value="hv">HV</option><option value="lv">LV</option></select></div>${avail}`;
+  return `
+    <div class="f"><label>Розмір</label><select id="f-size"><option value="">будь-який</option><option value="small">Малі (≤465 Вт)</option><option value="med">Середні (480–485)</option><option value="large">Великі (&gt;485)</option></select></div>
+    <div class="f"><label>Потужність від, Вт</label><input type="number" inputmode="numeric" id="f-wattmin" value="${state.wattMin}"></div>
+    <div class="f"><label>до, Вт</label><input type="number" inputmode="numeric" id="f-wattmax" value="${state.wattMax}"></div>${avail}`;
+}
+function bind(){const g=id=>document.getElementById(id);
+  if(g('f-avail'))g('f-avail').onchange=e=>{state.onlyAvail=e.target.checked;renderTable();};
+  if(g('f-ph')){g('f-ph').value=state.ph;g('f-ph').onchange=e=>{state.ph=e.target.value;renderTable();};}
+  if(g('f-hv')){g('f-hv').value=state.hv;g('f-hv').onchange=e=>{state.hv=e.target.value;renderTable();};}
+  if(g('f-size')){g('f-size').value=state.size;g('f-size').onchange=e=>{state.size=e.target.value;renderTable();};}
+  if(g('f-kwmin'))g('f-kwmin').oninput=e=>{state.kwMin=e.target.value;renderTable();};
+  if(g('f-kwmax'))g('f-kwmax').oninput=e=>{state.kwMax=e.target.value;renderTable();};
+  if(g('f-kwhmin'))g('f-kwhmin').oninput=e=>{state.kwhMin=e.target.value;renderTable();};
+  if(g('f-kwhmax'))g('f-kwhmax').oninput=e=>{state.kwhMax=e.target.value;renderTable();};
+  if(g('f-wattmin'))g('f-wattmin').oninput=e=>{state.wattMin=e.target.value;renderTable();};
+  if(g('f-wattmax'))g('f-wattmax').oninput=e=>{state.wattMax=e.target.value;renderTable();};
+}
+function match(it){
+  if(it.cat!==cat)return false;
+  if(state.onlyAvail&&it.avail!=='yes')return false;
+  if(cat==='inv'){const a=num(state.kwMin),b=num(state.kwMax);
+    if(a!=null&&it.kw<a)return false; if(b!=null&&it.kw>b)return false;
+    if(state.ph&&String(it.ph)!==state.ph)return false;
+    if(state.hv==='hv'&&!it.hv)return false; if(state.hv==='lv'&&it.hv)return false;}
+  if(cat==='bat'){const a=num(state.kwhMin),b=num(state.kwhMax);
+    if(a!=null&&(it.kwh==null||it.kwh<a))return false; if(b!=null&&(it.kwh==null||it.kwh>b))return false;
+    if(state.hv==='hv'&&!it.hv)return false; if(state.hv==='lv'&&it.hv)return false;}
+  if(cat==='pan'){const a=num(state.wattMin),b=num(state.wattMax);
+    if(a!=null||b!=null){ if(it.watt==null)return false; if(a!=null&&it.watt<a)return false; if(b!=null&&it.watt>b)return false; }
+    if(state.size&&it.size!==state.size)return false;}
+  return true;
+}
+function matchSearch(it){ // пошук за назвою по ВСІХ групах (модель + постачальник + тип)
+  if(state.onlyAvail&&it.avail!=='yes')return false;
+  const q=state.q.trim().toLowerCase(); if(!q)return true;
+  const hay=((it.model||'')+' '+supL(it.sup)+' '+TYPE_L[it.cat]).toLowerCase();
+  return q.split(/\s+/).every(tok=>hay.includes(tok));
+}
+// Ціна під обрану плашку. Solarity-панелі мають тарифи за кількістю (cashTiers/vatTiers), решта — одне значення.
+function priceOf(it){
+  const p=it.price; if(!p)return null;
+  if(Array.isArray(p.cashTiers)||Array.isArray(p.vatTiers)){
+    const t=Number(state.qty)||0;
+    const arr=state.priceMode==='vat'?p.vatTiers:p.cashTiers;
+    const v=arr&&arr[t]; return (v!=null&&v!=='')?v:null;
+  }
+  const v=state.priceMode==='vat'?p.vat:p.cash; // без підміни: обрано ПДВ і його нема → «—» (не показуємо готівку)
+  return (v!=null&&v!=='')?v:null;
+}
+function fmtPrice(it){
+  const v=priceOf(it); if(v==null)return '<td class="price spec">—</td>';
+  const n=Number(v); const s=isFinite(n)?n.toLocaleString('uk-UA'):String(v);
+  const cur=it.price&&it.price.cur?(' <span class="cur">'+it.price.cur+'</span>'):'';
+  return '<td class="price">'+s+cur+'</td>';
+}
+function charOf(it){
+  if(it.cat==='inv')return [it.kw+' кВт',(it.ph?it.ph+'-фаз':''),it.hv?'HV':'LV'].filter(Boolean).join(', ');
+  if(it.cat==='bat')return [(it.kwh!=null?it.kwh+' кВт·год':''),it.hv?'HV':'LV'].filter(Boolean).join(', ');
+  return [(it.watt!=null?it.watt+' Вт':''),it.dim?it.dim+' мм':(it.size?SIZE_L[it.size]:'')].filter(Boolean).join(', ');
+}
+function specCols(){return cat==='inv'?['Потужність','Фазність','Напруга АКБ']:cat==='bat'?['Ємність','Напруга']:['Потужність','Розмір'];}
+function panSize(it){return it.dim?it.dim+' мм':(it.size?SIZE_L[it.size]:'—');}
+function specVals(it){return cat==='inv'?[it.kw+' кВт',it.ph+'-фазний',it.hv?'HV':'LV']:cat==='bat'?[(it.kwh!=null?it.kwh+' кВт·год':'—'),it.hv?'HV':'LV']:[(it.watt!=null?it.watt+' Вт':'—'),panSize(it)];}
+// Фільтри перебудовуються ЛИШЕ при зміні вкладки (щоб поле вводу не втрачало фокус під час набору).
+function renderFilters(){
+  filtersEl.innerHTML=filtersHtml();bind();
+}
+// Таблиця перемальовується при кожній зміні фільтра — поля вводу лишаються на місці.
+function renderTable(){
+  if(state.q.trim()){ // РЕЖИМ ПОШУКУ ЗА НАЗВОЮ — усі групи разом
+    thead.innerHTML='<tr><th>Модель</th><th>Тип</th><th>Постачальник</th><th>Наявність</th><th>Ціна</th><th>Характеристика</th><th>Datasheet</th></tr>';
+    const rows=DATA.filter(matchSearch).sort((a,b)=>(a.avail==='yes'?0:1)-(b.avail==='yes'?0:1));
+    countEl.textContent='Знайдено: '+rows.length+' (усі групи)';
+    if(!rows.length){tbody.innerHTML='<tr><td class="empty" colspan="7">Нічого не знайшлося за назвою.</td></tr>';return;}
+    tbody.innerHTML=rows.map(it=>{const [bc,bt]=AV[it.avail];
+      const ds=it.ds?'<td><a href="'+it.ds+'" target="_blank" rel="noopener">📄 Відкрити</a></td>':'<td class="spec">—</td>';
+      return '<tr><td><b>'+it.model+'</b></td><td><span class="tag">'+TYPE_L[it.cat]+'</span></td><td>'+supL(it.sup)+'</td><td><span class="badge '+bc+'">'+bt+'</span></td>'+fmtPrice(it)+'<td class="spec">'+charOf(it)+'</td>'+ds+'</tr>';
+    }).join('');
+    return;
+  }
+  const cols=specCols();
+  thead.innerHTML='<tr><th>Модель</th><th>Постачальник</th><th>Наявність</th><th>Ціна</th>'+cols.map(c=>'<th>'+c+'</th>').join('')+'<th>Datasheet</th></tr>';
+  const rows=DATA.filter(match).sort((a,b)=>(a.avail==='yes'?0:1)-(b.avail==='yes'?0:1));
+  countEl.textContent='Знайдено: '+rows.length;
+  if(!rows.length){tbody.innerHTML='<tr><td class="empty" colspan="'+(5+cols.length)+'">Нічого не знайшлося — пом’якшіть фільтри.</td></tr>';return;}
+  tbody.innerHTML=rows.map(it=>{const [bc,bt]=AV[it.avail];
+    const sv=specVals(it).map(v=>'<td class="spec">'+v+'</td>').join('');
+    const ds=it.ds?'<td><a href="'+it.ds+'" target="_blank" rel="noopener">📄 Відкрити</a></td>':'<td class="spec">—</td>';
+    return '<tr><td><b>'+it.model+'</b></td><td>'+supL(it.sup)+'</td><td><span class="badge '+bc+'">'+bt+'</span></td>'+fmtPrice(it)+sv+ds+'</tr>';
+  }).join('');
+}
+</script>
+</body>
+</html>
