@@ -88,12 +88,22 @@ const tabs=document.getElementById('tabs'), filtersEl=document.getElementById('f
 pmodeEl.addEventListener('change',e=>{state.priceMode=e.target.value;renderTable();});
 qtyEl.addEventListener('change',e=>{state.qty=e.target.value;renderTable();});
 
-fetch('catalog.json',{cache:'no-store'}).then(r=>r.json()).then(j=>{
-  DATA = j.items || [];
-  const when = j.generated && j.generated!=='SAMPLE' ? ('оновлено: '+j.generated) : 'зразкові дані';
-  banner.innerHTML = '<b>Джерело:</b> '+DATA.length+' позицій ('+when+'). «Наявність» — зі слів постачальника, перед замовленням підтверджуйте.';
-  renderFilters(); renderTable();
-}).catch(e=>{ banner.textContent='Не вдалося завантажити catalog.json'; });
+// Завантаження даних. Антикеш (?v=час) — щоб браузер/CDN не віддавали старий catalog.json.
+// initial=true лише при першому запуску (будує фільтри); фонові оновлення лише перемальовують таблицю,
+// щоб не збивати введені фільтри/пошук і фокус.
+function loadData(initial){
+  return fetch('catalog.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(j=>{
+    DATA = j.items || [];
+    const when = j.generated && j.generated!=='SAMPLE' ? ('оновлено: '+j.generated) : 'зразкові дані';
+    banner.innerHTML = '<b>Джерело:</b> '+DATA.length+' позицій ('+when+'). «Наявність» — зі слів постачальника, перед замовленням підтверджуйте.';
+    if(initial) renderFilters();
+    renderTable();
+  }).catch(e=>{ if(initial) banner.textContent='Не вдалося завантажити catalog.json'; });
+}
+loadData(true);
+// Автооновлення: коли повертаються на вкладку і кожні 10 хв — щоб відкрита сторінка не «замерзала» на старих даних.
+document.addEventListener('visibilitychange',()=>{ if(!document.hidden) loadData(false); });
+setInterval(()=>{ if(!document.hidden) loadData(false); }, 600000);
 
 tabs.addEventListener('click',e=>{const t=e.target.closest('.tab');if(!t)return;
   if(state.q){state.q='';qEl.value='';tabs.classList.remove('searching');} // клік по вкладці виходить з пошуку
