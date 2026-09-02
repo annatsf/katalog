@@ -1799,7 +1799,7 @@
    "cat": "inv",
    "model": "Гибридный инвертор (hybrid) Deye SUN-16K-SG01LP1-EU, 16кВ, однофазный , (MPPT 150-425/290A/АКБ 48V)Parallel",
    "sup": "YugTorg",
-   "avail": "soon",
+   "avail": "no",
    "kw": 16,
    "ph": 1,
    "hv": false,
