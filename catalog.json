@@ -2524,6 +2524,20 @@
   },
   {
    "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-50K-SG01HP3-EU-BM4 (50 кВт, 3 фази, 4 МРРТ, HV)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "kw": 50,
+   "ph": 3,
+   "hv": true,
+   "price": {
+    "cash": 4200,
+    "vat": 5040,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-6K-SG05LP1-AM2-PLUS (6 кВт, 1 фаза, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
@@ -2624,20 +2638,6 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1hXaL0yRyD0RsTSEo5uxCl5eolqc7up0D/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-50K-SG01HP3-EU-BM4 (50 кВт, 3 фази, 4 МРРТ, HV)",
-   "sup": "Atmo",
-   "avail": "soon",
-   "kw": 50,
-   "ph": 3,
-   "hv": true,
-   "price": {
-    "cash": 4200,
-    "vat": 5040,
-    "cur": "$"
-   }
   },
   {
    "cat": "inv",
@@ -2984,6 +2984,21 @@
   },
   {
    "cat": "pan",
+   "model": "PV модуль JA Solar JAM66D45-630/LB 630 Wp, Bificial, n-type",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 630,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 94.25,
+    "vat": 113.53,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/19JSAtWLa-1qLTDawNAy4aMpk_gDqApcM/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
    "model": "PV модуль Tongwei Solar TWMND-72HD575 575 Wp N-Type, Bifacial",
    "sup": "Atmo",
    "avail": "yes",
@@ -3029,21 +3044,6 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль JA Solar JAM66D45-630/LB 630 Wp, Bificial, n-type",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 630,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cash": 94.25,
-    "vat": 113.53,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/19JSAtWLa-1qLTDawNAy4aMpk_gDqApcM/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
    "model": "PV модуль Longi LR7-72HVD-645, 645Wp, Mono",
    "sup": "Atmo",
    "avail": "yes",
@@ -3086,6 +3086,21 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1fHykKDHWKVpoZWy9q7PMKX4Y8fHiX6Xz/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
+   "model": "PV модуль Longi LR7-72HVD-650M, 650Wp, Mono",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 650,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 100.56,
+    "vat": 121,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/18vt_4LfNzNBPMKKYBYMTfVZ-M1-IO7AC/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3238,21 +3253,6 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль Longi LR7-72HVD-650M, 650Wp, Mono",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 650,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cash": 100.56,
-    "vat": 121,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/18vt_4LfNzNBPMKKYBYMTfVZ-M1-IO7AC/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
    "model": "PV модуль Tongwei Solar TWMNH-66HD635 635Wp N-type Bifacial",
    "sup": "Atmo",
    "avail": "yes",
@@ -3280,6 +3280,21 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/15vPIPgHKePAYoKoh344hBn4l94hj5gX4/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
+   "model": "PV модуль JA Solar JAM54D41-460/LR 460Wp, Mono",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 460,
+   "dim": null,
+   "size": "small",
+   "price": {
+    "cash": 71.16,
+    "vat": 85.63,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1AbwcWmCHFu9JeLwTtWZ1nMq0zICzerp8/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3369,21 +3384,6 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1rQq46SwyXfR6EoaZnFjxJMhFJthhOmhS/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
-   "model": "PV модуль JA Solar JAM54D41-460/LR 460Wp, Mono",
-   "sup": "Atmo",
-   "avail": "soon",
-   "watt": 460,
-   "dim": null,
-   "size": "small",
-   "price": {
-    "cash": 71.16,
-    "vat": 85.63,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1AbwcWmCHFu9JeLwTtWZ1nMq0zICzerp8/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3592,7 +3592,7 @@
    "cat": "pan",
    "model": "Longi Hi-Mo LR7-72HGD 620w (двухсторонние)",
    "sup": "Sakoenergy",
-   "avail": "yes",
+   "avail": "soon",
    "watt": 620,
    "dim": null,
    "size": "large",
