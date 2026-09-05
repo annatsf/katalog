@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-04",
+ "generated": "2026-09-05",
  "note": "Постачальники вживу: YugTorg, Atmo, Sakoenergy, Intersolar, SunRise, Price H, RaTech, Avtonomka, Slavik, Solarity (дзеркало). Altek/Vimmer — снимок. Бренди: Deye + Felicity. Ціни: Готівка/ПДВ під постачальника, Solarity −5%.",
  "items": [
   {
@@ -2570,7 +2570,7 @@
    "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-12K-SG02LP1-EU-AM3-PLUS (12 кВт, 1 фаза, 3 МРРТ, LV)",
    "sup": "Atmo",
-   "avail": "soon",
+   "avail": "no",
    "kw": 12,
    "ph": 1,
    "hv": false,
