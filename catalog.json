@@ -5604,13 +5604,13 @@
    "cat": "bat",
    "model": "DEYE SE-G5.1 PRO-B",
    "sup": "RaTech",
-   "avail": "soon",
+   "avail": "yes",
    "kwh": null,
    "hv": false,
    "price": {
     "cur": "$",
-    "cash": 800,
-    "vat": 930
+    "cash": 820,
+    "vat": 953
    }
   },
   {
