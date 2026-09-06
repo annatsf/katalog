@@ -5009,7 +5009,7 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 868.3,
+    "cash": 847.4,
     "vat": 917.7,
     "cur": "$"
    },
@@ -5033,7 +5033,7 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1225.5,
+    "cash": 1195.1,
     "vat": 1250.2,
     "cur": "$"
    },
@@ -5048,7 +5048,7 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1481.05,
+    "cash": 1461.1,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1hXaL0yRyD0RsTSEo5uxCl5eolqc7up0D/view?usp=sharing"
@@ -5077,7 +5077,7 @@
    "ph": 3,
    "hv": false,
    "price": {
-    "cash": 1532.35,
+    "cash": 1583.65,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1xqaaS458BIQN3EPtkBIAJ7FKDAJQLOtY/view?usp=sharing"
@@ -5091,7 +5091,7 @@
    "ph": 3,
    "hv": false,
    "price": {
-    "cash": 1634,
+    "cash": 1583.65,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1fjs6tWGfMI20ASXNTmtBZjXSNJlhYcv6/view?usp=sharing"
@@ -5115,7 +5115,7 @@
    "cat": "inv",
    "model": "Deye SUN-16K-SG01LP1-EU-AM3-PLUS",
    "sup": "Solarity",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 16,
    "ph": 1,
    "hv": false,
