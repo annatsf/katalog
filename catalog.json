@@ -3862,9 +3862,13 @@
    "cat": "bat",
    "model": "Аккумуляторная батарея Deye SE-F16-C (LiFePO4 51,2V 314Ah 16kWh)",
    "sup": "Sakoenergy",
-   "avail": "soon",
+   "avail": "yes",
    "kwh": 16,
-   "hv": false
+   "hv": false,
+   "price": {
+    "cash": 1850,
+    "cur": "$"
+   }
   },
   {
    "cat": "bat",
@@ -4847,7 +4851,7 @@
    "cat": "pan",
    "model": "Jinko 625W Jinko Bifacial 66HL4M-BDV bifacial",
    "sup": "Solarity",
-   "avail": "yes",
+   "avail": "soon",
    "watt": 625,
    "dim": "2382×1134",
    "size": "large",
@@ -4858,9 +4862,9 @@
      0.16
     ],
     "vatTiers": [
-     0.182,
      0.181,
-     0.179
+     0.178,
+     0.176
     ],
     "cur": "$/Вт"
    },
@@ -4954,11 +4958,6 @@
      0.172,
      0.17
     ],
-    "vatTiers": [
-     0.186,
-     0.183,
-     0.181
-    ],
     "cur": "$/Вт"
    },
    "ds": "https://drive.google.com/file/d/1MlcaC8l-yIgtavlFrtcqZR98h6gM_0MF/view?usp=sharing"
@@ -5004,7 +5003,7 @@
    "cat": "inv",
    "model": "Deye SUN-6K-SG05LP1-EU-AM2-P",
    "sup": "Solarity",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 6,
    "ph": 1,
    "hv": false,
@@ -5019,10 +5018,14 @@
    "cat": "inv",
    "model": "Deye SUN-6K-SG06LP1-EU-BM2",
    "sup": "Solarity",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 6,
    "ph": 1,
-   "hv": false
+   "hv": false,
+   "price": {
+    "cash": 786.6,
+    "cur": "$"
+   }
   },
   {
    "cat": "inv",
