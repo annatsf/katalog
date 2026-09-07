@@ -1923,7 +1923,8 @@
     "cash": 2550,
     "cur": "у.е.",
     "vat": 2950
-   }
+   },
+   "ds": "https://drive.google.com/file/d/13C4I1_FAQFuGYJrJTsTJfuuZY1J055uT/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -2627,6 +2628,20 @@
   },
   {
    "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-20K-SG05LP3-EU-SM2 (20 кВт, 3 фази, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kw": 20,
+   "ph": 3,
+   "hv": false,
+   "price": {
+    "cash": 2500,
+    "vat": 3000,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-10K-SG02LP1-EU-AM3 (10 кВт, 1 фаза, 3 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
@@ -2639,20 +2654,6 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1hXaL0yRyD0RsTSEo5uxCl5eolqc7up0D/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-20K-SG05LP3-EU-SM2 (20 кВт, 3 фази, 2 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "soon",
-   "kw": 20,
-   "ph": 3,
-   "hv": false,
-   "price": {
-    "cash": 2500,
-    "vat": 3000,
-    "cur": "$"
-   }
   },
   {
    "cat": "inv",
@@ -2781,32 +2782,6 @@
   },
   {
    "cat": "bat",
-   "model": "Акумуляторна стійка 3U-HRack-2G 13floors для Deye BOS-G-Pack5.1 (BOS-G pro)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kwh": null,
-   "hv": true,
-   "price": {
-    "cash": 350,
-    "vat": 368.42,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
-   "model": "Акумуляторний блок Deye SE-F16-C (16 кВт·год/51,2 В LV)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kwh": 16,
-   "hv": false,
-   "price": {
-    "cash": 1850,
-    "vat": 2220,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
    "model": "Система керування Deye CONTROL BOX BOS-A-PDU-2 для Deye BOS-A-Pack7.68",
    "sup": "Atmo",
    "avail": "yes",
@@ -2820,14 +2795,14 @@
   },
   {
    "cat": "bat",
-   "model": "Акумуляторний блок Deye LV SE-F5 Pro-C (5,12 кВт·год/51,2 В)",
+   "model": "Акумуляторний блок Deye SE-F16-C (16 кВт·год/51,2 В LV)",
    "sup": "Atmo",
    "avail": "no",
-   "kwh": 5.12,
+   "kwh": 16,
    "hv": false,
    "price": {
-    "cash": 770,
-    "vat": 924,
+    "cash": 1850,
+    "vat": 2220,
     "cur": "$"
    }
   },
@@ -2846,14 +2821,40 @@
   },
   {
    "cat": "bat",
+   "model": "Акумуляторний блок Deye LV SE-F5 Pro-C (5,12 кВт·год/51,2 В)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kwh": 5.12,
+   "hv": false,
+   "price": {
+    "cash": 770,
+    "vat": 924,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
    "model": "Акумуляторний блок Deye HV BOS-G-Pack5.1 (BOS-G pro) (5,12 кВт·год/51,2 В)",
    "sup": "Atmo",
    "avail": "no",
    "kwh": 5.12,
    "hv": true,
    "price": {
-    "cash": 725,
-    "vat": 870,
+    "cash": 799.99,
+    "vat": 960,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
+   "model": "Акумуляторна стійка 3U-HRack-2G 13floors для Deye BOS-G-Pack5.1 (BOS-G pro)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kwh": null,
+   "hv": true,
+   "price": {
+    "cash": 350,
+    "vat": 368.42,
     "cur": "$"
    }
   },
@@ -2956,17 +2957,18 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль JA Solar JAM72D40-605/LB 605 Wp, Bifacial N-type",
+   "model": "PV модуль JA Solar JAM54D41-460/LR 460Wp, Mono",
    "sup": "Atmo",
    "avail": "yes",
-   "watt": 605,
+   "watt": 460,
    "dim": null,
-   "size": "large",
+   "size": "small",
    "price": {
-    "cash": 89.48,
-    "vat": 107.48,
+    "cash": 71.16,
+    "vat": 85.63,
     "cur": "$"
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1AbwcWmCHFu9JeLwTtWZ1nMq0zICzerp8/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -2985,33 +2987,17 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль JA Solar JAM66D45-630/LB 630 Wp, Bificial, n-type",
+   "model": "PV модуль JA Solar JAM72D40-605/LB 605 Wp, Bifacial N-type",
    "sup": "Atmo",
    "avail": "yes",
-   "watt": 630,
+   "watt": 605,
    "dim": null,
    "size": "large",
    "price": {
-    "cash": 94.25,
-    "vat": 113.53,
+    "cash": 89.48,
+    "vat": 107.48,
     "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/19JSAtWLa-1qLTDawNAy4aMpk_gDqApcM/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
-   "model": "PV модуль Longi LR8-66HGD-615, 615Wp, Mono",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 615,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cash": 95.94,
-    "vat": 115.13,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1MlcaC8l-yIgtavlFrtcqZR98h6gM_0MF/view?usp=sharing"
+   }
   },
   {
    "cat": "pan",
@@ -3030,6 +3016,21 @@
   },
   {
    "cat": "pan",
+   "model": "PV модуль Longi LR8-66HGD-615, 615Wp, Mono",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 615,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 95.94,
+    "vat": 115.13,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1MlcaC8l-yIgtavlFrtcqZR98h6gM_0MF/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
    "model": "PV модуль JA Solar JAM72D40-610/LB 610 Wp, Bifacial N-type",
    "sup": "Atmo",
    "avail": "yes",
@@ -3042,21 +3043,6 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1fHykKDHWKVpoZWy9q7PMKX4Y8fHiX6Xz/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
-   "model": "PV модуль Tongwei Solar TWMNH-66HD635 635Wp N-type Bifacial (200-400mm cable)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 635,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cash": 92.3,
-    "vat": 110.65,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1ThTksIrKQ-NMf87g2FFOJgruU-Q-vvT8/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3089,33 +3075,18 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль Longi LR7-54HVH-485, 485Wp, Mono (Black Frame)",
+   "model": "PV модуль Tongwei Solar TWMNH-66HD635 635Wp N-type Bifacial (200-400mm cable)",
    "sup": "Atmo",
    "avail": "yes",
-   "watt": 485,
-   "dim": null,
-   "size": "med",
-   "price": {
-    "cash": 83.27,
-    "vat": 100.18,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1DJ40A4QXEG71i5j1QOE6r2C2iqNFkcC_/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
-   "model": "PV модуль Longi LR7-72HVD-645, 645Wp, Mono",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 645,
+   "watt": 635,
    "dim": null,
    "size": "large",
    "price": {
-    "cash": 103.2,
-    "vat": 123.84,
+    "cash": 92.3,
+    "vat": 110.65,
     "cur": "$"
    },
-   "ds": "https://drive.google.com/file/d/1awbrcqFqujX77zM1CCkLPVTOH6ZThu6R/view?usp=sharing"
+   "ds": "https://drive.google.com/file/d/1ThTksIrKQ-NMf87g2FFOJgruU-Q-vvT8/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3134,6 +3105,21 @@
   },
   {
    "cat": "pan",
+   "model": "PV модуль JA Solar JAM66D45-630/LB 630 Wp, Bificial, n-type",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 630,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 94.25,
+    "vat": 113.53,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/19JSAtWLa-1qLTDawNAy4aMpk_gDqApcM/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
    "model": "PV модуль JA Solar JAM54D40-465/LB 465Wp, Mono (Black Frame)",
    "sup": "Atmo",
    "avail": "yes",
@@ -3146,6 +3132,21 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1AbwcWmCHFu9JeLwTtWZ1nMq0zICzerp8/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
+   "model": "PV модуль Longi LR7-72HVD-645, 645Wp, Mono",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 645,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 103.2,
+    "vat": 123.84,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1awbrcqFqujX77zM1CCkLPVTOH6ZThu6R/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3239,21 +3240,6 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль Tongwei Solar TWMNH-48HE450 450 Wp N-Type Mono",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 450,
-   "dim": null,
-   "size": "small",
-   "price": {
-    "cash": 74.21,
-    "vat": 89.12,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1rQq46SwyXfR6EoaZnFjxJMhFJthhOmhS/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
    "model": "PV модуль Tongwei Solar TWMNH-66HD635 635Wp N-type Bifacial",
    "sup": "Atmo",
    "avail": "yes",
@@ -3284,21 +3270,6 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль JA Solar JAM54D40-460/LB 460Wp, Mono (Black Frame)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 460,
-   "dim": null,
-   "size": "small",
-   "price": {
-    "cash": 78.2,
-    "vat": 93.84,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1AbwcWmCHFu9JeLwTtWZ1nMq0zICzerp8/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
    "model": "PV модуль Longi LR7-54HVH-480, 480Wp, Mono (Black Frame)",
    "sup": "Atmo",
    "avail": "yes",
@@ -3314,18 +3285,33 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль JA Solar JAM54D41-460/LR 460Wp, Mono",
+   "model": "PV модуль JA Solar JAM54D40-460/LB 460Wp, Mono (Black Frame)",
    "sup": "Atmo",
    "avail": "yes",
    "watt": 460,
    "dim": null,
    "size": "small",
    "price": {
-    "cash": 71.16,
-    "vat": 85.63,
+    "cash": 78.2,
+    "vat": 93.84,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1AbwcWmCHFu9JeLwTtWZ1nMq0zICzerp8/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
+   "model": "PV модуль Tongwei Solar TWMNH-48HE450 450 Wp N-Type Mono",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 450,
+   "dim": null,
+   "size": "small",
+   "price": {
+    "cash": 74.21,
+    "vat": 89.12,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1rQq46SwyXfR6EoaZnFjxJMhFJthhOmhS/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3341,6 +3327,21 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1ZePdEDRupd_OoEUU6qsmearNHtEv3pra/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
+   "model": "PV модуль Longi LR7-54HVH-485, 485Wp, Mono (Black Frame)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 485,
+   "dim": null,
+   "size": "med",
+   "price": {
+    "cash": 83.27,
+    "vat": 100.18,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1DJ40A4QXEG71i5j1QOE6r2C2iqNFkcC_/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3890,7 +3891,7 @@
    "kwh": null,
    "hv": false,
    "price": {
-    "cash": 900,
+    "cash": 880,
     "cur": "$"
    }
   },
@@ -4054,7 +4055,8 @@
    "avail": "soon",
    "kw": 16,
    "ph": 3,
-   "hv": false
+   "hv": false,
+   "ds": "https://drive.google.com/file/d/13C4I1_FAQFuGYJrJTsTJfuuZY1J055uT/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -4262,20 +4264,11 @@
   },
   {
    "cat": "pan",
-   "model": "Сонячна панель Sunerise JC450-96M-210R - 460 Вт (Двостороння) Розміри: 1762*1134*30мм Вага: 24кг",
-   "sup": "SunRise",
-   "avail": "soon",
-   "watt": 450,
-   "dim": "1762×1134",
-   "size": "small"
-  },
-  {
-   "cat": "pan",
-   "model": "Сонячна панель 440 Вт Sunerise FULL BLACK JC440-108M N-тип (Одностороння)",
+   "model": "Сонячна панель Sunerise JC450-96M-210R - 460 Вт (Двостороння) Розміри: 1762*1134*30мм Вага: 24кг Сонячна панель 440 Вт Sunerise FULL BLACK JC440-108M N-тип (Одностороння)",
    "sup": "SunRise",
    "avail": "no",
-   "watt": 440,
-   "dim": null,
+   "watt": 450,
+   "dim": "1762×1134",
    "size": "small"
   },
   {
@@ -4361,7 +4354,7 @@
    "price": {
     "cur": "$",
     "cash": 745,
-    "vat": 880
+    "vat": 888
    }
   },
   {
@@ -4611,7 +4604,8 @@
     "cur": "$",
     "cash": 1775,
     "vat": 2100
-   }
+   },
+   "ds": "https://drive.google.com/file/d/13C4I1_FAQFuGYJrJTsTJfuuZY1J055uT/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -5366,7 +5360,7 @@
    "cat": "inv",
    "model": "DEYE SUN-10K-SG05LP3",
    "sup": "RaTech",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 10,
    "ph": 3,
    "hv": false,
@@ -5433,7 +5427,8 @@
     "cur": "$",
     "cash": 1920,
     "vat": 2233
-   }
+   },
+   "ds": "https://drive.google.com/file/d/13C4I1_FAQFuGYJrJTsTJfuuZY1J055uT/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -5509,7 +5504,7 @@
    "cat": "inv",
    "model": "DEYE SUN-30K-SG02HP3-EU-",
    "sup": "RaTech",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 30,
    "ph": 3,
    "hv": true,
@@ -5607,7 +5602,7 @@
    "cat": "bat",
    "model": "DEYE SE-G5.1 PRO-B",
    "sup": "RaTech",
-   "avail": "yes",
+   "avail": "soon",
    "kwh": null,
    "hv": false,
    "price": {
