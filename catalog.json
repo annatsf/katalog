@@ -1689,7 +1689,7 @@
    "cat": "inv",
    "model": "Гибридный инвертор (hybrid) Deye SUN-6K-SG05LP1-EU-AM2-P WI-FI, 6кВт, однофазный, (МРРТ 125-425/ 120А/ DC48В )Parallel",
    "sup": "YugTorg",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 6,
    "ph": 1,
    "hv": false,
@@ -2769,6 +2769,19 @@
   },
   {
    "cat": "bat",
+   "model": "Акумуляторний блок Deye LV SE-F5 Pro-C (5,12 кВт·год/51,2 В)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "kwh": 5.12,
+   "hv": false,
+   "price": {
+    "cash": 770,
+    "vat": 924,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
    "model": "Комплект Deye BOS-B Pro Стійка + БМС + АКБ (15 АКБ по 16,08 = 240 кВт-год)",
    "sup": "Atmo",
    "avail": "yes",
@@ -2777,6 +2790,19 @@
    "price": {
     "cash": 25699.9,
     "vat": 30611.56,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
+   "model": "Акумуляторний блок Deye HV BOS-G-Pack5.1 (BOS-G pro) (5,12 кВт·год/51,2 В)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "kwh": 5.12,
+   "hv": true,
+   "price": {
+    "cash": 799.99,
+    "vat": 960,
     "cur": "$"
    }
   },
@@ -2816,32 +2842,6 @@
    "price": {
     "cash": 1500,
     "vat": 1800,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
-   "model": "Акумуляторний блок Deye LV SE-F5 Pro-C (5,12 кВт·год/51,2 В)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kwh": 5.12,
-   "hv": false,
-   "price": {
-    "cash": 770,
-    "vat": 924,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
-   "model": "Акумуляторний блок Deye HV BOS-G-Pack5.1 (BOS-G pro) (5,12 кВт·год/51,2 В)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kwh": 5.12,
-   "hv": true,
-   "price": {
-    "cash": 799.99,
-    "vat": 960,
     "cur": "$"
    }
   },
@@ -2927,18 +2927,18 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль JA Solar JAM66D45-635/LB 635 Wp, Bificial, n-type",
+   "model": "PV модуль Tongwei Solar TWMND-72HD575 575 Wp N-Type, Bifacial",
    "sup": "Atmo",
    "avail": "yes",
-   "watt": 635,
+   "watt": 575,
    "dim": null,
    "size": "large",
    "price": {
-    "cash": 97.16,
-    "vat": 116.59,
+    "cash": 79.18,
+    "vat": 95.31,
     "cur": "$"
    },
-   "ds": "https://drive.google.com/file/d/1PTHpfwXQ-JbaTy02E2BaJdFNb-qgECF4/view?usp=sharing"
+   "ds": "https://drive.google.com/file/d/1ZbTNcUAx8VO6XcVBiZPIVMWqSWlwRW7b/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -2954,6 +2954,21 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1KiUTf4rHfDojKZl9mR1dIvhUaiqGMsQc/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
+   "model": "PV модуль JA Solar JAM66D45-635/LB 635 Wp, Bificial, n-type",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 635,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 97.16,
+    "vat": 116.59,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1PTHpfwXQ-JbaTy02E2BaJdFNb-qgECF4/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -2983,21 +2998,6 @@
     "vat": 107.48,
     "cur": "$"
    }
-  },
-  {
-   "cat": "pan",
-   "model": "PV модуль Tongwei Solar TWMND-72HD575 575 Wp N-Type, Bifacial",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 575,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cash": 79.18,
-    "vat": 95.31,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1ZbTNcUAx8VO6XcVBiZPIVMWqSWlwRW7b/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3075,36 +3075,6 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль Tongwei Solar TWMNH-66HD635 635Wp N-type Bifacial (200-400mm cable)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 635,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cash": 92.3,
-    "vat": 110.65,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1ThTksIrKQ-NMf87g2FFOJgruU-Q-vvT8/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
-   "model": "PV модуль Tongwei Solar TWMNH-48HE455 455 Wp N-Type Mono",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 455,
-   "dim": null,
-   "size": "small",
-   "price": {
-    "cash": 77.35,
-    "vat": 92.82,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1gELsu3udRZ0ZQxKyi7ba6_TPlwRH8PoI/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
    "model": "PV модуль JA Solar JAM66D45-630/LB 630 Wp, Bificial, n-type",
    "sup": "Atmo",
    "avail": "yes",
@@ -3135,6 +3105,51 @@
   },
   {
    "cat": "pan",
+   "model": "PV модуль Tongwei Solar TWMNH-66HD635 635Wp N-type Bifacial (200-400mm cable)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 635,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 92.3,
+    "vat": 110.65,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1ThTksIrKQ-NMf87g2FFOJgruU-Q-vvT8/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
+   "model": "PV модуль Tongwei Solar TWMNH-48HE455 455 Wp N-Type Mono",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 455,
+   "dim": null,
+   "size": "small",
+   "price": {
+    "cash": 77.35,
+    "vat": 92.82,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1gELsu3udRZ0ZQxKyi7ba6_TPlwRH8PoI/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
+   "model": "PV модуль Longi LR7-72HVD-650M, 650Wp, Mono",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 650,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 104,
+    "vat": 124.8,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/18vt_4LfNzNBPMKKYBYMTfVZ-M1-IO7AC/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
    "model": "PV модуль Tongwei Solar TWMNH-66HD625 625 Wp N-type Bifacial",
    "sup": "Atmo",
    "avail": "yes",
@@ -3162,21 +3177,6 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/19JSAtWLa-1qLTDawNAy4aMpk_gDqApcM/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
-   "model": "PV модуль Longi LR7-72HVD-650M, 650Wp, Mono",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 650,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cash": 104,
-    "vat": 124.8,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/18vt_4LfNzNBPMKKYBYMTfVZ-M1-IO7AC/view?usp=sharing"
   },
   {
    "cat": "pan",
