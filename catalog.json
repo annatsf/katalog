@@ -1785,7 +1785,7 @@
    "cat": "inv",
    "model": "Гибридный инвертор (hybrid) Deye SUN-14K-SG01LP1-EU, 14кВ, однофазный , (MPPT 150-425/290A/АКБ 48V)Parallel",
    "sup": "YugTorg",
-   "avail": "yes",
+   "avail": "no",
    "kw": 14,
    "ph": 1,
    "hv": false,
