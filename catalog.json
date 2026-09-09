@@ -2000,7 +2000,7 @@
    "cat": "inv",
    "model": "Гибридный инвертор (hybrid) Deye SUN-25K-SG01HP3-EU-AM2 25KW, EU HV, 25кВт, трехфазный, (MPPT 150-850/37A/АКБ 160-700V)Parallel",
    "sup": "YugTorg",
-   "avail": "soon",
+   "avail": "no",
    "kw": 25,
    "ph": 3,
    "hv": true,
@@ -2259,7 +2259,7 @@
    "price": {
     "cash": 1620,
     "cur": "у.е.",
-    "vat": 1750
+    "vat": 1850
    }
   },
   {
