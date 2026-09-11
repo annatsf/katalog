@@ -2554,21 +2554,6 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-20K-SG05LP3-EU-SM2 (20 кВт, 3 фази, 2 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kw": 20,
-   "ph": 3,
-   "hv": false,
-   "price": {
-    "cash": 2650,
-    "vat": 3179.99,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-6K-SG05LP1-AM2-PLUS (6 кВт, 1 фаза, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
@@ -2627,6 +2612,21 @@
   },
   {
    "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-20K-SG05LP3-EU-SM2 (20 кВт, 3 фази, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kw": 20,
+   "ph": 3,
+   "hv": false,
+   "price": {
+    "cash": 2650,
+    "vat": 3179.99,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-10K-SG02LP1-EU-AM3-PLUS (10 кВт, 1 фаза, 3 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
@@ -2672,6 +2672,20 @@
   },
   {
    "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-50K-SG01HP3-EU-BM4 (50 кВт, 3 фази, 4 МРРТ, HV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kw": 50,
+   "ph": 3,
+   "hv": true,
+   "price": {
+    "cash": 4200,
+    "vat": 5040,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-12K-SG02LP1-EU-AM3-PLUS (12 кВт, 1 фаза, 3 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "soon",
@@ -2684,20 +2698,6 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-50K-SG01HP3-EU-BM4 (50 кВт, 3 фази, 4 МРРТ, HV)",
-   "sup": "Atmo",
-   "avail": "soon",
-   "kw": 50,
-   "ph": 3,
-   "hv": true,
-   "price": {
-    "cash": 4200,
-    "vat": 5040,
-    "cur": "$"
-   }
   },
   {
    "cat": "inv",
@@ -2882,19 +2882,6 @@
   },
   {
    "cat": "bat",
-   "model": "Акумуляторний блок Deye HV BOS-G-Pack5.1 (BOS-G pro) (5,12 кВт·год/51,2 В)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kwh": 5.12,
-   "hv": true,
-   "price": {
-    "cash": 799.99,
-    "vat": 960,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
    "model": "Система керування Deye CONTROL BOX BOS-A-PDU-2 для Deye BOS-A-Pack7.68",
    "sup": "Atmo",
    "avail": "yes",
@@ -2942,6 +2929,19 @@
    "price": {
     "cash": 1850,
     "vat": 2220,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
+   "model": "Акумуляторний блок Deye HV BOS-G-Pack5.1 (BOS-G pro) (5,12 кВт·год/51,2 В)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kwh": 5.12,
+   "hv": true,
+   "price": {
+    "cash": 799.99,
+    "vat": 960,
     "cur": "$"
    }
   },
@@ -3131,6 +3131,21 @@
   },
   {
    "cat": "pan",
+   "model": "PV модуль Tongwei Solar TWMNH-48HE455 455 Wp N-Type Mono",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 455,
+   "dim": null,
+   "size": "small",
+   "price": {
+    "cash": 75.42,
+    "vat": 76.97,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1fEzlTYj0Yc3bhVHdrD0RoYEPbiwPUoL4/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
    "model": "PV модуль Longi LR8-66HVD-650M, 650Wp, Mono",
    "sup": "Atmo",
    "avail": "yes",
@@ -3146,18 +3161,18 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль Tongwei Solar TWMNH-48HE455 455 Wp N-Type Mono",
+   "model": "PV модуль JA Solar JAM66D45-630/LB 630 Wp, Bifacial N-type (300-400mm cable)",
    "sup": "Atmo",
    "avail": "yes",
-   "watt": 455,
+   "watt": 630,
    "dim": null,
-   "size": "small",
+   "size": "large",
    "price": {
-    "cash": 75.42,
-    "vat": 76.97,
+    "cash": 101.21,
+    "vat": 121.56,
     "cur": "$"
    },
-   "ds": "https://drive.google.com/file/d/1fEzlTYj0Yc3bhVHdrD0RoYEPbiwPUoL4/view?usp=sharing"
+   "ds": "https://drive.google.com/file/d/1KrqDDk1hPe9yUwIdANDqSGdayX2vowP_/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3176,21 +3191,6 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль JA Solar JAM72D42-645/LB 645 Wp, Bificial, n-type (200-400mm cable)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 645,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cash": 99.78,
-    "vat": 120.07,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1VKcSOOnJTrydhjqhUtx8uuLCLkqa4j2r/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
    "model": "PV модуль Longi LR7-72HVD-645, 645Wp, Mono",
    "sup": "Atmo",
    "avail": "yes",
@@ -3206,18 +3206,18 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль JA Solar JAM66D45-630/LB 630 Wp, Bifacial N-type (300-400mm cable)",
+   "model": "PV модуль JA Solar JAM72D42-645/LB 645 Wp, Bificial, n-type (200-400mm cable)",
    "sup": "Atmo",
    "avail": "yes",
-   "watt": 630,
+   "watt": 645,
    "dim": null,
    "size": "large",
    "price": {
-    "cash": 101.21,
-    "vat": 121.56,
+    "cash": 99.78,
+    "vat": 120.07,
     "cur": "$"
    },
-   "ds": "https://drive.google.com/file/d/1KrqDDk1hPe9yUwIdANDqSGdayX2vowP_/view?usp=sharing"
+   "ds": "https://drive.google.com/file/d/1VKcSOOnJTrydhjqhUtx8uuLCLkqa4j2r/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3957,7 +3957,7 @@
   },
   {
    "cat": "pan",
-   "model": "Сонячна панель longi LR5-54HTH 435М (435 Вт)",
+   "model": "Сонячна панель longi EXPLORER LR5-54HTH 435М (435 Вт)",
    "sup": "Intersolar",
    "avail": "yes",
    "watt": 435,
@@ -4143,7 +4143,7 @@
   },
   {
    "cat": "bat",
-   "model": "Акумуляторна батарея Deye SE-F12 Max 51.2V 230Ah IP65 без підігріву (12 кВт*год",
+   "model": "Акумуляторна батарея Deye SE-F12 Max 51.2V 230Ah IP65 без підігріву (12 кВт*год)",
    "sup": "Intersolar",
    "avail": "yes",
    "kwh": 12,
@@ -4300,22 +4300,6 @@
    "watt": 200,
    "dim": null,
    "size": "small"
-  },
-  {
-   "cat": "bat",
-   "model": "Акумуляторна батарея Felicity FLA48280-EU, 14кВтч - 51.2 В, 280 Ач",
-   "sup": "SunRise",
-   "avail": "no",
-   "kwh": 14.34,
-   "hv": false
-  },
-  {
-   "cat": "bat",
-   "model": "Акумуляторна батарея Felicity FLA48300-EU, 15кВтч - 51.2 В, 300 Ач",
-   "sup": "SunRise",
-   "avail": "no",
-   "kwh": 15.36,
-   "hv": false
   },
   {
    "cat": "bat",
