@@ -136,12 +136,16 @@ function panelInfo(name, cells) { // watt (виправлено) + розмір 
   return { watt, dim: d ? d.dim : null, len: d ? d.len : null, size: panelSize(d ? d.len : null, watt) };
 }
 function panelBrand(name) { const b = name.match(/\b(Longi|Jinko|JA Solar|JA|Canadian|Risen|Trina|Tongwei|ReneSola|Luxen|Sunerise|Solitek)\b/i); return b ? b[1] : null; }
+// Файли-датащити лежать на Диску anna.ts.f@gmail.com (папка «Copy Data Sheets»).
+// Раніше тут були id копій з акаунта escore — переспрямовано на власні файли.
+// Датащити лежать на Диску anna.ts.f@gmail.com, папка «Data Sheets»
+// (1AopqhX_rprL6JU5EFtCESEuI_UoyVXZw). Копія від 11.09.2026, власник — Anna.
 const D = (id) => "https://drive.google.com/file/d/" + id + "/view";
 function datasheetFor(it) {
   if (it.cat !== "pan") return null; const m = (it.model || "").toUpperCase(); const b = (it.brand || "").toLowerCase(); const w = it.watt;
-  if (b.includes("longi")) { if (w===445) return D("1ZePdEDRupd_OoEUU6qsmearNHtEv3pra"); if (w===480||w===485) return D("1DJ40A4QXEG71i5j1QOE6r2C2iqNFkcC_"); if (w===615) return D("1MlcaC8l-yIgtavlFrtcqZR98h6gM_0MF"); if (w===620) return /72HGD/.test(m)?D("1PDTfzF7RApdLF7sG3ySxyDg_xUmyheRv"):D("1MlcaC8l-yIgtavlFrtcqZR98h6gM_0MF"); if (w===645) return D("1awbrcqFqujX77zM1CCkLPVTOH6ZThu6R"); if (w===650) return D("18vt_4LfNzNBPMKKYBYMTfVZ-M1-IO7AC"); if (w===655) return D("1XX1WB0Pvjqllv5qle992UKZGPpRZawKt"); }
-  if (b.includes("jinko")) { if (w===450||w===460) return D("1rQq46SwyXfR6EoaZnFjxJMhFJthhOmhS"); if (w===465) return D("1sx19xz6qhNZ6PZvKS36BnzrPMBAXpYPz"); if (w===590) return D("1q61Dx6h1XHQHT3IdEXo7S_rGO2uNfxx7"); if (w===620) return D("1-nWc28iHCpss_BOgYc1qyYEH0ekZPHJ5"); if (w===625) return D("1zfwuKd82B4Cy2PT-TBkzEbeS2vll8Mui"); if (w===630) return D("1H1wfgeHAryi7Qff5ohPSk6sL0H4X2pol"); }
-  if (b==="ja"||b.includes("ja solar")) { if (w===460||w===465) return D("1AbwcWmCHFu9JeLwTtWZ1nMq0zICzerp8"); if (w===590) return D("1eSkLlyrdzWbX8Qq-mQu1lP_oOokyCQLM"); if (w===610) return D("1fHykKDHWKVpoZWy9q7PMKX4Y8fHiX6Xz"); if (w===620) return D("15vPIPgHKePAYoKoh344hBn4l94hj5gX4"); if (w===630) return D("19JSAtWLa-1qLTDawNAy4aMpk_gDqApcM"); if (w===635) return D("1PTHpfwXQ-JbaTy02E2BaJdFNb-qgECF4"); if (w===645) return D("1eTdcKnEmSge1LgnMpB0VuYth7PXovvE_"); }
+  if (b.includes("longi")) { if (w===445) return D("14bQUcgVg8PWAEXfHgranWN9EA-dq2fi6"); if (w===480||w===485) return D("13GG3BDC5RbO35GY8Xzrq_ozfFmPNb6se"); if (w===615) return D("1t3mzXUgqitV4OGZDXckhC9GI_q0E4O_Q"); if (w===620) return /72HGD/.test(m)?D("1PI4CaYR9etcRvuPLpd5S4DW6LYsfyR57"):D("1t3mzXUgqitV4OGZDXckhC9GI_q0E4O_Q"); if (w===645) return D("175_x5KQCxPrSXWAaVIkPfa6s-vgm04YV"); if (w===650) return D("1_3r-yAkYUSR_VlnlF2xwHFZvieabqr5k"); if (w===655) return D("1B1-HzAQw74A-OC0RKwOSh3Z-afgQNjbo"); }
+  if (b.includes("jinko")) { if (w===450||w===460) return D("1dnud4UWDgMPKpJsICy2fAPqnzZwPiI5U"); if (w===465) return D("1E4jHgCvwG3craroH5D2KqQNugrxOlmTE"); if (w===590) return D("1K7UhESNaBqERO4wuyVROWLQbCgLVtw2R"); if (w===620) return D("1dqPofCb2BSGwY3P0pxt1dlCJ3Hmg157U"); if (w===625) return D("1vxxM18qqnlouCS0KT3BLMYM1ERZZia9X"); if (w===630) return D("1upWjZolbI5sFNhG13wHjjWbeROFSRlcz"); }
+  if (b==="ja"||b.includes("ja solar")) { if (w===460||w===465) return D("1v2BaDhnuYO_-CSBHEQ8NCI36txrRnEUI"); if (w===590) return D("1sRXCFNVQQv8dJOQPysjlKAfqLZEVtPpf"); if (w===610) return D("1TeEckMQ5fOlf4BAZDxDbp8SWp_sMjrrp"); if (w===620) return D("1bO9Ialidh0cLEhkDsxFfHSuJGFOzYH6K"); if (w===630) return D("1KrqDDk1hPe9yUwIdANDqSGdayX2vowP_"); if (w===635) return D("1rquWrT1pUdNQmJYERWGjtGNycKvzum9A"); if (w===645) return D("1VKcSOOnJTrydhjqhUtx8uuLCLkqa4j2r"); }
   return null;
 }
 
@@ -668,7 +672,10 @@ async function main() {
   const dsList = await datasheets(); // довідник датащитів (Anna веде в katalog_obladnannya)
   let dsCount = 0;
   for (const it of items) {
-    if (!it.ds) { const ds = attachDatasheet(it, dsList) || datasheetFor(it); if (ds) it.ds = ds; }
+    // Перезбираємо посилання на datasheet КОЖНОГО прогону, а не лише для позицій без нього —
+    // тоді виправлення в таблиці-довіднику доходять і до позицій, що лежать у знімку (Altek/Vimmer).
+    // Якщо збігу немає — лишається те, що вже було.
+    { const ds = attachDatasheet(it, dsList) || datasheetFor(it); if (ds) it.ds = ds; }
     if (it.ds) dsCount++;
     delete it.brand;
   }
