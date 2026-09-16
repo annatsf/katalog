@@ -1769,6 +1769,15 @@
   },
   {
    "cat": "inv",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-8K-SG06LP1-EU-BM3 WI-FI, 8кВт, однофазный(МРРТ 150-425/190А)Parallel",
+   "sup": "YugTorg",
+   "avail": "no",
+   "kw": 8,
+   "ph": 1,
+   "hv": false
+  },
+  {
+   "cat": "inv",
    "model": "Гибридный инвертор (hybrid) Deye SUN-10K-SG02LP1-EU WI-FI,10кВт,однофазный , (MPPT 150-425/220A/DC48В)Parallel",
    "sup": "YugTorg",
    "avail": "yes",
@@ -1858,7 +1867,7 @@
    "cat": "inv",
    "model": "Гибридный инвертор (hybrid) Deye SUN-10K-SG05LP3-EU-SM2, WI-FI,10кВт,трехфазный, (MPPT 160-650/190A/DC48В)Parallel",
    "sup": "YugTorg",
-   "avail": "no",
+   "avail": "soon",
    "kw": 10,
    "ph": 3,
    "hv": false,
@@ -2437,7 +2446,7 @@
    "cat": "bat",
    "model": "Стойка Deye 3U-LRACK-2G 19 дюймов под 8 батарей BOS-G+1 место под блок управления",
    "sup": "YugTorg",
-   "avail": "no",
+   "avail": "soon",
    "kwh": null,
    "hv": true,
    "price": {
