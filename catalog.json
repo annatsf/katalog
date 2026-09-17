@@ -2563,6 +2563,34 @@
   },
   {
    "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-80K-SG02HP3-EU-EM6 (80 кВт, 3 фази, 6 МРРТ, HV)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "kw": 80,
+   "ph": 3,
+   "hv": true,
+   "price": {
+    "cash": 5300,
+    "vat": 6360,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-6K-SG05LP1-AM2-PLUS (6 кВт, 1 фаза, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "kw": 6,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 860,
+    "vat": 1032,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-6K-SG05LP1-AM2-P (6 кВт, 1 фаза, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "soon",
@@ -2592,20 +2620,6 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-80K-SG02HP3-EU-EM6 (80 кВт, 3 фази, 6 МРРТ, HV)",
-   "sup": "Atmo",
-   "avail": "soon",
-   "kw": 80,
-   "ph": 3,
-   "hv": true,
-   "price": {
-    "cash": 5300,
-    "vat": 6360,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-12K-SG02LP1-EU-AM3-PLUS (12 кВт, 1 фаза, 3 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
@@ -2618,20 +2632,6 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-6K-SG05LP1-AM2-PLUS (6 кВт, 1 фаза, 2 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kw": 6,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 860,
-    "vat": 1032,
-    "cur": "$"
-   }
   },
   {
    "cat": "inv",
@@ -2893,19 +2893,6 @@
   },
   {
    "cat": "bat",
-   "model": "Комплект Deye BOS-B Pro Стійка + БМС + АКБ (10 АКБ по 16,08 = 160 кВт-год)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kwh": 160,
-   "hv": true,
-   "price": {
-    "cash": 17649.94,
-    "vat": 20951.57,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
    "model": "Акумуляторна стійка 3U-HRack-2G 13floors для Deye BOS-G-Pack5.1 (BOS-G pro)",
    "sup": "Atmo",
    "avail": "yes",
@@ -2914,6 +2901,19 @@
    "price": {
     "cash": 350,
     "vat": 368.42,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
+   "model": "Комплект Deye BOS-B Pro Стійка + БМС + АКБ (10 АКБ по 16,08 = 160 кВт-год)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "kwh": 160,
+   "hv": true,
+   "price": {
+    "cash": 17649.94,
+    "vat": 20951.57,
     "cur": "$"
    }
   },
@@ -2940,6 +2940,19 @@
    "price": {
     "cash": 25699.9,
     "vat": 30611.56,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
+   "model": "Акумуляторний блок Deye SE-F12-C (11,8 кВт·год/51,2 В LV)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "kwh": 11.8,
+   "hv": false,
+   "price": {
+    "cash": 1500,
+    "vat": 1800,
     "cur": "$"
    }
   },
@@ -2979,19 +2992,6 @@
    "price": {
     "cash": 770,
     "vat": 924,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
-   "model": "Акумуляторний блок Deye SE-F12-C (11,8 кВт·год/51,2 В LV)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kwh": 11.8,
-   "hv": false,
-   "price": {
-    "cash": 1500,
-    "vat": 1800,
     "cur": "$"
    }
   },
@@ -3179,6 +3179,36 @@
   },
   {
    "cat": "pan",
+   "model": "PV модуль Longi LR8-66HVD-650M, 650Wp, Mono",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 650,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 104,
+    "vat": 124.8,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1_3r-yAkYUSR_VlnlF2xwHFZvieabqr5k/view"
+  },
+  {
+   "cat": "pan",
+   "model": "PV модуль JA Solar JAM72D40-610/LB 610 Wp, Bifacial N-type",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 610,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 88.66,
+    "vat": 106.29,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1TeEckMQ5fOlf4BAZDxDbp8SWp_sMjrrp/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
    "model": "PV модуль Tongwei Solar TWMNH-48HE455 455 Wp N-Type Mono",
    "sup": "Atmo",
    "avail": "yes",
@@ -3223,18 +3253,18 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль JA Solar JAM72D40-610/LB 610 Wp, Bifacial N-type",
+   "model": "PV модуль JA Solar JAM54D40 465/LR, 465Wp, Mono (Black Frame)",
    "sup": "Atmo",
    "avail": "yes",
-   "watt": 610,
+   "watt": 465,
    "dim": null,
-   "size": "large",
+   "size": "small",
    "price": {
-    "cash": 88.66,
-    "vat": 106.29,
+    "cash": 72.25,
+    "vat": 86.7,
     "cur": "$"
    },
-   "ds": "https://drive.google.com/file/d/1TeEckMQ5fOlf4BAZDxDbp8SWp_sMjrrp/view?usp=sharing"
+   "ds": "https://drive.google.com/file/d/1v2BaDhnuYO_-CSBHEQ8NCI36txrRnEUI/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3268,6 +3298,20 @@
   },
   {
    "cat": "pan",
+   "model": "PV модуль JA Solar JAM54D41-455/LB 455Wp, Mono",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 455,
+   "dim": null,
+   "size": "small",
+   "price": {
+    "cash": 71.94,
+    "vat": 86.25,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "pan",
    "model": "PV модуль JA Solar JAM66D45-620/LB 620 Wp, Bificial, n-type",
    "sup": "Atmo",
    "avail": "yes",
@@ -3280,20 +3324,6 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1bO9Ialidh0cLEhkDsxFfHSuJGFOzYH6K/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
-   "model": "PV модуль JA Solar JAM54D41-455/LB 455Wp, Mono",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 455,
-   "dim": null,
-   "size": "small",
-   "price": {
-    "cash": 71.94,
-    "vat": 86.25,
-    "cur": "$"
-   }
   },
   {
    "cat": "pan",
@@ -3503,36 +3533,6 @@
     "vat": 66.95,
     "cur": "$"
    }
-  },
-  {
-   "cat": "pan",
-   "model": "PV модуль Longi LR8-66HVD-650M, 650Wp, Mono",
-   "sup": "Atmo",
-   "avail": "soon",
-   "watt": 650,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cash": 104,
-    "vat": 124.8,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1_3r-yAkYUSR_VlnlF2xwHFZvieabqr5k/view"
-  },
-  {
-   "cat": "pan",
-   "model": "PV модуль JA Solar JAM54D40 465/LR, 465Wp, Mono (Black Frame)",
-   "sup": "Atmo",
-   "avail": "soon",
-   "watt": 465,
-   "dim": null,
-   "size": "small",
-   "price": {
-    "cash": 72.25,
-    "vat": 86.7,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1v2BaDhnuYO_-CSBHEQ8NCI36txrRnEUI/view?usp=sharing"
   },
   {
    "cat": "pan",
