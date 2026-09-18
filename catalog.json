@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17",
+ "generated": "2026-09-18",
  "note": "Постачальники вживу: YugTorg, Atmo, Sakoenergy, Intersolar, SunRise, Price H, RaTech, Avtonomka, Slavik, Solarity (дзеркало). Altek/Vimmer — снимок. Бренди: Deye + Felicity. Ціни: Готівка/ПДВ під постачальника, Solarity −5%.",
  "items": [
   {
@@ -1923,7 +1923,7 @@
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-15K-SG05LP3-EU-SM2, WI-FI,15кВ,трехфазный, (MPPT 160-650/280A/АКБ 48V)Parallel",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-15K-SG05LP3-EU-SM2, WI-FI,15кВт,трехфазный , (MPPT 160-650/280A/АКБ 48V)Parallel",
    "sup": "YugTorg",
    "avail": "yes",
    "kw": 15,
@@ -1938,7 +1938,7 @@
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-16K-SG05LP3-EU-SM2, WI-FI,16кВт,трехфазный, (MPPT 160-650/280A/АКБ 48V)Parallel",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-16K-SG05LP3-EU-SM2, WI-FI,16кВт,трехфазный , (MPPT 150-850/37A/АКБ 160-700V)Parallel",
    "sup": "YugTorg",
    "avail": "no",
    "kw": 16,
@@ -1953,7 +1953,7 @@
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-18K-SG05LP3-EU-SM2, WI-FI,18кВт,трехфазный, (MPPT 160-650/280A/АКБ 48V)Parallel",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-18K-SG05LP3-EU-SM2, WI-FI,18кВт,трехфазный , (MPPT 150-850/37A/АКБ 160-700V)Parallel",
    "sup": "YugTorg",
    "avail": "no",
    "kw": 18,
@@ -2999,7 +2999,7 @@
    "cat": "bat",
    "model": "Акумуляторний блок Deye SE-F16-C (16 кВт·год/51,2 В LV)",
    "sup": "Atmo",
-   "avail": "no",
+   "avail": "soon",
    "kwh": 16,
    "hv": false,
    "price": {
