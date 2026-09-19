@@ -1756,7 +1756,7 @@
    "cat": "inv",
    "model": "Гибридный инвертор (hybrid) Deye SUN-8K-SG05LP1-EU-AM2-P WI-FI, 8кВт, однофазный(МРРТ 150-425/190А)Parallel, 330×580×232мм, 24,9 кг",
    "sup": "YugTorg",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 8,
    "ph": 1,
    "hv": false,
