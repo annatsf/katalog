@@ -2319,7 +2319,7 @@
    "price": {
     "cash": 2000,
     "cur": "у.е.",
-    "vat": 2300
+    "vat": 2200
    },
    "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
   },
@@ -3821,7 +3821,7 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1980,
+    "cash": 1950,
     "cur": "$"
    }
   },
