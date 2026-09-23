@@ -604,12 +604,19 @@ async function slavik() {
 // Anna веде датащити в таблиці; тут матчимо їх до позицій каталогу за КОДОМ моделі + потужністю.
 const DS_SHEET = SRC.datasheets;
 const sigLat = (s) => (s || "").toLowerCase().replace(/[^a-z0-9]/g, ""); // лише латиниця+цифри (код моделі)
-function refCode(name) { // найдовший токен з літерами+цифрами (у довіднику назви чисті)
-  let best = "";
+// Загальні токени, які не є кодом моделі: хімія акумулятора й одиниці виміру.
+// Без цього «LiFePO4» ставав «кодом» і будь-яка LiFePO4-батарея чіплялася до першої
+// придатної за ємністю — так високовольтна BOS-G Pro отримувала датащит від SE-F5.
+const GENERIC_TOK = /^(lifepo4|lifepo|lfp|lipo|\d+(?:[.,]\d+)?(?:v|ah|kwh|kw|wh|w|wp|mm|kg|a)(?:\/h)?)$/i;
+function refCode(name) { // код моделі: найдовший токен з літерами+цифрами (SE-F5, JAM54D40…), без загальних (LiFePO4, 5KWh)
+  let best = "", alpha = "";
   for (const t of (name || "").split(/[\s,()/]+/)) {
-    if (/[a-z]/i.test(t) && /\d/.test(t)) { const c = sigLat(t); if (c.length > best.length) best = c; }
+    if (!/[a-z]/i.test(t) || GENERIC_TOK.test(t)) continue;
+    const c = sigLat(t);
+    if (/\d/.test(t)) { if (c.length > best.length) best = c; }
+    else if (/^[a-z]{2,4}-[a-z]{1,2}$/i.test(t) && !/^hi-mo$/i.test(t) && c.length > alpha.length) alpha = c; // коди без цифр: BOS-G, BOS-A
   }
-  return best;
+  return best || (alpha.length >= 4 ? alpha : "");
 }
 async function datasheets() {
   const list = [];
@@ -629,21 +636,29 @@ async function datasheets() {
       const code = refCode(name); if (code.length < 4) continue;
       const typ = (iTyp >= 0 ? r[iTyp] || "" : "").toLowerCase();
       const cat = /панел|модул/.test(typ) ? "pan" : /інверт|инверт/.test(typ) ? "inv" : /акум|батар/.test(typ) ? "bat" : null;
-      list.push({ code, cat, ds, watt: parsePanelWatt(name), kw: parseInverter(name).kw, kwh: parseBattery(name).kwh });
+      const b = parseBattery(name);
+      list.push({ code, cat, ds, watt: parsePanelWatt(name), kw: parseInverter(name).kw, kwh: b.kwh, hv: b.hv });
     }
     console.log(`datasheets: ${list.length} рядків довідника`);
   } catch (e) { console.warn("datasheets: " + e.message); }
   return list;
 }
+// аксесуари до АКБ (стійки, PDU/блоки керування) — не беремо датащит самого модуля
+const BAT_ACCESSORY = /стійк|стойк|rack|pdu|блок управ|блок керув|control box|система керув/i;
 function attachDatasheet(it, dsList) {
   const sig = sigLat(it.model), catCode = refCode(it.model);
+  const toks = (it.model || "").split(/[\s,()/]+/).map(sigLat).filter(Boolean);
+  if (it.cat === "bat" && BAT_ACCESSORY.test(it.model || "")) return null;
   for (const d of dsList) {
     if (d.cat && d.cat !== it.cat) continue;
-    const hit = sig.includes(d.code) || (catCode.length >= 8 && (d.code.includes(catCode) || catCode.includes(d.code)));
+    // код без цифр (BOS-G) — лише цілим токеном або з «Pack/Pro» (BOS-G-Pack5.1), щоб BOS-GM5.1 не зачепив BOS-G
+    const hit = !/\d/.test(d.code)
+      ? toks.some((t) => t.startsWith(d.code) && (t.length === d.code.length || /^(pack|pro)/.test(t.slice(d.code.length))))
+      : sig.includes(d.code) || (catCode.length >= 8 && (d.code.includes(catCode) || catCode.includes(d.code)));
     if (!hit) continue;
     if (it.cat === "pan") { if (d.watt != null && it.watt != null && Math.abs(d.watt - it.watt) > 25) continue; } // серія (JAM54D40 465/470/475…) — один datasheet, тому допуск ±25 Вт, а не точний збіг
     else if (it.cat === "inv") { if (d.kw != null && it.kw != null && d.kw !== it.kw) continue; }
-    else if (it.cat === "bat") { if (d.kwh != null && it.kwh != null && Math.abs(d.kwh - it.kwh) > 0.3) continue; }
+    else if (it.cat === "bat") { if (d.kwh != null && it.kwh != null && Math.abs(d.kwh - it.kwh) > 0.3) continue; if (it.hv != null && d.hv !== it.hv) continue; } // HV ≠ LV
     return d.ds;
   }
   return null;
@@ -674,8 +689,10 @@ async function main() {
   for (const it of items) {
     // Перезбираємо посилання на datasheet КОЖНОГО прогону, а не лише для позицій без нього —
     // тоді виправлення в таблиці-довіднику доходять і до позицій, що лежать у знімку (Altek/Vimmer).
-    // Якщо збігу немає — лишається те, що вже було.
-    { const ds = attachDatasheet(it, dsList) || datasheetFor(it); if (ds) it.ds = ds; }
+    // Якщо збігу немає — старе посилання ПРИБИРАЄМО: інакше позиція назавжди тягне
+    // хибний датащит, підчеплений попередньою (помилковою) версією матчингу.
+    if (dsList.length) { const ds = attachDatasheet(it, dsList) || datasheetFor(it); if (ds) it.ds = ds; else delete it.ds; }
+    else if (!it.ds) { const ds = datasheetFor(it); if (ds) it.ds = ds; } // довідник недоступний — лишаємо попередні
     if (it.ds) dsCount++;
     delete it.brand;
   }
