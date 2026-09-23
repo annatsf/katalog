@@ -29,8 +29,7 @@
    "model": "Jinko JKM465N-48QL6-BDV",
    "sup": "Altek",
    "avail": "yes",
-   "watt": 465,
-   "ds": "https://drive.google.com/file/d/1sx19xz6qhNZ6PZvKS36BnzrPMBAXpYPz/view"
+   "watt": 465
   },
   {
    "cat": "pan",
@@ -76,8 +75,7 @@
    "model": "Luxen LNDX-450ND full black 450W",
    "sup": "Vimmer",
    "avail": "yes",
-   "watt": 450,
-   "ds": "https://drive.google.com/file/d/1dnud4UWDgMPKpJsICy2fAPqnzZwPiI5U/view?usp=sharing"
+   "watt": 450
   },
   {
    "cat": "pan",
@@ -451,7 +449,7 @@
     "cur": "у.е.",
     "vat": 80
    },
-   "ds": "https://drive.google.com/file/d/1dnud4UWDgMPKpJsICy2fAPqnzZwPiI5U/view?usp=sharing"
+   "ds": "https://drive.google.com/file/d/1dnud4UWDgMPKpJsICy2fAPqnzZwPiI5U/view"
   },
   {
    "cat": "pan",
@@ -763,8 +761,7 @@
     "cash": 72,
     "cur": "у.е.",
     "vat": 78
-   },
-   "ds": "https://drive.google.com/file/d/1dnud4UWDgMPKpJsICy2fAPqnzZwPiI5U/view?usp=sharing"
+   }
   },
   {
    "cat": "pan",
@@ -1291,7 +1288,7 @@
     "cur": "у.е.",
     "vat": 195
    },
-   "ds": "https://drive.google.com/file/d/1dnud4UWDgMPKpJsICy2fAPqnzZwPiI5U/view?usp=sharing"
+   "ds": "https://drive.google.com/file/d/1PLf5ojsb9_7SiatPwI6by94ilVeHit0G/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -2182,8 +2179,7 @@
     "cash": 850,
     "cur": "у.е.",
     "vat": 1020
-   },
-   "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -2238,8 +2234,7 @@
     "cash": 880,
     "cur": "у.е.",
     "vat": 1000
-   },
-   "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -2306,8 +2301,7 @@
     "cash": 1980,
     "cur": "у.е.",
     "vat": 2200
-   },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -2334,8 +2328,7 @@
     "cash": 1850,
     "cur": "у.е.",
     "vat": 2400
-   },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -2401,7 +2394,7 @@
     "cur": "у.е.",
     "vat": 980
    },
-   "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
+   "ds": "https://drive.google.com/file/d/1KBwYAD5N_fOxcBkx5w4ItK2lm46XXc5C/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -2533,7 +2526,7 @@
     "cur": "у.е.",
     "vat": 2100
    },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
+   "ds": "https://drive.google.com/file/d/1O2WQEq4Xekvqq_nOEvhy5pz7TEOUMzwJ/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -2620,21 +2613,6 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-10K-SG05LP3-EU-SM2 (10 кВт, 3 фази, 2 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kw": 10,
-   "ph": 3,
-   "hv": false,
-   "price": {
-    "cash": 1450,
-    "vat": 1740,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1WJygXNdcUWrtCPcCqOQH5CmbOdM6nDnY/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-50K-SG01HP3-EU-BM4 (50 кВт, 3 фази, 4 МРРТ, HV)",
    "sup": "Atmo",
    "avail": "no",
@@ -2649,18 +2627,18 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-12K-SG02LP1-EU-AM3-PLUS (12 кВт, 1 фаза, 3 МРРТ, LV)",
+   "model": "Інвертор гібридний Deye SUN-10K-SG05LP3-EU-SM2 (10 кВт, 3 фази, 2 МРРТ, LV)",
    "sup": "Atmo",
-   "avail": "soon",
-   "kw": 12,
-   "ph": 1,
+   "avail": "no",
+   "kw": 10,
+   "ph": 3,
    "hv": false,
    "price": {
-    "cash": 1435,
-    "vat": 1722,
+    "cash": 1450,
+    "vat": 1740,
     "cur": "$"
    },
-   "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
+   "ds": "https://drive.google.com/file/d/1WJygXNdcUWrtCPcCqOQH5CmbOdM6nDnY/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -2678,18 +2656,18 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-12K-SG05LP3-EU-SM2 (12 кВт, 3 фази, 2 МРРТ, LV)",
+   "model": "Інвертор гібридний Deye SUN-12K-SG02LP1-EU-AM3-PLUS (12 кВт, 1 фаза, 3 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
    "kw": 12,
-   "ph": 3,
+   "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1500,
-    "vat": 1800,
+    "cash": 1435,
+    "vat": 1722,
     "cur": "$"
    },
-   "ds": "https://drive.google.com/file/d/1hGX6j6uoUI9QYryLCyi6PxDZD84B1s3i/view?usp=sharing"
+   "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -2705,6 +2683,21 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-12K-SG05LP3-EU-SM2 (12 кВт, 3 фази, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kw": 12,
+   "ph": 3,
+   "hv": false,
+   "price": {
+    "cash": 1500,
+    "vat": 1800,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1hGX6j6uoUI9QYryLCyi6PxDZD84B1s3i/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -2821,6 +2814,19 @@
    }
   },
   {
+   "cat": "bat",
+   "model": "Додатковий акумулятор Deye AE-F2.56 для SUN-BK250-2.56KWH-EU-AM4-18L (2,56 кВт*год)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kwh": 2.56,
+   "hv": false,
+   "price": {
+    "cash": 500,
+    "vat": 600,
+    "cur": "$"
+   }
+  },
+  {
    "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-100K-SG02HP3-EU-GM10 (100 кВт, 3 фази, 10 МРРТ, HV)",
    "sup": "Atmo",
@@ -2880,19 +2886,6 @@
   },
   {
    "cat": "bat",
-   "model": "Додатковий акумулятор Deye AE-F2.56 для SUN-BK250-2.56KWH-EU-AM4-18L (2,56 кВт*год)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kwh": 2.56,
-   "hv": false,
-   "price": {
-    "cash": 500,
-    "vat": 600,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
    "model": "Акумуляторний блок Deye GB-W-Pack12-2-A3 (12,03 кВт·год/51,2 В HV)",
    "sup": "Atmo",
    "avail": "yes",
@@ -2928,7 +2921,8 @@
     "cash": 1150,
     "vat": 1380,
     "cur": "$"
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1T3AVp7cqEuV7th5H5DY0gHnFiwLGTnPy/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -2954,7 +2948,8 @@
     "cash": 750,
     "vat": 900,
     "cur": "$"
-   }
+   },
+   "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -2967,7 +2962,8 @@
     "cash": 1500,
     "vat": 1800,
     "cur": "$"
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -2980,7 +2976,8 @@
     "cash": 1800,
     "vat": 2160,
     "cur": "$"
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -2993,7 +2990,8 @@
     "cash": 765,
     "vat": 918,
     "cur": "$"
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1KBwYAD5N_fOxcBkx5w4ItK2lm46XXc5C/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -3071,7 +3069,8 @@
     "cash": 1600,
     "vat": 1920,
     "cur": "$"
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -3267,21 +3266,6 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль Longi LR7-72HVD-650M, 650Wp, Mono",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 650,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cash": 104,
-    "vat": 124.8,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1_3r-yAkYUSR_VlnlF2xwHFZvieabqr5k/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
    "model": "PV модуль JA Solar JAM72D42-645/LB 645 Wp, Bificial, n-type (200-400mm cable)",
    "sup": "Atmo",
    "avail": "yes",
@@ -3308,21 +3292,6 @@
     "vat": 109.48,
     "cur": "$"
    }
-  },
-  {
-   "cat": "pan",
-   "model": "PV модуль Longi LR8-66HVD-650M, 650Wp, Mono",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 650,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cash": 104,
-    "vat": 124.8,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1_3r-yAkYUSR_VlnlF2xwHFZvieabqr5k/view"
   },
   {
    "cat": "pan",
@@ -3445,6 +3414,21 @@
   },
   {
    "cat": "pan",
+   "model": "PV модуль Longi LR8-66HVD-650M, 650Wp, Mono",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 650,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 104,
+    "vat": 124.8,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1_3r-yAkYUSR_VlnlF2xwHFZvieabqr5k/view"
+  },
+  {
+   "cat": "pan",
    "model": "PV модуль Longi LR7-72HVD-645, 645Wp, Mono",
    "sup": "Atmo",
    "avail": "yes",
@@ -3471,7 +3455,7 @@
     "vat": 89.12,
     "cur": "$"
    },
-   "ds": "https://drive.google.com/file/d/1dnud4UWDgMPKpJsICy2fAPqnzZwPiI5U/view?usp=sharing"
+   "ds": "https://drive.google.com/file/d/1fEzlTYj0Yc3bhVHdrD0RoYEPbiwPUoL4/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3487,6 +3471,21 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/14bQUcgVg8PWAEXfHgranWN9EA-dq2fi6/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
+   "model": "PV модуль Longi LR7-72HVD-650M, 650Wp, Mono",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 650,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 104,
+    "vat": 124.8,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1_3r-yAkYUSR_VlnlF2xwHFZvieabqr5k/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3603,8 +3602,7 @@
     "cash": 73.44,
     "vat": 87.98,
     "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1dnud4UWDgMPKpJsICy2fAPqnzZwPiI5U/view?usp=sharing"
+   }
   },
   {
    "cat": "pan",
@@ -3957,7 +3955,8 @@
    "price": {
     "cash": 740,
     "cur": "$"
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1KBwYAD5N_fOxcBkx5w4ItK2lm46XXc5C/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -4023,8 +4022,7 @@
    "price": {
     "cash": 840,
     "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -4071,8 +4069,7 @@
    "price": {
     "cash": 880,
     "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -4254,8 +4251,7 @@
    "price": {
     "cash": 877,
     "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -4267,7 +4263,8 @@
    "price": {
     "cash": 1580,
     "cur": "$"
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -4279,7 +4276,8 @@
    "price": {
     "cash": 1660,
     "cur": "$"
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -4459,7 +4457,7 @@
     "cash": 750,
     "vat": 888
    },
-   "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
+   "ds": "https://drive.google.com/file/d/1KBwYAD5N_fOxcBkx5w4ItK2lm46XXc5C/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -4509,8 +4507,7 @@
     "cur": "$",
     "cash": 1770,
     "vat": 2090
-   },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -4548,8 +4545,7 @@
    "price": {
     "cur": "$",
     "cash": 745
-   },
-   "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -4587,8 +4583,7 @@
    "price": {
     "cur": "$",
     "cash": 1710
-   },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -4600,8 +4595,7 @@
    "price": {
     "cur": "$",
     "cash": 1880
-   },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -4914,8 +4908,7 @@
      0.181
     ],
     "cur": "$/Вт"
-   },
-   "ds": "https://drive.google.com/file/d/1dnud4UWDgMPKpJsICy2fAPqnzZwPiI5U/view?usp=sharing"
+   }
   },
   {
    "cat": "pan",
@@ -4991,7 +4984,7 @@
    "watt": 450,
    "dim": "1762×1134",
    "size": "small",
-   "ds": "https://drive.google.com/file/d/1dnud4UWDgMPKpJsICy2fAPqnzZwPiI5U/view?usp=sharing"
+   "ds": "https://drive.google.com/file/d/1dnud4UWDgMPKpJsICy2fAPqnzZwPiI5U/view"
   },
   {
    "cat": "pan",
@@ -5314,7 +5307,7 @@
     "vat": 919.6,
     "cur": "$"
    },
-   "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
+   "ds": "https://drive.google.com/file/d/1KBwYAD5N_fOxcBkx5w4ItK2lm46XXc5C/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -5353,7 +5346,8 @@
    "price": {
     "cash": 797.05,
     "cur": "$"
-   }
+   },
+   "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -5710,7 +5704,8 @@
     "cur": "$",
     "cash": 800,
     "vat": 930
-   }
+   },
+   "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -5723,7 +5718,8 @@
     "cur": "$",
     "cash": 1550,
     "vat": 1744
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -5736,7 +5732,8 @@
     "cur": "$",
     "cash": 1850,
     "vat": 2093
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -5749,7 +5746,8 @@
     "cur": "$",
     "cash": 760,
     "vat": 884
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1KBwYAD5N_fOxcBkx5w4ItK2lm46XXc5C/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -5775,7 +5773,8 @@
     "cur": "$",
     "cash": 1150,
     "vat": 1338
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1T3AVp7cqEuV7th5H5DY0gHnFiwLGTnPy/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -5801,8 +5800,7 @@
     "cur": "$",
     "cash": 26350,
     "vat": 32000
-   },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -5854,7 +5852,8 @@
     "cur": "$",
     "cash": 1130,
     "vat": 1314
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1T3AVp7cqEuV7th5H5DY0gHnFiwLGTnPy/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -6144,8 +6143,7 @@
    "price": {
     "cash": 1920,
     "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -6193,8 +6191,7 @@
    "price": {
     "cash": 810,
     "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -6218,8 +6215,7 @@
    "price": {
     "cash": 1500,
     "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -6231,8 +6227,7 @@
    "price": {
     "cash": 1500,
     "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -6256,8 +6251,7 @@
    "price": {
     "cash": 1850,
     "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -6269,8 +6263,7 @@
    "price": {
     "cash": 1850,
     "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
+   }
   },
   {
    "cat": "inv",
@@ -6347,8 +6340,7 @@
    "price": {
     "cash": 800,
     "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
@@ -6384,8 +6376,7 @@
    "price": {
     "cash": 1760,
     "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
+   }
   },
   {
    "cat": "bat",
