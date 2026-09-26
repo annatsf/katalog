@@ -1797,9 +1797,9 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1700,
+    "cash": 1650,
     "cur": "у.е.",
-    "vat": 1800
+    "vat": 1750
    },
    "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
   },
@@ -2191,7 +2191,7 @@
    "price": {
     "cash": 860,
     "cur": "у.е.",
-    "vat": 1000
+    "vat": 950
    },
    "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
   },
@@ -2311,9 +2311,9 @@
    "kwh": 16,
    "hv": false,
    "price": {
-    "cash": 1898,
+    "cash": 1888,
     "cur": "у.е.",
-    "vat": 2200
+    "vat": 2100
    },
    "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
   },
