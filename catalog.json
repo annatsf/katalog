@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28",
+ "generated": "2026-09-29",
  "note": "Постачальники вживу: YugTorg, Atmo, Sakoenergy, Intersolar, SunRise, Price H, RaTech, Avtonomka, Slavik, Solarity (дзеркало). Altek/Vimmer — снимок. Бренди: Deye + Felicity. Ціни: Готівка/ПДВ під постачальника, Solarity −5%.",
  "items": [
   {
@@ -448,7 +448,8 @@
     "cash": 80,
     "cur": "у.е.",
     "vat": 80
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1dnud4UWDgMPKpJsICy2fAPqnzZwPiI5U/view"
   },
   {
    "cat": "pan",
@@ -596,7 +597,8 @@
     "cash": 106,
     "cur": "у.е.",
     "vat": 106
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1K7UhESNaBqERO4wuyVROWLQbCgLVtw2R/view"
   },
   {
    "cat": "pan",
@@ -816,7 +818,8 @@
     "cash": 158,
     "cur": "у.е.",
     "vat": 158
-   }
+   },
+   "ds": "https://drive.google.com/file/d/13GG3BDC5RbO35GY8Xzrq_ozfFmPNb6se/view"
   },
   {
    "cat": "pan",
@@ -1111,7 +1114,8 @@
    "avail": "no",
    "watt": 615,
    "dim": "2382×1134",
-   "size": "large"
+   "size": "large",
+   "ds": "https://drive.google.com/file/d/1t3mzXUgqitV4OGZDXckhC9GI_q0E4O_Q/view"
   },
   {
    "cat": "pan",
@@ -1125,7 +1129,8 @@
     "cash": 113,
     "cur": "у.е.",
     "vat": 113
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1t3mzXUgqitV4OGZDXckhC9GI_q0E4O_Q/view"
   },
   {
    "cat": "pan",
@@ -1169,7 +1174,8 @@
     "cash": 112,
     "cur": "у.е.",
     "vat": 112
-   }
+   },
+   "ds": "https://drive.google.com/file/d/175_x5KQCxPrSXWAaVIkPfa6s-vgm04YV/view"
   },
   {
    "cat": "pan",
@@ -1226,7 +1232,8 @@
     "cash": 127,
     "cur": "у.е.",
     "vat": 127
-   }
+   },
+   "ds": "https://drive.google.com/file/d/175_x5KQCxPrSXWAaVIkPfa6s-vgm04YV/view"
   },
   {
    "cat": "pan",
@@ -1235,7 +1242,8 @@
    "avail": "no",
    "watt": 650,
    "dim": "2382×1134",
-   "size": "large"
+   "size": "large",
+   "ds": "https://drive.google.com/file/d/1_3r-yAkYUSR_VlnlF2xwHFZvieabqr5k/view"
   },
   {
    "cat": "pan",
@@ -1560,7 +1568,8 @@
     "cash": 98,
     "cur": "у.е.",
     "vat": 98
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1TeEckMQ5fOlf4BAZDxDbp8SWp_sMjrrp/view"
   },
   {
    "cat": "pan",
@@ -2007,7 +2016,7 @@
    "price": {
     "cash": 1770,
     "cur": "у.е.",
-    "vat": 2000
+    "vat": 1900
    }
   },
   {
