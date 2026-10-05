@@ -3220,21 +3220,6 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль Longi LR8-66HVD-650M, 650Wp, Mono",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 650,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cash": 104,
-    "vat": 124.8,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1_3r-yAkYUSR_VlnlF2xwHFZvieabqr5k/view"
-  },
-  {
-   "cat": "pan",
    "model": "PV модуль Tongwei Solar TWMNH-66HD630 630Wp N-type Bifacial",
    "sup": "Atmo",
    "avail": "yes",
@@ -3366,6 +3351,21 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1sXvXyqVD67au_wG5HJGuitPkjS_OGtr7/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
+   "model": "PV модуль Longi LR8-66HVD-650M, 650Wp, Mono",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 650,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 104,
+    "vat": 124.8,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1_3r-yAkYUSR_VlnlF2xwHFZvieabqr5k/view"
   },
   {
    "cat": "pan",
@@ -4032,7 +4032,7 @@
    "kwh": 5.1,
    "hv": true,
    "price": {
-    "cash": 740,
+    "cash": 750,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1KBwYAD5N_fOxcBkx5w4ItK2lm46XXc5C/view?usp=sharing"
@@ -5608,8 +5608,8 @@
    "hv": false,
    "price": {
     "cur": "$",
-    "cash": 1600,
-    "vat": 1860
+    "cash": 1610,
+    "vat": 1872
    },
    "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
   },
@@ -5934,8 +5934,8 @@
    "hv": true,
    "price": {
     "cur": "$",
-    "cash": 760,
-    "vat": 884
+    "cash": 765,
+    "vat": 890
    },
    "ds": "https://drive.google.com/file/d/1KBwYAD5N_fOxcBkx5w4ItK2lm46XXc5C/view?usp=sharing"
   },
