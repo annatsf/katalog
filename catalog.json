@@ -101,12 +101,17 @@
   },
   {
    "cat": "inv",
-   "model": "Сетевой солнечный инвертор однофазный (off-grid) Deye SUN-6.6K-OG03LP1-EU-AM2, 6.6кВт, 2MPPT(150-425V), WiFi, RS485/CAN, IP65, (323×424×176мм), 8.6 кг",
+   "model": "Автономный солнечный инвертор однофазный (off-grid) Deye SUN-6.6K-OG03LP1-EU-AM2, 6.6кВт, 2MPPT(150-425V), WiFi, IP65, (323×424×176мм), 8.6 кг",
    "sup": "YugTorg",
-   "avail": "no",
+   "avail": "soon",
    "kw": 6,
    "ph": 1,
-   "hv": false
+   "hv": false,
+   "price": {
+    "cash": 600,
+    "cur": "у.е.",
+    "vat": 720
+   }
   },
   {
    "cat": "inv",
@@ -1791,7 +1796,7 @@
    "cat": "inv",
    "model": "Гибридный инвертор (hybrid) Deye SUN-8K-SG05LP1-EU-AM2-P WI-FI, 8кВт, однофазный(МРРТ 150-425/190А)Parallel, 330×580×232мм, 24,9 кг",
    "sup": "YugTorg",
-   "avail": "yes",
+   "avail": "no",
    "kw": 8,
    "ph": 1,
    "hv": false,
@@ -1931,7 +1936,7 @@
    "cat": "inv",
    "model": "Гибридный инвертор (hybrid) Deye SUN-12K-SG05LP3-EU-SM2, WI-FI,12кВт,трехфазный, (MPPT 160-650/240A/DC48В)Parallel",
    "sup": "YugTorg",
-   "avail": "yes",
+   "avail": "no",
    "kw": 12,
    "ph": 3,
    "hv": false,
@@ -5910,7 +5915,7 @@
    "cat": "bat",
    "model": "DEYE SE-F12-C",
    "sup": "RaTech",
-   "avail": "soon",
+   "avail": "yes",
    "kwh": null,
    "hv": false,
    "price": {
