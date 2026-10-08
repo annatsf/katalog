@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07",
+ "generated": "2026-10-08",
  "note": "Постачальники вживу: YugTorg, Atmo, Sakoenergy, Intersolar, SunRise, Price H, RaTech, Avtonomka, Slavik, Solarity (дзеркало). Altek/Vimmer — снимок. Бренди: Deye + Felicity. Ціни: Готівка/ПДВ під постачальника, Solarity −5%.",
  "items": [
   {
@@ -97,20 +97,6 @@
     "cash": 440,
     "cur": "у.е.",
     "vat": 500
-   }
-  },
-  {
-   "cat": "inv",
-   "model": "Автономный солнечный инвертор однофазный (off-grid) Deye SUN-6.6K-OG03LP1-EU-AM2, 6.6кВт, 2MPPT(150-425V), WiFi, IP65, (323×424×176мм), 8.6 кг",
-   "sup": "YugTorg",
-   "avail": "soon",
-   "kw": 6,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 600,
-    "cur": "у.е.",
-    "vat": 720
    }
   },
   {
@@ -1767,6 +1753,20 @@
   },
   {
    "cat": "inv",
+   "model": "Автономный солнечный инвертор однофазный (off-grid) Deye SUN-6.6K-OG03LP1-EU-AM2, 6.6кВт, 2MPPT(150-425V), WiFi, IP65, (323×424×176мм), 8.6 кг",
+   "sup": "YugTorg",
+   "avail": "soon",
+   "kw": 6,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 600,
+    "cur": "у.е.",
+    "vat": 720
+   }
+  },
+  {
+   "cat": "inv",
    "model": "Гибридный инвертор (hybrid) Deye SUN-6K-OG01LP1-EU WI-FI, 6кВт, однофазный, (МРРТ 125-425/ 120А/ DC48В )Parallel",
    "sup": "YugTorg",
    "avail": "no",
@@ -1970,7 +1970,7 @@
    "ph": 3,
    "hv": false,
    "price": {
-    "cash": 1880,
+    "cash": 1950,
     "cur": "у.е.",
     "vat": 2200
    },
@@ -2449,7 +2449,7 @@
    "price": {
     "cash": 770,
     "cur": "у.е.",
-    "vat": 920
+    "vat": 990
    }
   },
   {
