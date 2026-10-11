@@ -3915,6 +3915,19 @@
   },
   {
    "cat": "inv",
+   "model": "Deye SUN-10K-SG06LP1-EU",
+   "sup": "Sakoenergy",
+   "avail": "soon",
+   "kw": 10,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 1430,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
    "model": "Deye SUN-10K-SG02LP1-EU",
    "sup": "Sakoenergy",
    "avail": "yes",
@@ -3926,6 +3939,19 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
+   "model": "Deye SUN-12K-SG06LP1-EU",
+   "sup": "Sakoenergy",
+   "avail": "soon",
+   "kw": 12,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 1680,
+    "cur": "$"
+   }
   },
   {
    "cat": "inv",
@@ -3945,10 +3971,14 @@
    "cat": "inv",
    "model": "Deye SUN-16K-SG01LP1-EU",
    "sup": "Sakoenergy",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 16,
    "ph": 1,
-   "hv": false
+   "hv": false,
+   "price": {
+    "cash": 1900,
+    "cur": "$"
+   }
   },
   {
    "cat": "inv",
