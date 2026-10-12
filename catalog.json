@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11",
+ "generated": "2026-10-12",
  "note": "Постачальники вживу: YugTorg, Atmo, Sakoenergy, Intersolar, SunRise, Price H, RaTech, Avtonomka, Slavik, Solarity (дзеркало). Altek/Vimmer — снимок. Бренди: Deye + Felicity. Ціни: Готівка/ПДВ під постачальника, Solarity −5%.",
  "items": [
   {
@@ -3090,19 +3090,6 @@
   },
   {
    "cat": "bat",
-   "model": "Акумуляторний блок Deye SE-G5.1 Pro-B (5,12 кВт·год/51,2 В)",
-   "sup": "Atmo",
-   "avail": "soon",
-   "kwh": 5.12,
-   "hv": false,
-   "price": {
-    "cash": 775,
-    "vat": 930,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
    "model": "Акумуляторний блок Deye SE-F16 Max-H (16 кВт·год/51,2 В LV)",
    "sup": "Atmo",
    "avail": "soon",
@@ -3111,6 +3098,19 @@
    "price": {
     "cash": 1950,
     "vat": 2340,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
+   "model": "Акумуляторний блок Deye SE-G5.1 Pro-B (5,12 кВт·год/51,2 В)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kwh": 5.12,
+   "hv": false,
+   "price": {
+    "cash": 775,
+    "vat": 930,
     "cur": "$"
    }
   },
