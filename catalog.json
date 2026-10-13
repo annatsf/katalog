@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12",
+ "generated": "2026-10-13",
  "note": "Постачальники вживу: YugTorg, Atmo, Sakoenergy, Intersolar, SunRise, Price H, RaTech, Avtonomka, Slavik, Solarity (дзеркало). Altek/Vimmer — снимок. Бренди: Deye + Felicity. Ціни: Готівка/ПДВ під постачальника, Solarity −5%.",
  "items": [
   {
@@ -1645,7 +1645,7 @@
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-3.6K-SG03LP1-EU, 3.6кВт, однофазный, (МРРТ 125-500/ 90А/ DC48В )",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-3.6K-SG03LP1-EU WI-FI, 3,6кВт, однофазный, (MPPT 125-500В/90А/DC48В), Parallel, IP65, 330×580×232мм, 25кг",
    "sup": "YugTorg",
    "avail": "no",
    "kw": 6,
@@ -1659,7 +1659,21 @@
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) BLACK Deye SUN-5K-SG03LP1-EU WI-FI, 5кВт, однофазный, (МРРТ 125-425/ 120А/ DC48В )Parallel",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-5K-SG03LP1-EU WI-FI, 5кВт, однофазный, (MPPT 125-425В/120А/DC48В), Parallel, IP65, 330×580×232мм, 25кг",
+   "sup": "YugTorg",
+   "avail": "yes",
+   "kw": 5,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 900,
+    "cur": "у.е.",
+    "vat": 1000
+   }
+  },
+  {
+   "cat": "inv",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-5K-SG03LP1-EU WI-FI, 5кВт, однофазный, (MPPT 125-425В/120А/DC48В), Parallel, IP65, 330×580×232мм, 25кг, Black",
    "sup": "YugTorg",
    "avail": "no",
    "kw": 5,
@@ -1673,49 +1687,21 @@
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-5K-SG03LP1-EU WI-FI, 5кВт, однофазный, (МРРТ 125-425/ 120А/ DC48В )Parallel",
-   "sup": "YugTorg",
-   "avail": "yes",
-   "kw": 5,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 900,
-    "cur": "у.е.",
-    "vat": 1000
-   }
-  },
-  {
-   "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-5K-SG05LP1-EU WI-FI, 5кВт, однофазный, (MPPT 150-425В/120А/DC40-60В), Parallel, 330×580×232мм, 24,9кг",
-   "sup": "YugTorg",
-   "avail": "yes",
-   "kw": 5,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 900,
-    "cur": "у.е.",
-    "vat": 1000
-   }
-  },
-  {
-   "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) BLACK Deye SUN-6K-SG03LP1-EU WI-FI, 6кВт, однофазный, (МРРТ 125-425/ 120А/ DC48В )Parallel",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-5K-SG05LP1-EU WI-FI, 5кВт, однофазный, (MPPT 150-425В/120А/DC40-60В), Parallel, IP65, 330×580×232мм, 24,9кг",
    "sup": "YugTorg",
    "avail": "no",
-   "kw": 6,
+   "kw": 5,
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 950,
+    "cash": 900,
     "cur": "у.е.",
-    "vat": 1090
+    "vat": 1000
    }
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-6K-SG03LP1-EU WI-FI, 6кВт, однофазный, (МРРТ 125-425/ 120А/ DC48В )Parallel",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-6K-SG03LP1-EU WI-FI, 6кВт, однофазный, (MPPT 125-425В/120А/DC48В), Parallel, IP65, 330×580×232мм, 25кг",
    "sup": "YugTorg",
    "avail": "no",
    "kw": 6,
@@ -1729,7 +1715,21 @@
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-6K-SG05LP1-EU-AM2-P WiFi, 6кВт, однофазный, (MPPT 150-425В/135А/DC40-60В), Parallel, 330×580×232мм, 24,9кг",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-6K-SG03LP1-EU WI-FI, 6кВт, однофазный, (MPPT 125-425В/120А/DC48В), Parallel, IP65, 330×580×232мм, 25кг, Black",
+   "sup": "YugTorg",
+   "avail": "no",
+   "kw": 6,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 950,
+    "cur": "у.е.",
+    "vat": 1090
+   }
+  },
+  {
+   "cat": "inv",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-6K-SG05LP1-EU-AM2-P WI-FI, 6кВт, однофазный, (MPPT 150-425В/135А/DC40-60В), Parallel, IP65, 330×580×232мм, 24,9кг",
    "sup": "YugTorg",
    "avail": "soon",
    "kw": 6,
@@ -1744,7 +1744,7 @@
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-6K-SG06LP1-EU-BM2 WI-FI, 6кВт, однофазный, (МРРТ 150-425/ 135А/ DC48В )Parallel",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-6K-SG06LP1-EU-BM2 WI-FI, 6кВт, однофазный, (MPPT 150-425В/135А/DC48В), Parallel, IP65, 310×460×218мм, 15,6кг",
    "sup": "YugTorg",
    "avail": "soon",
    "kw": 6,
@@ -1753,7 +1753,7 @@
   },
   {
    "cat": "inv",
-   "model": "Автономный солнечный инвертор однофазный (off-grid) Deye SUN-6.6K-OG03LP1-EU-AM2, 6.6кВт, 2MPPT(150-425V), WiFi, IP65, (323×424×176мм), 8.6 кг",
+   "model": "Автономный солнечный инвертор (off-grid) Deye SUN-6.6K-OG03LP1-EU-AM2 WI-FI, 6,6кВт, однофазный, (2MPPT 150-425В/140А/DC40-60В), Parallel, IP65, 323×424×176мм, 8,6кг",
    "sup": "YugTorg",
    "avail": "soon",
    "kw": 6,
@@ -1767,7 +1767,7 @@
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-6K-OG01LP1-EU WI-FI, 6кВт, однофазный, (МРРТ 125-425/ 120А/ DC48В )Parallel",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-6K-OG01LP1-EU WI-FI, 6кВт, однофазный, (MPPT 125-425В/120А/DC48В), Parallel, IP65",
    "sup": "YugTorg",
    "avail": "no",
    "kw": 6,
@@ -1780,21 +1780,7 @@
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-8K-SG01LP1-EU WI-FI,8кВт,однофазный(МРРТ 125-425/ 190А/ DC48В )Parallel",
-   "sup": "YugTorg",
-   "avail": "no",
-   "kw": 8,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 1480,
-    "cur": "у.е.",
-    "vat": 1670
-   }
-  },
-  {
-   "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-8K-SG05LP1-EU-AM2-P WI-FI, 8кВт, однофазный, (MPPT 150-425В/190А/DC40-60В) Parallel, 330×580×232мм, 24,9кг",
+   "model": "Гібридний інвертор (hybrid) Deye SUN-8K-SG05LP1-EU-AM2-P WI-FI, 8кВт, однофазний, (MPPT 150-425В/190А/DC40-60В), Parallel, IP65, 330×580×232мм, 24,9кг",
    "sup": "YugTorg",
    "avail": "soon",
    "kw": 8,
@@ -1809,7 +1795,21 @@
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-8K-SG06LP1-EU-BM3 WI-FI, 8кВт, однофазный(МРРТ 150-425/190А)Parallel",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-8K-SG01LP1-EU WI-FI, 8кВт, однофазный, (MPPT 125-425В/190А/DC48В), Parallel, IP65, 420×670×233мм, 30кг",
+   "sup": "YugTorg",
+   "avail": "no",
+   "kw": 8,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 1480,
+    "cur": "у.е.",
+    "vat": 1670
+   }
+  },
+  {
+   "cat": "inv",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-8K-SG06LP1-EU-BM3 WI-FI, 8кВт, однофазный, (MPPT 150-425В/190А/DC40-60В), Parallel, IP65, 340×580×227мм, 23,7кг",
    "sup": "YugTorg",
    "avail": "no",
    "kw": 8,
@@ -1818,7 +1818,7 @@
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-10K-SG02LP1-EU WI-FI,10кВт,однофазный , (MPPT 150-425/220A/DC48В)Parallel",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-10K-SG02LP1-EU WI-FI, 10кВт, однофазный, (MPPT 150-425В/220А/DC48В), Parallel, IP65",
    "sup": "YugTorg",
    "avail": "yes",
    "kw": 10,
@@ -1833,7 +1833,7 @@
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-12K-SG02LP1-EU-AM3 WI-FI, 12кВт, однофазный, (MPPT 160-650/240A/DC48В)Parallel",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-12K-SG02LP1-EU-AM3 WI-FI, 12кВт, однофазный, (MPPT 160-650В/240А/DC48В), Parallel, IP65, 420×670×233мм, 35,6кг",
    "sup": "YugTorg",
    "avail": "yes",
    "kw": 12,
@@ -1848,7 +1848,7 @@
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-14K-SG01LP1-EU, 14кВ, однофазный , (MPPT 150-425/290A/АКБ 48V)Parallel",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-14K-SG01LP1-EU WI-FI, 14кВт, однофазный, (MPPT 150-425В/290А/DC48В), Parallel, IP65, 464×763×282мм, 52кг",
    "sup": "YugTorg",
    "avail": "no",
    "kw": 14,
@@ -1862,7 +1862,7 @@
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-16K-SG01LP1-EU, 16кВ, однофазный , (MPPT 150-425/290A/АКБ 48V)Parallel",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-16K-SG01LP1-EU WI-FI, 16кВт, однофазный, (MPPT 150-425В/290А/DC48В), Parallel, IP65, 464×763×282мм, 52кг",
    "sup": "YugTorg",
    "avail": "yes",
    "kw": 16,
@@ -1876,7 +1876,7 @@
   },
   {
    "cat": "inv",
-   "model": "Гибридный инвертор (hybrid) Deye SUN-18K-SG01LP1-EU, 18кВ, однофазный , (MPPT 150-425/290A/АКБ 48V)Parallel",
+   "model": "Гибридный инвертор (hybrid) Deye SUN-18K-SG01LP1-EU, 18кВт, однофазный, (MPPT 150-425В/290А/DC48В), Parallel, IP65",
    "sup": "YugTorg",
    "avail": "no",
    "kw": 18,
