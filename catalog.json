@@ -2649,6 +2649,21 @@
   },
   {
    "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-20K-SG05LP3-EU-SM2 (20 кВт, 3 фази, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "kw": 20,
+   "ph": 3,
+   "hv": false,
+   "price": {
+    "cash": 2275,
+    "vat": 2730,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-50K-SG01HP3-EU-BM4 (50 кВт, 3 фази, 4 МРРТ, HV)",
    "sup": "Atmo",
    "avail": "yes",
@@ -2658,6 +2673,20 @@
    "price": {
     "cash": 4000,
     "vat": 4800,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-6K-SG05LP1-AM2-P (6 кВт, 1 фаза, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "kw": 6,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 765,
+    "vat": 918,
     "cur": "$"
    }
   },
@@ -2674,21 +2703,6 @@
     "vat": 882,
     "cur": "$"
    }
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-20K-SG05LP3-EU-SM2 (20 кВт, 3 фази, 2 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "soon",
-   "kw": 20,
-   "ph": 3,
-   "hv": false,
-   "price": {
-    "cash": 2275,
-    "vat": 2730,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -2780,20 +2794,6 @@
   {
    "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-6K-SG05LP1-AM2-PLUS (6 кВт, 1 фаза, 2 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kw": 6,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 765,
-    "vat": 918,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-6K-SG05LP1-AM2-P (6 кВт, 1 фаза, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
    "kw": 6,
@@ -3269,6 +3269,21 @@
   },
   {
    "cat": "pan",
+   "model": "PV модуль Longi LR8-66HVD-650M, 650Wp, Mono",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 650,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 104.64,
+    "vat": 125.59,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1_3r-yAkYUSR_VlnlF2xwHFZvieabqr5k/view"
+  },
+  {
+   "cat": "pan",
    "model": "PV модуль JA Solar JAM54D40 465/LR, 465Wp, Mono (Black Frame)",
    "sup": "Atmo",
    "avail": "yes",
@@ -3281,6 +3296,21 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1v2BaDhnuYO_-CSBHEQ8NCI36txrRnEUI/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
+   "model": "PV модуль Tongwei Solar TWMNH-66HD635 635Wp N-type Bifacial",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 635,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 95.25,
+    "vat": 114.3,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1_S85PLwEcr6mvmhLrPVvC-hvLeDCQxHs/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3314,21 +3344,6 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль Longi LR8-66HVD-650M, 650Wp, Mono",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 650,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cash": 104.64,
-    "vat": 125.59,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1_3r-yAkYUSR_VlnlF2xwHFZvieabqr5k/view"
-  },
-  {
-   "cat": "pan",
    "model": "PV модуль Tongwei Solar TWMNH-66HD630 630Wp N-type Bifacial",
    "sup": "Atmo",
    "avail": "yes",
@@ -3356,21 +3371,6 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1sXvXyqVD67au_wG5HJGuitPkjS_OGtr7/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
-   "model": "PV модуль Tongwei Solar TWMNH-66HD635 635Wp N-type Bifacial",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 635,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cash": 95.25,
-    "vat": 114.3,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1_S85PLwEcr6mvmhLrPVvC-hvLeDCQxHs/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -5641,8 +5641,8 @@
    "hv": false,
    "price": {
     "cur": "$",
-    "cash": 875,
-    "vat": 1017
+    "cash": 880,
+    "vat": 1023
    },
    "ds": "https://drive.google.com/file/d/1YHCxJQRYnJ22ErJt5DtO5X7xYQk78zOs/view?usp=sharing"
   },
@@ -5788,8 +5788,8 @@
    "hv": false,
    "price": {
     "cur": "$",
-    "cash": 1920,
-    "vat": 2233
+    "cash": 1970,
+    "vat": 2291
    },
    "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
   },
