@@ -3156,21 +3156,6 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль JA Solar JAM66D45-630/LB 630 Wp, Bificial, n-type",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 630,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cash": 95.8,
-    "vat": 114.92,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1KrqDDk1hPe9yUwIdANDqSGdayX2vowP_/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
    "model": "PV модуль Tongwei Solar TWMNH-54HD505 505Wp N-Type Bifacial (Black Frame)",
    "sup": "Atmo",
    "avail": "yes",
@@ -3183,6 +3168,21 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1tU7-uDjmKbkLuh3odAKqrrAgoQLJYddO/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
+   "model": "PV модуль JA Solar JAM66D45-630/LB 630 Wp, Bificial, n-type",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 630,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 95.8,
+    "vat": 114.92,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1KrqDDk1hPe9yUwIdANDqSGdayX2vowP_/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -4722,7 +4722,7 @@
    "hv": false,
    "price": {
     "cur": "$",
-    "cash": 800
+    "cash": 888
    }
   },
   {
@@ -4734,7 +4734,7 @@
    "hv": false,
    "price": {
     "cur": "$",
-    "cash": 800
+    "cash": 888
    }
   },
   {
@@ -4746,7 +4746,7 @@
    "hv": false,
    "price": {
     "cur": "$",
-    "cash": 830
+    "cash": 860
    }
   },
   {
@@ -4758,7 +4758,7 @@
    "hv": false,
    "price": {
     "cur": "$",
-    "cash": 830
+    "cash": 860
    }
   },
   {
