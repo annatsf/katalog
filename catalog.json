@@ -2265,7 +2265,7 @@
    "cat": "bat",
    "model": "Аккумуляторная батарея Deye LiFePO4 SE-F5-C, 51,2V 100Ah 5KWh, BMS100@16S до 32 parallel(1stack), CAN&RS485 ,Bluetoot, 6000Cycles, (370*548*140), 41kg",
    "sup": "YugTorg",
-   "avail": "yes",
+   "avail": "no",
    "kwh": 5,
    "hv": false,
    "price": {
@@ -2628,8 +2628,8 @@
    "ph": 3,
    "hv": true,
    "price": {
-    "cash": 5200,
-    "vat": 6240,
+    "cash": 5100,
+    "vat": 6050,
     "cur": "$"
    }
   },
@@ -2649,9 +2649,23 @@
   },
   {
    "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-5K-SG05LP1-EU-AM2-PLUS (5 кВт, 1 фаза, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kw": 5,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 735,
+    "vat": 882,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-20K-SG05LP3-EU-SM2 (20 кВт, 3 фази, 2 МРРТ, LV)",
    "sup": "Atmo",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 20,
    "ph": 3,
    "hv": false,
@@ -2661,48 +2675,6 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-50K-SG01HP3-EU-BM4 (50 кВт, 3 фази, 4 МРРТ, HV)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kw": 50,
-   "ph": 3,
-   "hv": true,
-   "price": {
-    "cash": 4000,
-    "vat": 4800,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-6K-SG05LP1-AM2-P (6 кВт, 1 фаза, 2 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kw": 6,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 765,
-    "vat": 918,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-5K-SG05LP1-EU-AM2-PLUS (5 кВт, 1 фаза, 2 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kw": 5,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 735,
-    "vat": 882,
-    "cur": "$"
-   }
   },
   {
    "cat": "inv",
@@ -2721,6 +2693,20 @@
   },
   {
    "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-50K-SG01HP3-EU-BM4 (50 кВт, 3 фази, 4 МРРТ, HV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kw": 50,
+   "ph": 3,
+   "hv": true,
+   "price": {
+    "cash": 4000,
+    "vat": 4800,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-10K-SG05LP3-EU-SM2 (10 кВт, 3 фази, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
@@ -2736,18 +2722,17 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-15K-SG05LP3-EU-SM2 (15 кВт, 3 фази, 2 МРРТ, LV)",
+   "model": "Інвертор гібридний Deye SUN-15K-SG01HP3-EU-AM2 (15 кВт, 3 фази, 2 МРРТ, HV)",
    "sup": "Atmo",
-   "avail": "soon",
+   "avail": "no",
    "kw": 15,
    "ph": 3,
-   "hv": false,
+   "hv": true,
    "price": {
-    "cash": 1850,
-    "vat": 2220,
+    "cash": 1500,
+    "vat": 1800,
     "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
+   }
   },
   {
    "cat": "inv",
@@ -2760,20 +2745,6 @@
    "price": {
     "cash": 2375,
     "vat": 2850,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-15K-SG01HP3-EU-AM2 (15 кВт, 3 фази, 2 МРРТ, HV)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kw": 15,
-   "ph": 3,
-   "hv": true,
-   "price": {
-    "cash": 1500,
-    "vat": 1800,
     "cur": "$"
    }
   },
@@ -2793,7 +2764,22 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-6K-SG05LP1-AM2-PLUS (6 кВт, 1 фаза, 2 МРРТ, LV)",
+   "model": "Інвертор гібридний Deye SUN-15K-SG05LP3-EU-SM2 (15 кВт, 3 фази, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kw": 15,
+   "ph": 3,
+   "hv": false,
+   "price": {
+    "cash": 1850,
+    "vat": 2220,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-6K-SG05LP1-AM2-P (6 кВт, 1 фаза, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
    "kw": 6,
@@ -2819,6 +2805,20 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1hGX6j6uoUI9QYryLCyi6PxDZD84B1s3i/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-6K-SG05LP1-AM2-PLUS (6 кВт, 1 фаза, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kw": 6,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 765,
+    "vat": 918,
+    "cur": "$"
+   }
   },
   {
    "cat": "inv",
@@ -2964,19 +2964,6 @@
   },
   {
    "cat": "bat",
-   "model": "Акумуляторна стійка Deye BOS-A-Rack14 для Deye BOS-A-Pack7.68",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kwh": null,
-   "hv": true,
-   "price": {
-    "cash": 370,
-    "vat": 389.47,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
    "model": "Система керування Deye CONTROL BOX BOS-A-PDU-2 для Deye BOS-A-Pack7.68",
    "sup": "Atmo",
    "avail": "yes",
@@ -2992,7 +2979,7 @@
    "cat": "bat",
    "model": "Акумуляторний блок Deye LV SE-F5 Pro-C (5,12 кВт·год/51,2 В)",
    "sup": "Atmo",
-   "avail": "soon",
+   "avail": "no",
    "kwh": 5.12,
    "hv": false,
    "price": {
@@ -3107,6 +3094,19 @@
    "price": {
     "cash": 800,
     "vat": 842.1,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
+   "model": "Акумуляторна стійка Deye BOS-A-Rack14 для Deye BOS-A-Pack7.68",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kwh": null,
+   "hv": true,
+   "price": {
+    "cash": 370,
+    "vat": 389.47,
     "cur": "$"
    }
   },
@@ -3255,17 +3255,18 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль JA Solar JAM72D40-605/LB 605 Wp, Bifacial N-type",
+   "model": "PV модуль JA Solar JAM54D41-460/LR 460Wp, Mono",
    "sup": "Atmo",
    "avail": "yes",
-   "watt": 605,
+   "watt": 460,
    "dim": null,
-   "size": "large",
+   "size": "small",
    "price": {
-    "cash": 89.48,
-    "vat": 107.48,
+    "cash": 73.16,
+    "vat": 87.78,
     "cur": "$"
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1v2BaDhnuYO_-CSBHEQ8NCI36txrRnEUI/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3341,6 +3342,20 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1t3mzXUgqitV4OGZDXckhC9GI_q0E4O_Q/view?usp=sharing"
+  },
+  {
+   "cat": "pan",
+   "model": "PV модуль JA Solar JAM72D40-605/LB 605 Wp, Bifacial N-type",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 605,
+   "dim": null,
+   "size": "large",
+   "price": {
+    "cash": 89.48,
+    "vat": 107.48,
+    "cur": "$"
+   }
   },
   {
    "cat": "pan",
@@ -3449,21 +3464,6 @@
   },
   {
    "cat": "pan",
-   "model": "PV модуль JA Solar JAM54D41-460/LR 460Wp, Mono",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 460,
-   "dim": null,
-   "size": "small",
-   "price": {
-    "cash": 73.16,
-    "vat": 87.78,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1v2BaDhnuYO_-CSBHEQ8NCI36txrRnEUI/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
    "model": "PV модуль Longi LR7-72HVD-645, 645Wp, Mono",
    "sup": "Atmo",
    "avail": "yes",
@@ -3523,6 +3523,21 @@
   },
   {
    "cat": "pan",
+   "model": "PV модуль JA Solar JAM54D41-465/LR 465Wp, Mono",
+   "sup": "Atmo",
+   "avail": "yes",
+   "watt": 465,
+   "dim": null,
+   "size": "small",
+   "price": {
+    "cash": 75.5,
+    "vat": 90.52,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1v2BaDhnuYO_-CSBHEQ8NCI36txrRnEUI/view"
+  },
+  {
+   "cat": "pan",
    "model": "PV модуль Tongwei Solar TWMNH-48HE450 450 Wp N-Type Mono",
    "sup": "Atmo",
    "avail": "yes",
@@ -3549,21 +3564,6 @@
     "vat": 86.25,
     "cur": "$"
    }
-  },
-  {
-   "cat": "pan",
-   "model": "PV модуль JA Solar JAM54D41-465/LR 465Wp, Mono",
-   "sup": "Atmo",
-   "avail": "yes",
-   "watt": 465,
-   "dim": null,
-   "size": "small",
-   "price": {
-    "cash": 75.5,
-    "vat": 90.52,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1v2BaDhnuYO_-CSBHEQ8NCI36txrRnEUI/view"
   },
   {
    "cat": "pan",
@@ -4946,12 +4946,13 @@
    "cat": "inv",
    "model": "Гібридний інвертор SUN-20K-SG05LP3-EU-SM2 Deye WiFi (20 kW, 3 фази, 2 MPPT, LV)",
    "sup": "Price H",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 20,
    "ph": 3,
    "hv": false,
    "price": {
     "cur": "$",
+    "cash": 2205,
     "vat": 2600
    },
    "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
@@ -6396,7 +6397,7 @@
    "kwh": 16,
    "hv": false,
    "price": {
-    "cash": 1800,
+    "cash": 1750,
     "cur": "$"
    }
   },
@@ -6408,7 +6409,7 @@
    "kwh": 16,
    "hv": false,
    "price": {
-    "cash": 1800,
+    "cash": 1790,
     "cur": "$"
    }
   },
