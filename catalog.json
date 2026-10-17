@@ -3884,19 +3884,6 @@
   },
   {
    "cat": "pan",
-   "model": "JA Solar JAM72D42-640/LB 640W (двухсторонние)",
-   "sup": "Sakoenergy",
-   "avail": "soon",
-   "watt": 640,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cash": 102,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "pan",
    "model": "JA Solar 465 Вт JAM54D41-465/LR (двухсторонние)",
    "sup": "Sakoenergy",
    "avail": "soon",
@@ -4739,7 +4726,8 @@
    "hv": false,
    "price": {
     "cur": "$",
-    "cash": 735
+    "cash": 735,
+    "vat": 880
    },
    "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
   },
@@ -4765,7 +4753,8 @@
    "hv": false,
    "price": {
     "cur": "$",
-    "cash": 1710
+    "cash": 1710,
+    "vat": 2040
    }
   },
   {
