@@ -5391,14 +5391,6 @@
    "watt": 635,
    "dim": "2382×1134",
    "size": "large",
-   "price": {
-    "cashTiers": [
-     0.169,
-     0.166,
-     0.162
-    ],
-    "cur": "$/Вт"
-   },
    "ds": "https://drive.google.com/file/d/1dqPofCb2BSGwY3P0pxt1dlCJ3Hmg157U/view?usp=sharing"
   },
   {
@@ -5452,14 +5444,6 @@
    "watt": 620,
    "dim": "2382×1134",
    "size": "large",
-   "price": {
-    "cashTiers": [
-     0.175,
-     0.172,
-     0.17
-    ],
-    "cur": "$/Вт"
-   },
    "ds": "https://drive.google.com/file/d/1t3mzXUgqitV4OGZDXckhC9GI_q0E4O_Q/view?usp=sharing"
   },
   {
@@ -5541,7 +5525,7 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1072.55,
+    "cash": 1093.45,
     "cur": "$"
    }
   },
@@ -5549,7 +5533,7 @@
    "cat": "inv",
    "model": "Deye SUN-10K-SG02-LP1EU-AM3 (1ф)",
    "sup": "Solarity",
-   "avail": "yes",
+   "avail": "no",
    "kw": 10,
    "ph": 1,
    "hv": false,
@@ -5568,7 +5552,7 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1583.65,
+    "cash": 1603.6,
     "vat": 1792.65,
     "cur": "$"
    },
@@ -5626,7 +5610,7 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1787.9,
+    "cash": 1889.55,
     "cur": "$"
    }
   },
@@ -5649,10 +5633,14 @@
    "cat": "inv",
    "model": "Deye SUN-20K-SG01 HP3-EU-AM2 HV",
    "sup": "Solarity",
-   "avail": "no",
+   "avail": "soon",
    "kw": 20,
    "ph": 3,
    "hv": true,
+   "price": {
+    "cash": 1634,
+    "cur": "$"
+   },
    "ds": "https://drive.google.com/file/d/1-PY68vj4LCjDA-snuMUbilWwrkrf8F0R/view?usp=sharing"
   },
   {
@@ -5668,12 +5656,12 @@
    "cat": "inv",
    "model": "Deye SUN-30K-SG02HP3-EU-AM3 New",
    "sup": "Solarity",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 30,
    "ph": 3,
    "hv": true,
    "price": {
-    "cash": 2451.95,
+    "cash": 2502.3,
     "vat": 3166.35,
     "cur": "$"
    }
@@ -5746,7 +5734,7 @@
    "cat": "bat",
    "model": "DEYE BOS-A LiFePO4 HV 38.4v 200AH 7.68kwh",
    "sup": "Solarity",
-   "avail": "soon",
+   "avail": "no",
    "kwh": 7.68,
    "hv": true,
    "price": {
@@ -5760,7 +5748,7 @@
    "cat": "bat",
    "model": "BMS DEYE BOS-A 1000V 160A (BOS-A-PDU-2 1000V/160A)",
    "sup": "Solarity",
-   "avail": "soon",
+   "avail": "no",
    "kwh": null,
    "hv": true,
    "price": {
