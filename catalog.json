@@ -1887,7 +1887,7 @@
    "cat": "bat",
    "model": "Акумуляторная батарея DEYE BOS-G PRO, LiFePO4, HV, 51.2v 100AH, 5.12kwh",
    "sup": "YugTorg",
-   "avail": "no",
+   "avail": "yes",
    "kwh": 5.12,
    "hv": true,
    "price": {
@@ -2287,6 +2287,20 @@
   },
   {
    "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-16K-SG01LP1-EU-AM3-P (16 кВт, 1 фаза, 3 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kw": 16,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 1750,
+    "vat": 2100,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-25K-SG01HP3-EU-AM2 (25 кВт, 3 фази, 2 МРРТ, HV)",
    "sup": "Atmo",
    "avail": "soon",
@@ -2454,6 +2468,19 @@
   },
   {
    "cat": "bat",
+   "model": "Акумуляторний блок Deye SE-G5.1 Pro-B (5,12 кВт·год/51,2 В)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kwh": 5.12,
+   "hv": false,
+   "price": {
+    "cash": 775,
+    "vat": 930,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
    "model": "Акумуляторний блок Deye SE-F16-C (16 кВт·год/51,2 В LV)",
    "sup": "Atmo",
    "avail": "soon",
@@ -2556,19 +2583,6 @@
    "price": {
     "cash": 1950,
     "vat": 2340,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
-   "model": "Акумуляторний блок Deye SE-G5.1 Pro-B (5,12 кВт·год/51,2 В)",
-   "sup": "Atmo",
-   "avail": "soon",
-   "kwh": 5.12,
-   "hv": false,
-   "price": {
-    "cash": 775,
-    "vat": 930,
     "cur": "$"
    }
   },
@@ -3058,20 +3072,6 @@
   },
   {
    "cat": "pan",
-   "model": "Сонячна панель JA Solar JAM54D40-470/LR Mono BlackFrame (470 Вт) (1760 х 1134хmm)",
-   "sup": "Intersolar",
-   "avail": "yes",
-   "watt": 470,
-   "dim": "1760×1134",
-   "size": "med",
-   "price": {
-    "cash": 75,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1v2BaDhnuYO_-CSBHEQ8NCI36txrRnEUI/view?usp=sharing"
-  },
-  {
-   "cat": "pan",
    "model": "Сонячна панель HANERSUN HiTouch 6N HN21RN-54HT 500W (Bifacial) (1961x1134x30mm)",
    "sup": "Intersolar",
    "avail": "yes",
@@ -3079,7 +3079,7 @@
    "dim": "1961×1134",
    "size": "large",
    "price": {
-    "cash": 83,
+    "cash": 86,
     "cur": "$"
    }
   },
@@ -3092,7 +3092,7 @@
    "dim": "2278×1134",
    "size": "large",
    "price": {
-    "cash": 92,
+    "cash": 95,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1K7UhESNaBqERO4wuyVROWLQbCgLVtw2R/view"
@@ -3106,29 +3106,16 @@
    "dim": "2382×1134",
    "size": "large",
    "price": {
-    "cash": 93,
+    "cash": 96,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1t3mzXUgqitV4OGZDXckhC9GI_q0E4O_Q/view?usp=sharing"
   },
   {
    "cat": "inv",
-   "model": "Однофазний інвертор Deye SUN-6.6K-OG03LP1-EU-AM2 (6,6кВт/48В)",
-   "sup": "Intersolar",
-   "avail": "soon",
-   "kw": 6,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 680,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "inv",
    "model": "Однофазний інвертор Deye SUN 16-K-SG01LP1-EU-AM3-P (16кВт/48В)",
    "sup": "Intersolar",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 16,
    "ph": 1,
    "hv": false,
@@ -3206,41 +3193,16 @@
   },
   {
    "cat": "bat",
-   "model": "Акумуляторна батарея Deye LiFePo4 Deye RW-M6.1 B (6,1 кВт*год 48В)",
-   "sup": "Intersolar",
-   "avail": "yes",
-   "kwh": 6.1,
-   "hv": false,
-   "price": {
-    "cash": 920,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
    "model": "Акумуляторна батарея Deye SE-F12 Max 51.2V 230Ah IP65 без підігріву (12 кВт*год)",
    "sup": "Intersolar",
    "avail": "yes",
    "kwh": 12,
    "hv": false,
    "price": {
-    "cash": 1620,
+    "cash": 1660,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
-   "model": "Трифазний інвертор Deye SUN-20K-SG01HP3-EU-AM2 (20кВт/HV)",
-   "sup": "Intersolar",
-   "avail": "yes",
-   "kw": 20,
-   "ph": 3,
-   "hv": true,
-   "price": {
-    "cash": 1640,
-    "cur": "$"
-   }
   },
   {
    "cat": "inv",
