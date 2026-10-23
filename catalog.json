@@ -1755,7 +1755,7 @@
    "cat": "bat",
    "model": "Аккумуляторная батарея Deye LiFePO4 SE-F12-С 51,2V 230Ah 11.8KWh, BMS230@16S до 6 parallel(1stack), CAN&RS485, 6000Cycles, (400 × 559 × 233), 84kg",
    "sup": "YugTorg",
-   "avail": "no",
+   "avail": "soon",
    "kwh": 11.8,
    "hv": false,
    "price": {
@@ -2085,20 +2085,6 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-15K-SG01HP3-EU-AM2 (15 кВт, 3 фази, 2 МРРТ, HV)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kw": 15,
-   "ph": 3,
-   "hv": true,
-   "price": {
-    "cash": 1500,
-    "vat": 1800,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-5K-SG05LP1-EU-AM2-PLUS (5 кВт, 1 фаза, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
@@ -2169,6 +2155,20 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-15K-SG01HP3-EU-AM2 (15 кВт, 3 фази, 2 МРРТ, HV)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kw": 15,
+   "ph": 3,
+   "hv": true,
+   "price": {
+    "cash": 1500,
+    "vat": 1800,
+    "cur": "$"
+   }
   },
   {
    "cat": "inv",
@@ -2511,7 +2511,7 @@
    "cat": "bat",
    "model": "Комплект Deye BOS-B Pro Стійка + БМС + АКБ (10 АКБ по 16,08 = 160 кВт-год)",
    "sup": "Atmo",
-   "avail": "soon",
+   "avail": "no",
    "kwh": 160,
    "hv": true,
    "price": {
@@ -2524,7 +2524,7 @@
    "cat": "bat",
    "model": "Комплект Deye BOS-B Pro Стійка + БМС + АКБ (15 АКБ по 16,08 = 240 кВт-год)",
    "sup": "Atmo",
-   "avail": "soon",
+   "avail": "no",
    "kwh": 240,
    "hv": true,
    "price": {
@@ -2799,7 +2799,7 @@
    "cat": "inv",
    "model": "Deye SUN-10K-SG05LP3-EU-SM2",
    "sup": "Sakoenergy",
-   "avail": "yes",
+   "avail": "no",
    "kw": 10,
    "ph": 3,
    "hv": false,
@@ -2827,7 +2827,7 @@
    "cat": "inv",
    "model": "Deye SUN-15K-SG05LP3-EU-SM2",
    "sup": "Sakoenergy",
-   "avail": "yes",
+   "avail": "no",
    "kw": 15,
    "ph": 3,
    "hv": false,
@@ -2841,7 +2841,7 @@
    "cat": "inv",
    "model": "Deye SUN-20K-SG05LP3-EU-SM2",
    "sup": "Sakoenergy",
-   "avail": "yes",
+   "avail": "no",
    "kw": 20,
    "ph": 3,
    "hv": false,
@@ -2881,7 +2881,7 @@
    "cat": "inv",
    "model": "Deye SUN-50K-SG01HP3-EU-BM4 (50кВт/HV)",
    "sup": "Sakoenergy",
-   "avail": "yes",
+   "avail": "no",
    "kw": 50,
    "ph": 3,
    "hv": true,
@@ -2920,7 +2920,7 @@
    "cat": "bat",
    "model": "Акумулятор високовольтний Deye BOS-G Pro 5.1 kwt",
    "sup": "Sakoenergy",
-   "avail": "yes",
+   "avail": "no",
    "kwh": 5.1,
    "hv": true,
    "price": {
@@ -3751,13 +3751,14 @@
    "cat": "inv",
    "model": "Гібридний інвертор SUN-20K-SG01HP3-EU-AM2 Deye WiFi (20 kW, 3 фази, 2 MPPT, HV)",
    "sup": "Price H",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 20,
    "ph": 3,
    "hv": true,
    "price": {
     "cur": "$",
-    "cash": 1540
+    "cash": 1540,
+    "vat": 1810
    }
   },
   {
@@ -4594,7 +4595,7 @@
    "cat": "inv",
    "model": "DEYE SUN-12K-SG02LP1",
    "sup": "RaTech",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 12,
    "ph": 1,
    "hv": false,
@@ -5258,7 +5259,7 @@
    "ph": null,
    "hv": false,
    "price": {
-    "cash": 430,
+    "cash": 420,
     "cur": "$"
    }
   },
@@ -5306,7 +5307,7 @@
    "kwh": 5.12,
    "hv": false,
    "price": {
-    "cash": 770,
+    "cash": 750,
     "cur": "$"
    }
   },
@@ -5342,7 +5343,7 @@
    "kwh": 16,
    "hv": false,
    "price": {
-    "cash": 1740,
+    "cash": 1730,
     "cur": "$"
    }
   },
