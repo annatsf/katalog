@@ -5264,14 +5264,28 @@
    }
   },
   {
-   "cat": "bat",
-   "model": "Deye SE-F16-С 51.2V 314 Аh, 109 кг, LiFePO4, 16 kWh",
+   "cat": "inv",
+   "model": "Felicity T-REX-6KLP1G01 48В 6 кВт",
    "sup": "Avtonomka",
    "avail": "yes",
-   "kwh": 16,
+   "kw": 6,
+   "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1830,
+    "cash": 720,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
+   "model": "Felicity IVEM8048-II 48 В 8 кВт",
+   "sup": "Avtonomka",
+   "avail": "yes",
+   "kw": 8,
+   "ph": null,
+   "hv": false,
+   "price": {
+    "cash": 710,
     "cur": "$"
    }
   },
@@ -5295,7 +5309,19 @@
    "kwh": 7.17,
    "hv": false,
    "price": {
-    "cash": 1100,
+    "cash": 1090,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
+   "model": "Felicity FLB48100WG1-H 51.2V 100Ah LiFePO4",
+   "sup": "Avtonomka",
+   "avail": "yes",
+   "kwh": 5.12,
+   "hv": false,
+   "price": {
+    "cash": 800,
     "cur": "$"
    }
   },
@@ -5313,13 +5339,37 @@
   },
   {
    "cat": "bat",
+   "model": "Felicity FLA48171 51.2V 171Ah LiFePO4",
+   "sup": "Avtonomka",
+   "avail": "yes",
+   "kwh": 8.76,
+   "hv": false,
+   "price": {
+    "cash": 1160,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
+   "model": "Felicity FLB48206WG1-H 51.2V 206Ah LiFePO4, з підігрівом",
+   "sup": "Avtonomka",
+   "avail": "yes",
+   "kwh": 10.55,
+   "hv": false,
+   "price": {
+    "cash": 1380,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
    "model": "Felicity FLA48230 51.2V 230Ah LiFePO4",
    "sup": "Avtonomka",
    "avail": "yes",
    "kwh": 11.78,
    "hv": false,
    "price": {
-    "cash": 1480,
+    "cash": 1470,
     "cur": "$"
    }
   },
@@ -5331,7 +5381,31 @@
    "kwh": 11.78,
    "hv": false,
    "price": {
-    "cash": 1480,
+    "cash": 1470,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
+   "model": "Felicity FLA48280 51.2V 280Ah LiFePO4",
+   "sup": "Avtonomka",
+   "avail": "yes",
+   "kwh": 14.34,
+   "hv": false,
+   "price": {
+    "cash": 1610,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
+   "model": "Felicity FLB48280TG1-H 51.2V 280Ah LiFePO4, з підігрівом",
+   "sup": "Avtonomka",
+   "avail": "yes",
+   "kwh": 14.34,
+   "hv": false,
+   "price": {
+    "cash": 1690,
     "cur": "$"
    }
   },
