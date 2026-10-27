@@ -2064,8 +2064,8 @@
    "ph": 3,
    "hv": true,
    "price": {
-    "cash": 5100,
-    "vat": 6050,
+    "cash": 5400,
+    "vat": 6480,
     "cur": "$"
    }
   },
@@ -2085,6 +2085,35 @@
   },
   {
    "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-20K-SG05LP3-EU-SM2 (20 кВт, 3 фази, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "kw": 20,
+   "ph": 3,
+   "hv": false,
+   "price": {
+    "cash": 2235,
+    "vat": 2682,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-15K-SG01HP3-EU-AM2 (15 кВт, 3 фази, 2 МРРТ, HV)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "kw": 15,
+   "ph": 3,
+   "hv": true,
+   "price": {
+    "cash": 1420,
+    "vat": 1704,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-5K-SG05LP1-EU-AM2-PLUS (5 кВт, 1 фаза, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
@@ -2099,21 +2128,6 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-20K-SG05LP3-EU-SM2 (20 кВт, 3 фази, 2 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "soon",
-   "kw": 20,
-   "ph": 3,
-   "hv": false,
-   "price": {
-    "cash": 2275,
-    "vat": 2730,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-15K-SG05LP3-EU-SM2 (15 кВт, 3 фази, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "soon",
@@ -2121,8 +2135,8 @@
    "ph": 3,
    "hv": false,
    "price": {
-    "cash": 1850,
-    "vat": 2220,
+    "cash": 1840,
+    "vat": 2208,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
@@ -2150,25 +2164,11 @@
    "ph": 3,
    "hv": false,
    "price": {
-    "cash": 1450,
-    "vat": 1740,
+    "cash": 1445,
+    "vat": 1734,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1WJygXNdcUWrtCPcCqOQH5CmbOdM6nDnY/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-15K-SG01HP3-EU-AM2 (15 кВт, 3 фази, 2 МРРТ, HV)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kw": 15,
-   "ph": 3,
-   "hv": true,
-   "price": {
-    "cash": 1500,
-    "vat": 1800,
-    "cur": "$"
-   }
   },
   {
    "cat": "inv",
@@ -2179,8 +2179,8 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1435,
-    "vat": 1722,
+    "cash": 1420,
+    "vat": 1704,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
@@ -2194,8 +2194,8 @@
    "ph": 3,
    "hv": true,
    "price": {
-    "cash": 2375,
-    "vat": 2850,
+    "cash": 2415,
+    "vat": 2898,
     "cur": "$"
    }
   },
@@ -2251,8 +2251,8 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1370,
-    "vat": 1644,
+    "cash": 1360,
+    "vat": 1632,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
@@ -2281,8 +2281,8 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1750,
-    "vat": 2100,
+    "cash": 1760,
+    "vat": 2112,
     "cur": "$"
    }
   },
@@ -2297,6 +2297,20 @@
    "price": {
     "cash": 1800,
     "vat": 2160,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-20K-SG01HP3-EU-AM2 (20 кВт, 3 фази, 2 МРРТ, HV)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kw": 20,
+   "ph": 3,
+   "hv": true,
+   "price": {
+    "cash": 1560,
+    "vat": 1872,
     "cur": "$"
    }
   },
@@ -2324,8 +2338,8 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1370,
-    "vat": 1644,
+    "cash": 1360,
+    "vat": 1632,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
@@ -2339,8 +2353,8 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1750,
-    "vat": 2100,
+    "cash": 1760,
+    "vat": 2112,
     "cur": "$"
    }
   },
@@ -2353,8 +2367,8 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 765,
-    "vat": 918,
+    "cash": 740,
+    "vat": 888,
     "cur": "$"
    }
   },
@@ -2459,8 +2473,8 @@
    "kwh": 5.12,
    "hv": false,
    "price": {
-    "cash": 750,
-    "vat": 900,
+    "cash": 745,
+    "vat": 894,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
@@ -2473,8 +2487,8 @@
    "kwh": 5.12,
    "hv": false,
    "price": {
-    "cash": 775,
-    "vat": 930,
+    "cash": 755,
+    "vat": 906,
     "cur": "$"
    }
   },
@@ -2486,8 +2500,8 @@
    "kwh": 16,
    "hv": false,
    "price": {
-    "cash": 1800,
-    "vat": 2160,
+    "cash": 1750,
+    "vat": 2100,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
@@ -2500,8 +2514,8 @@
    "kwh": 11.8,
    "hv": false,
    "price": {
-    "cash": 1500,
-    "vat": 1800,
+    "cash": 1485,
+    "vat": 1782,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
@@ -2581,8 +2595,8 @@
    "kwh": 16,
    "hv": false,
    "price": {
-    "cash": 1950,
-    "vat": 2340,
+    "cash": 1900,
+    "vat": 2280,
     "cur": "$"
    }
   },
@@ -3749,14 +3763,13 @@
    "cat": "inv",
    "model": "Гібридний інвертор SUN-20K-SG01HP3-EU-AM2 Deye WiFi (20 kW, 3 фази, 2 MPPT, HV)",
    "sup": "Price H",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 20,
    "ph": 3,
    "hv": true,
    "price": {
     "cur": "$",
-    "cash": 1540,
-    "vat": 1810
+    "cash": 1540
    }
   },
   {
