@@ -2172,21 +2172,6 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-8K-SG05LP1-EU-AM2-PLUS (8 кВт, 1 фаза, 2 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kw": 8,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 1000,
-    "vat": 1200,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1YHCxJQRYnJ22ErJt5DtO5X7xYQk78zOs/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-12K-SG02LP1-EU-AM3-PLUS (12 кВт, 1 фаза, 3 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
@@ -2227,6 +2212,21 @@
     "vat": 918,
     "cur": "$"
    }
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-8K-SG05LP1-EU-AM2-PLUS (8 кВт, 1 фаза, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kw": 8,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 1000,
+    "vat": 1200,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1YHCxJQRYnJ22ErJt5DtO5X7xYQk78zOs/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -2841,7 +2841,7 @@
    "cat": "inv",
    "model": "Deye SUN-20K-SG05LP3-EU-SM2",
    "sup": "Sakoenergy",
-   "avail": "yes",
+   "avail": "no",
    "kw": 20,
    "ph": 3,
    "hv": false,
@@ -3195,26 +3195,13 @@
   },
   {
    "cat": "bat",
-   "model": "Акумуляторна батарея Deye SE-F12 Max 51.2V 230Ah IP65 без підігріву (12 кВт*год)",
-   "sup": "Intersolar",
-   "avail": "yes",
-   "kwh": 12,
-   "hv": false,
-   "price": {
-    "cash": 1660,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
-  },
-  {
-   "cat": "bat",
    "model": "Акумуляторна батарея Deye SE-F16-С 51.2V 314Ah (16 кВт*год)",
    "sup": "Intersolar",
    "avail": "soon",
    "kwh": 16,
    "hv": false,
    "price": {
-    "cash": 1830,
+    "cash": 1800,
     "cur": "$"
    }
   },
@@ -3420,7 +3407,7 @@
    "cat": "bat",
    "model": "Блок керування кластером високовольтної батареї BOS-G-PDU2 Deye",
    "sup": "Price H",
-   "avail": "yes",
+   "avail": "soon",
    "kwh": null,
    "hv": true,
    "price": {
@@ -3797,7 +3784,6 @@
    "hv": true,
    "price": {
     "cur": "$",
-    "cash": 2400,
     "vat": 2820
    }
   },
@@ -5310,18 +5296,6 @@
    "hv": false,
    "price": {
     "cash": 245,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
-   "model": "Felicity FLA24230 25.6V 230Ah LiFePO4",
-   "sup": "Avtonomka",
-   "avail": "yes",
-   "kwh": 5.89,
-   "hv": false,
-   "price": {
-    "cash": 850,
     "cur": "$"
    }
   },
