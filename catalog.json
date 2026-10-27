@@ -222,9 +222,9 @@
    "ph": 3,
    "hv": false,
    "price": {
-    "cash": 885,
+    "cash": 896,
     "cur": "у.е.",
-    "vat": 1060
+    "vat": 1075
    }
   },
   {
@@ -272,7 +272,7 @@
    "cat": "inv",
    "model": "Сетевой солнечный инвертор трехфазный (on-grid) Deye SUN-50K-G03, 50кВт, 4 МРРT(200-1000V), WiFi, RS485/RS232, IP65 (434×570×243mm), 37,1 кг",
    "sup": "YugTorg",
-   "avail": "yes",
+   "avail": "no",
    "kw": 50,
    "ph": 3,
    "hv": false,
@@ -291,9 +291,9 @@
    "ph": 3,
    "hv": false,
    "price": {
-    "cash": 1370,
+    "cash": 1420,
     "cur": "у.е.",
-    "vat": 1880
+    "vat": 1720
    }
   },
   {
@@ -2085,21 +2085,6 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-10K-SG05LP3-EU-SM2 (10 кВт, 3 фази, 2 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kw": 10,
-   "ph": 3,
-   "hv": false,
-   "price": {
-    "cash": 1450,
-    "vat": 1740,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1WJygXNdcUWrtCPcCqOQH5CmbOdM6nDnY/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-5K-SG05LP1-EU-AM2-PLUS (5 кВт, 1 фаза, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
@@ -2155,6 +2140,21 @@
     "vat": 4800,
     "cur": "$"
    }
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-10K-SG05LP3-EU-SM2 (10 кВт, 3 фази, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kw": 10,
+   "ph": 3,
+   "hv": false,
+   "price": {
+    "cash": 1450,
+    "vat": 1740,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1WJygXNdcUWrtCPcCqOQH5CmbOdM6nDnY/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -3115,7 +3115,7 @@
    "cat": "inv",
    "model": "Однофазний інвертор Deye SUN 12-K-SG02LP1-EU AM3-P (12кВт/48В)",
    "sup": "Intersolar",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 12,
    "ph": 1,
    "hv": false,
