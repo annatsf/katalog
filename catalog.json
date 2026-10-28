@@ -1887,7 +1887,7 @@
    "cat": "bat",
    "model": "Акумуляторная батарея DEYE BOS-G PRO, LiFePO4, HV, 51.2v 100AH, 5.12kwh",
    "sup": "YugTorg",
-   "avail": "yes",
+   "avail": "no",
    "kwh": 5.12,
    "hv": true,
    "price": {
@@ -2044,7 +2044,7 @@
   },
   {
    "cat": "bat",
-   "model": "Стойка Deye BOS-B-RACK&Accessories 19 дюймов под 15 батарей BOS-B+1 место под блок управления, 2150x1136x800mm (только комплектом с 15 АКБ) !!!",
+   "model": "Стойка Deye BOS-B-RACK&Accessories 19 дюймов под 15 батарей BOS-B+1 место под блок управления, 2150x1136x800mm (только комплектом с 8 АКБ) !!!",
    "sup": "YugTorg",
    "avail": "yes",
    "kwh": null,
@@ -2061,7 +2061,12 @@
    "sup": "YugTorg",
    "avail": "yes",
    "kwh": 11.7,
-   "hv": true
+   "hv": true,
+   "price": {
+    "cash": 1880,
+    "cur": "у.е.",
+    "vat": 2250
+   }
   },
   {
    "cat": "inv",
@@ -3137,12 +3142,12 @@
    "cat": "inv",
    "model": "Однофазний інвертор Deye SUN 12-K-SG02LP1-EU AM3-P (12кВт/48В)",
    "sup": "Intersolar",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 12,
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1660,
+    "cash": 1700,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
@@ -3156,7 +3161,7 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1900,
+    "cash": 1870,
     "cur": "$"
    }
   },
@@ -3169,24 +3174,10 @@
    "ph": 3,
    "hv": false,
    "price": {
-    "cash": 1600,
+    "cash": 1570,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1WJygXNdcUWrtCPcCqOQH5CmbOdM6nDnY/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
-   "model": "Трифазний інвертор Deye SUN-16K-SG05LP3-EU-SM2 (16кВт/48В)",
-   "sup": "Intersolar",
-   "avail": "yes",
-   "kw": 16,
-   "ph": 3,
-   "hv": false,
-   "price": {
-    "cash": 1950,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -3229,6 +3220,19 @@
   },
   {
    "cat": "inv",
+   "model": "Трифазний інвертор Deye SUN-20K-SG01HP3-EU-AM2 (20кВт/HV)",
+   "sup": "Intersolar",
+   "avail": "soon",
+   "kw": 20,
+   "ph": 3,
+   "hv": true,
+   "price": {
+    "cash": 1640,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
    "model": "Трифазний інвертор Deye SUN-30K-SG02HP3-EU-AM3 (30кВт/HV)",
    "sup": "Intersolar",
    "avail": "yes",
@@ -3236,7 +3240,7 @@
    "ph": 3,
    "hv": true,
    "price": {
-    "cash": 2430,
+    "cash": 2500,
     "cur": "$"
    }
   },
@@ -3249,7 +3253,7 @@
    "ph": 3,
    "hv": true,
    "price": {
-    "cash": 3930,
+    "cash": 3950,
     "cur": "$"
    }
   },
@@ -3274,7 +3278,7 @@
    "kwh": null,
    "hv": true,
    "price": {
-    "cash": 790,
+    "cash": 770,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1KBwYAD5N_fOxcBkx5w4ItK2lm46XXc5C/view?usp=sharing"
@@ -3287,7 +3291,7 @@
    "kwh": null,
    "hv": true,
    "price": {
-    "cash": 790,
+    "cash": 780,
     "cur": "$"
    }
   },
@@ -3300,18 +3304,6 @@
    "hv": true,
    "price": {
     "cash": 680,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
-   "model": "Серверна стійка Deye BOS (12 мод.)",
-   "sup": "Intersolar",
-   "avail": "yes",
-   "kwh": null,
-   "hv": true,
-   "price": {
-    "cash": 350,
     "cur": "$"
    }
   },
@@ -3772,13 +3764,14 @@
    "cat": "inv",
    "model": "Гібридний інвертор SUN-20K-SG01HP3-EU-AM2 Deye WiFi (20 kW, 3 фази, 2 MPPT, HV)",
    "sup": "Price H",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 20,
    "ph": 3,
    "hv": true,
    "price": {
     "cur": "$",
-    "cash": 1540
+    "cash": 1540,
+    "vat": 1810
    }
   },
   {
@@ -4928,7 +4921,7 @@
    "cat": "bat",
    "model": "DEYE SE-F16-C",
    "sup": "RaTech",
-   "avail": "soon",
+   "avail": "yes",
    "kwh": null,
    "hv": false,
    "price": {
