@@ -2141,20 +2141,6 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-50K-SG01HP3-EU-BM4 (50 кВт, 3 фази, 4 МРРТ, HV)",
-   "sup": "Atmo",
-   "avail": "soon",
-   "kw": 50,
-   "ph": 3,
-   "hv": true,
-   "price": {
-    "cash": 4000,
-    "vat": 4800,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-10K-SG05LP3-EU-SM2 (10 кВт, 3 фази, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "soon",
@@ -2170,6 +2156,20 @@
   },
   {
    "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-50K-SG01HP3-EU-BM4 (50 кВт, 3 фази, 4 МРРТ, HV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kw": 50,
+   "ph": 3,
+   "hv": true,
+   "price": {
+    "cash": 4000,
+    "vat": 4800,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-15K-SG05LP3-EU-SM2 (15 кВт, 3 фази, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "soon",
@@ -2182,6 +2182,21 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-12K-SG02LP1-EU-AM3-PLUS (12 кВт, 1 фаза, 3 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kw": 12,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 1420,
+    "vat": 1704,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -2325,21 +2340,6 @@
     "vat": 2160,
     "cur": "$"
    }
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-12K-SG02LP1-EU-AM3-PLUS (12 кВт, 1 фаза, 3 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "soon",
-   "kw": 12,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 1420,
-    "vat": 1704,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -3140,17 +3140,42 @@
   },
   {
    "cat": "inv",
-   "model": "Однофазний інвертор Deye SUN 12-K-SG02LP1-EU AM3-P (12кВт/48В)",
+   "model": "Однофазний інвертор Deye SUN 6-K SG06LP1 EU-CM2 (6 кВт/48В)",
    "sup": "Intersolar",
    "avail": "soon",
-   "kw": 12,
+   "kw": 6,
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1700,
+    "cash": 920,
     "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
+   }
+  },
+  {
+   "cat": "inv",
+   "model": "Однофазний інвертор Deye SUN-6.6K-OG03LP1-EU-AM2 (6,6кВт/48В)",
+   "sup": "Intersolar",
+   "avail": "soon",
+   "kw": 6,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 680,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
+   "model": "Однофазний інвертор Deye SUN 8-K SG06LP1 EU-CM3 (8 кВт/48В)",
+   "sup": "Intersolar",
+   "avail": "soon",
+   "kw": 8,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 1230,
+    "cur": "$"
+   }
   },
   {
    "cat": "inv",
@@ -3164,6 +3189,20 @@
     "cash": 1870,
     "cur": "$"
    }
+  },
+  {
+   "cat": "inv",
+   "model": "Трифазний інвертор Deye SUN-12K-SG-05-LP3-EU-SM2 (12кВт/48В)",
+   "sup": "Intersolar",
+   "avail": "soon",
+   "kw": 12,
+   "ph": 3,
+   "hv": false,
+   "price": {
+    "cash": 1750,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1hGX6j6uoUI9QYryLCyi6PxDZD84B1s3i/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -3210,11 +3249,23 @@
    "cat": "bat",
    "model": "Акумуляторна батарея Deye SE-F16-С 51.2V 314Ah (16 кВт*год)",
    "sup": "Intersolar",
+   "avail": "soon",
+   "kwh": 16,
+   "hv": false,
+   "price": {
+    "cash": 1820,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
+   "model": "Акумуляторна батарея Deye SE-F16-С 51.2V 314Ah з колесами (16 кВт*год)",
+   "sup": "Intersolar",
    "avail": "yes",
    "kwh": 16,
    "hv": false,
    "price": {
-    "cash": 1780,
+    "cash": 1850,
     "cur": "$"
    }
   },
@@ -3549,7 +3600,7 @@
    "cat": "bat",
    "model": "Акумуляторна батарея SE-F16Max Deye (LiFePO4 51,2V 314Ah 16 kWh heated) з підігрівом",
    "sup": "Price H",
-   "avail": "yes",
+   "avail": "soon",
    "kwh": 16,
    "hv": false,
    "price": {
@@ -4253,7 +4304,7 @@
    "cat": "inv",
    "model": "Deye SUN-6K-SG06LP1-EU-BM2 (NEW)",
    "sup": "Solarity",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 6,
    "ph": 1,
    "hv": false,
@@ -4308,7 +4359,7 @@
    "cat": "inv",
    "model": "Deye SUN-12K-SG02-LP1EU-AM3 (1ф)",
    "sup": "Solarity",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 12,
    "ph": 1,
    "hv": false,
@@ -4366,7 +4417,7 @@
    "cat": "inv",
    "model": "Deye SUN-16K-SG01LP1-EU-AM3-PLUS",
    "sup": "Solarity",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 16,
    "ph": 1,
    "hv": false,
@@ -4394,12 +4445,13 @@
    "cat": "inv",
    "model": "Deye SUN-20K-SG01 HP3-EU-AM2 HV",
    "sup": "Solarity",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 20,
    "ph": 3,
    "hv": true,
    "price": {
     "cash": 1634,
+    "vat": 1634,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1-PY68vj4LCjDA-snuMUbilWwrkrf8F0R/view?usp=sharing"
@@ -4417,7 +4469,7 @@
    "cat": "inv",
    "model": "Deye SUN-30K-SG02HP3-EU-AM3 New",
    "sup": "Solarity",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 30,
    "ph": 3,
    "hv": true,
@@ -4652,7 +4704,7 @@
    "cat": "inv",
    "model": "DEYE SUN-12K-SG05LP3",
    "sup": "RaTech",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 12,
    "ph": 3,
    "hv": false,
@@ -5278,19 +5330,6 @@
   },
   {
    "cat": "inv",
-   "model": "Felicity T-REX-6KLP1G01 48В 6 кВт",
-   "sup": "Avtonomka",
-   "avail": "yes",
-   "kw": 6,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 720,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "inv",
    "model": "Felicity IVEM8048-II 48 В 8 кВт",
    "sup": "Avtonomka",
    "avail": "yes",
@@ -5298,7 +5337,7 @@
    "ph": null,
    "hv": false,
    "price": {
-    "cash": 710,
+    "cash": 700,
     "cur": "$"
    }
   },
@@ -5310,7 +5349,7 @@
    "kwh": 16,
    "hv": false,
    "price": {
-    "cash": 1750,
+    "cash": 1770,
     "cur": "$"
    }
   },
@@ -5334,7 +5373,7 @@
    "kwh": 7.17,
    "hv": false,
    "price": {
-    "cash": 1090,
+    "cash": 1070,
     "cur": "$"
    }
   },
@@ -5394,7 +5433,7 @@
    "kwh": 11.78,
    "hv": false,
    "price": {
-    "cash": 1430,
+    "cash": 1400,
     "cur": "$"
    }
   },
@@ -5406,7 +5445,7 @@
    "kwh": 11.78,
    "hv": false,
    "price": {
-    "cash": 1450,
+    "cash": 1440,
     "cur": "$"
    }
   },
@@ -5418,7 +5457,7 @@
    "kwh": 14.34,
    "hv": false,
    "price": {
-    "cash": 1610,
+    "cash": 1580,
     "cur": "$"
    }
   },
