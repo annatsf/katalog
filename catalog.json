@@ -2185,6 +2185,21 @@
   },
   {
    "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-12K-SG05LP3-EU-SM2 (12 кВт, 3 фази, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kw": 12,
+   "ph": 3,
+   "hv": false,
+   "price": {
+    "cash": 1500,
+    "vat": 1800,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1hGX6j6uoUI9QYryLCyi6PxDZD84B1s3i/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-30K-SG02HP3-EU (30 кВт, 3 фази, 3 МРРТ, HV)",
    "sup": "Atmo",
    "avail": "soon",
@@ -2257,18 +2272,17 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-12K-SG05LP3-EU-SM2 (12 кВт, 3 фази, 2 МРРТ, LV)",
+   "model": "Інвертор гібридний Deye SUN-6K-SG06LP1-EU-BM2 (6 кВт, 1 фаза, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "soon",
-   "kw": 12,
-   "ph": 3,
+   "kw": 6,
+   "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1500,
-    "vat": 1800,
+    "cash": 740,
+    "vat": 888,
     "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1hGX6j6uoUI9QYryLCyi6PxDZD84B1s3i/view?usp=sharing"
+   }
   },
   {
    "cat": "inv",
@@ -2281,6 +2295,20 @@
    "price": {
     "cash": 1760,
     "vat": 2112,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-8K-SG06LP1-EU-BM3 (8 кВт, 1 фаза, 3 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kw": 8,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 1000,
+    "vat": 1200,
     "cur": "$"
    }
   },
@@ -2368,34 +2396,6 @@
    "price": {
     "cash": 1760,
     "vat": 2112,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-6K-SG06LP1-EU-BM2 (6 кВт, 1 фаза, 2 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kw": 6,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 740,
-    "vat": 888,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-8K-SG06LP1-EU-BM3 (8 кВт, 1 фаза, 3 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kw": 8,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 1000,
-    "vat": 1200,
     "cur": "$"
    }
   },
@@ -2562,20 +2562,6 @@
   },
   {
    "cat": "bat",
-   "model": "Акумуляторний блок Deye HV BOS-A-Pack7.68 (7,68 кВт·год/38,4 В)",
-   "sup": "Atmo",
-   "avail": "soon",
-   "kwh": 7.68,
-   "hv": true,
-   "price": {
-    "cash": 1150,
-    "vat": 1380,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1T3AVp7cqEuV7th5H5DY0gHnFiwLGTnPy/view?usp=sharing"
-  },
-  {
-   "cat": "bat",
    "model": "Система керування Deye BOS-G-PDU-2 (BMS) для Deye BOS-G-Pack5.1",
    "sup": "Atmo",
    "avail": "no",
@@ -2639,6 +2625,20 @@
     "vat": 368.42,
     "cur": "$"
    }
+  },
+  {
+   "cat": "bat",
+   "model": "Акумуляторний блок Deye HV BOS-A-Pack7.68 (7,68 кВт·год/38,4 В)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kwh": 7.68,
+   "hv": true,
+   "price": {
+    "cash": 1150,
+    "vat": 1380,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1T3AVp7cqEuV7th5H5DY0gHnFiwLGTnPy/view?usp=sharing"
   },
   {
    "cat": "pan",
@@ -3210,7 +3210,7 @@
    "cat": "bat",
    "model": "Акумуляторна батарея Deye SE-F16-С 51.2V 314Ah (16 кВт*год)",
    "sup": "Intersolar",
-   "avail": "soon",
+   "avail": "yes",
    "kwh": 16,
    "hv": false,
    "price": {
@@ -3549,7 +3549,7 @@
    "cat": "bat",
    "model": "Акумуляторна батарея SE-F16Max Deye (LiFePO4 51,2V 314Ah 16 kWh heated) з підігрівом",
    "sup": "Price H",
-   "avail": "soon",
+   "avail": "yes",
    "kwh": 16,
    "hv": false,
    "price": {
@@ -4652,7 +4652,7 @@
    "cat": "inv",
    "model": "DEYE SUN-12K-SG05LP3",
    "sup": "RaTech",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 12,
    "ph": 3,
    "hv": false,
@@ -5299,6 +5299,18 @@
    "hv": false,
    "price": {
     "cash": 710,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
+   "model": "Deye SE-F16-С 51.2V 314 Аh, 109 кг, LiFePO4, 16 kWh",
+   "sup": "Avtonomka",
+   "avail": "yes",
+   "kwh": 16,
+   "hv": false,
+   "price": {
+    "cash": 1750,
     "cur": "$"
    }
   },
