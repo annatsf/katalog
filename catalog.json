@@ -2112,21 +2112,6 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-10K-SG05LP3-EU-SM2 (10 кВт, 3 фази, 2 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kw": 10,
-   "ph": 3,
-   "hv": false,
-   "price": {
-    "cash": 1445,
-    "vat": 1734,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1WJygXNdcUWrtCPcCqOQH5CmbOdM6nDnY/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-5K-SG05LP1-EU-AM2-PLUS (5 кВт, 1 фаза, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
@@ -2153,6 +2138,21 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-10K-SG05LP3-EU-SM2 (10 кВт, 3 фази, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kw": 10,
+   "ph": 3,
+   "hv": false,
+   "price": {
+    "cash": 1445,
+    "vat": 1734,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1WJygXNdcUWrtCPcCqOQH5CmbOdM6nDnY/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -2229,17 +2229,18 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-6K-SG05LP1-AM2-PLUS (6 кВт, 1 фаза, 2 МРРТ, LV)",
+   "model": "Інвертор гібридний Deye SUN-10K-SG02LP1-EU-AM3-PLUS (10 кВт, 1 фаза, 3 МРРТ, LV)",
    "sup": "Atmo",
-   "avail": "no",
-   "kw": 6,
+   "avail": "soon",
+   "kw": 10,
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 765,
-    "vat": 918,
+    "cash": 1360,
+    "vat": 1632,
     "cur": "$"
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -2269,21 +2270,6 @@
     "vat": 918,
     "cur": "$"
    }
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-10K-SG02LP1-EU-AM3-PLUS (10 кВт, 1 фаза, 3 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kw": 10,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 1360,
-    "vat": 1632,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -2401,6 +2387,20 @@
   },
   {
    "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-6K-SG05LP1-AM2-PLUS (6 кВт, 1 фаза, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kw": 6,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 765,
+    "vat": 918,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-100K-SG02HP3-EU-GM10 (100 кВт, 3 фази, 10 МРРТ, HV)",
    "sup": "Atmo",
    "avail": "no",
@@ -2438,20 +2438,6 @@
     "vat": 1890,
     "cur": "$"
    }
-  },
-  {
-   "cat": "bat",
-   "model": "Акумуляторний блок Deye SE-F12-C (11,8 кВт·год/51,2 В LV)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kwh": 11.8,
-   "hv": false,
-   "price": {
-    "cash": 1485,
-    "vat": 1782,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -2508,6 +2494,20 @@
   },
   {
    "cat": "bat",
+   "model": "Акумуляторний блок Deye SE-F12-C (11,8 кВт·год/51,2 В LV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kwh": 11.8,
+   "hv": false,
+   "price": {
+    "cash": 1485,
+    "vat": 1782,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
+  },
+  {
+   "cat": "bat",
    "model": "Акумуляторний блок Deye SE-F16-C (16 кВт·год/51,2 В LV)",
    "sup": "Atmo",
    "avail": "soon",
@@ -2538,7 +2538,7 @@
    "cat": "bat",
    "model": "Комплект Deye BOS-B Pro Стійка + БМС + АКБ (10 АКБ по 16,08 = 160 кВт-год)",
    "sup": "Atmo",
-   "avail": "no",
+   "avail": "soon",
    "kwh": 160,
    "hv": true,
    "price": {
@@ -2551,7 +2551,7 @@
    "cat": "bat",
    "model": "Комплект Deye BOS-B Pro Стійка + БМС + АКБ (15 АКБ по 16,08 = 240 кВт-год)",
    "sup": "Atmo",
-   "avail": "no",
+   "avail": "soon",
    "kwh": 240,
    "hv": true,
    "price": {
@@ -3161,19 +3161,6 @@
    "hv": false,
    "price": {
     "cash": 680,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "inv",
-   "model": "Однофазний інвертор Deye SUN 8-K SG06LP1 EU-CM3 (8 кВт/48В)",
-   "sup": "Intersolar",
-   "avail": "soon",
-   "kw": 8,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 1230,
     "cur": "$"
    }
   },
@@ -4115,20 +4102,6 @@
     "cur": "$",
     "cash": 102.5
    }
-  },
-  {
-   "cat": "pan",
-   "model": "https://helius.ua/product/fotoelektrychnyj-modul-lr7-72hvh-650m-longi-hi-mo-x10-650-w-monokrystalichnyj-n-type/",
-   "sup": "Price H",
-   "avail": "yes",
-   "watt": 650,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cur": "$",
-    "vat": 132.6
-   },
-   "ds": "https://drive.google.com/file/d/1_3r-yAkYUSR_VlnlF2xwHFZvieabqr5k/view"
   },
   {
    "cat": "pan",
@@ -5373,7 +5346,7 @@
    "kwh": 7.17,
    "hv": false,
    "price": {
-    "cash": 1070,
+    "cash": 1030,
     "cur": "$"
    }
   },
