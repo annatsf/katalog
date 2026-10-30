@@ -2229,21 +2229,6 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-10K-SG02LP1-EU-AM3-PLUS (10 кВт, 1 фаза, 3 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "soon",
-   "kw": 10,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 1360,
-    "vat": 1632,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-8K-SG05LP1-EU-AM2-PLUS (8 кВт, 1 фаза, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
@@ -2256,6 +2241,21 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1YHCxJQRYnJ22ErJt5DtO5X7xYQk78zOs/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-10K-SG02LP1-EU-AM3-PLUS (10 кВт, 1 фаза, 3 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kw": 10,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 1360,
+    "vat": 1632,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -2508,20 +2508,6 @@
   },
   {
    "cat": "bat",
-   "model": "Акумуляторний блок Deye SE-F16-C (16 кВт·год/51,2 В LV)",
-   "sup": "Atmo",
-   "avail": "soon",
-   "kwh": 16,
-   "hv": false,
-   "price": {
-    "cash": 1750,
-    "vat": 2100,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
-  },
-  {
-   "cat": "bat",
    "model": "Акумуляторний блок Deye HV BOS-G-Pack5.1 (BOS-G pro) (5,12 кВт·год/51,2 В)",
    "sup": "Atmo",
    "avail": "no",
@@ -2533,6 +2519,20 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1KBwYAD5N_fOxcBkx5w4ItK2lm46XXc5C/view?usp=sharing"
+  },
+  {
+   "cat": "bat",
+   "model": "Акумуляторний блок Deye SE-F16-C (16 кВт·год/51,2 В LV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kwh": 16,
+   "hv": false,
+   "price": {
+    "cash": 1750,
+    "vat": 2100,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -2551,7 +2551,7 @@
    "cat": "bat",
    "model": "Комплект Deye BOS-B Pro Стійка + БМС + АКБ (15 АКБ по 16,08 = 240 кВт-год)",
    "sup": "Atmo",
-   "avail": "soon",
+   "avail": "no",
    "kwh": 240,
    "hv": true,
    "price": {
@@ -2564,7 +2564,7 @@
    "cat": "bat",
    "model": "Система керування Deye BOS-G-PDU-2 (BMS) для Deye BOS-G-Pack5.1",
    "sup": "Atmo",
-   "avail": "no",
+   "avail": "soon",
    "kwh": null,
    "hv": true,
    "price": {
@@ -2759,7 +2759,7 @@
    "cat": "inv",
    "model": "Deye SUN-10K-SG06LP1-EU",
    "sup": "Sakoenergy",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 10,
    "ph": 1,
    "hv": false,
@@ -2786,7 +2786,7 @@
    "cat": "inv",
    "model": "Deye SUN-12K-SG06LP1-EU",
    "sup": "Sakoenergy",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 12,
    "ph": 1,
    "hv": false,
@@ -2913,7 +2913,7 @@
    "ph": 3,
    "hv": true,
    "price": {
-    "cash": 3920,
+    "cash": 3890,
     "cur": "$"
    }
   },
@@ -2926,7 +2926,7 @@
    "ph": 3,
    "hv": true,
    "price": {
-    "cash": 5580,
+    "cash": 5420,
     "cur": "$"
    }
   },
@@ -3043,7 +3043,7 @@
    "kwh": 16,
    "hv": false,
    "price": {
-    "cash": 1830,
+    "cash": 1790,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
@@ -3054,11 +3054,7 @@
    "sup": "Sakoenergy",
    "avail": "soon",
    "kwh": 16,
-   "hv": false,
-   "price": {
-    "cash": 1850,
-    "cur": "$"
-   }
+   "hv": false
   },
   {
    "cat": "bat",
@@ -3137,19 +3133,6 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1t3mzXUgqitV4OGZDXckhC9GI_q0E4O_Q/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
-   "model": "Однофазний інвертор Deye SUN 6-K SG06LP1 EU-CM2 (6 кВт/48В)",
-   "sup": "Intersolar",
-   "avail": "soon",
-   "kw": 6,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 920,
-    "cur": "$"
-   }
   },
   {
    "cat": "inv",
@@ -3850,7 +3833,8 @@
    "hv": true,
    "price": {
     "cur": "$",
-    "cash": 3995
+    "cash": 3995,
+    "vat": 4720
    }
   },
   {
@@ -4088,6 +4072,19 @@
    "price": {
     "cur": "$",
     "cash": 41583
+   }
+  },
+  {
+   "cat": "inv",
+   "model": "Deye Система зберігання енергії P100-6-H FoxESS Avocado logo (Гібридний інвертор (6 кВт, 1 фаза, 3 MPPT), Акумуляторна батарея 10 кВт, BMS)",
+   "sup": "Price H",
+   "avail": "soon",
+   "kw": 6,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cur": "$",
+    "cash": 1990
    }
   },
   {
@@ -4618,7 +4615,7 @@
    "cat": "inv",
    "model": "DEYE SUN-10K-SG02LP1",
    "sup": "RaTech",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 10,
    "ph": 1,
    "hv": false,
@@ -4677,7 +4674,7 @@
    "cat": "inv",
    "model": "DEYE SUN-12K-SG05LP3",
    "sup": "RaTech",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 12,
    "ph": 3,
    "hv": false,
@@ -5454,7 +5451,7 @@
    "kwh": 16,
    "hv": false,
    "price": {
-    "cash": 1730,
+    "cash": 1685,
     "cur": "$"
    }
   },
@@ -5466,7 +5463,7 @@
    "kwh": 16,
    "hv": false,
    "price": {
-    "cash": 1750,
+    "cash": 1720,
     "cur": "$"
    }
   },
