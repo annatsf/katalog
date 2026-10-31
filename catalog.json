@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30",
+ "generated": "2026-10-31",
  "note": "Постачальники вживу: YugTorg, Atmo, Sakoenergy, Intersolar, SunRise, Price H, RaTech, Avtonomka, Slavik, Solarity (дзеркало). Altek/Vimmer — снимок. Бренди: Deye + Felicity. Ціни: Готівка/ПДВ під постачальника, Solarity −5%.",
  "items": [
   {
@@ -2023,9 +2023,9 @@
    "kwh": 16.08,
    "hv": true,
    "price": {
-    "cash": 1850,
+    "cash": 1770,
     "cur": "у.е.",
-    "vat": 2050
+    "vat": 1990
    },
    "ds": "https://drive.google.com/file/d/1O2WQEq4Xekvqq_nOEvhy5pz7TEOUMzwJ/view?usp=sharing"
   },
@@ -2551,7 +2551,7 @@
    "cat": "bat",
    "model": "Комплект Deye BOS-B Pro Стійка + БМС + АКБ (10 АКБ по 16,08 = 160 кВт-год)",
    "sup": "Atmo",
-   "avail": "soon",
+   "avail": "no",
    "kwh": 160,
    "hv": true,
    "price": {
