@@ -2084,20 +2084,6 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-125K-SG02HP3-EU-GM10 (125 кВт, 3 фази, 10 МРРТ, HV)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kw": 125,
-   "ph": 3,
-   "hv": true,
-   "price": {
-    "cash": 6950,
-    "vat": 8340,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-15K-SG01HP3-EU-AM2 (15 кВт, 3 фази, 2 МРРТ, HV)",
    "sup": "Atmo",
    "avail": "yes",
@@ -2107,6 +2093,20 @@
    "price": {
     "cash": 1420,
     "vat": 1704,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-125K-SG02HP3-EU-GM10 (125 кВт, 3 фази, 10 МРРТ, HV)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "kw": 125,
+   "ph": 3,
+   "hv": true,
+   "price": {
+    "cash": 6950,
+    "vat": 8340,
     "cur": "$"
    }
   },
@@ -2187,7 +2187,7 @@
    "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-12K-SG02LP1-EU-AM3-PLUS (12 кВт, 1 фаза, 3 МРРТ, LV)",
    "sup": "Atmo",
-   "avail": "soon",
+   "avail": "no",
    "kw": 12,
    "ph": 1,
    "hv": false,
@@ -2523,7 +2523,7 @@
    "cat": "bat",
    "model": "Акумуляторний блок Deye HV BOS-G-Pack5.1 (BOS-G pro) (5,12 кВт·год/51,2 В)",
    "sup": "Atmo",
-   "avail": "soon",
+   "avail": "no",
    "kwh": 5.12,
    "hv": true,
    "price": {
@@ -3139,6 +3139,20 @@
   },
   {
    "cat": "inv",
+   "model": "Однофазний інвертор Deye SUN 10-K-SG02LP1-EU AM3-P (10кВт/48В)",
+   "sup": "Intersolar",
+   "avail": "soon",
+   "kw": 10,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 1470,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
    "model": "Однофазний інвертор Deye SUN 16-K-SG01LP1-EU-AM3-P (16кВт/48В)",
    "sup": "Intersolar",
    "avail": "yes",
@@ -3149,6 +3163,20 @@
     "cash": 1870,
     "cur": "$"
    }
+  },
+  {
+   "cat": "inv",
+   "model": "Трифазний інвертор Deye SUN-10K-SG05LP3-EU-SM2 (10кВт/48В)",
+   "sup": "Intersolar",
+   "avail": "yes",
+   "kw": 10,
+   "ph": 3,
+   "hv": false,
+   "price": {
+    "cash": 1570,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1WJygXNdcUWrtCPcCqOQH5CmbOdM6nDnY/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -3166,17 +3194,17 @@
   },
   {
    "cat": "inv",
-   "model": "Трифазний інвертор Deye SUN-10K-SG05LP3-EU-SM2 (10кВт/48В)",
+   "model": "Трифазний інвертор Deye SUN-15K-SG05LP3-EU-SM2 (15кВт/48В)",
    "sup": "Intersolar",
-   "avail": "yes",
-   "kw": 10,
+   "avail": "soon",
+   "kw": 15,
    "ph": 3,
    "hv": false,
    "price": {
-    "cash": 1570,
+    "cash": 1920,
     "cur": "$"
    },
-   "ds": "https://drive.google.com/file/d/1WJygXNdcUWrtCPcCqOQH5CmbOdM6nDnY/view?usp=sharing"
+   "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -3560,7 +3588,7 @@
    "cat": "bat",
    "model": "Акумуляторна батарея SE-F16Max Deye (LiFePO4 51,2V 314Ah 16 kWh heated) з підігрівом",
    "sup": "Price H",
-   "avail": "soon",
+   "avail": "yes",
    "kwh": 16,
    "hv": false,
    "price": {
@@ -4078,6 +4106,19 @@
    }
   },
   {
+   "cat": "inv",
+   "model": "Deye Система зберігання енергії P100E-6-H FoxESS Avocado logo (Гібридний інвертор (6 кВт, 1 фаза, 3 MPPT), Акумуляторна батарея 10 кВт, BMS)",
+   "sup": "Price H",
+   "avail": "soon",
+   "kw": 6,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cur": "$",
+    "cash": 1990
+   }
+  },
+  {
    "cat": "pan",
    "model": "https://helius.ua/product/sonyachna-panel-longi-hi-mo-7-lr8-66hgd-610m-610-vt-bifacial-double-glass/",
    "sup": "Price H",
@@ -4367,7 +4408,7 @@
    "ph": 3,
    "hv": false,
    "price": {
-    "cash": 1736.6,
+    "cash": 1838.25,
     "vat": 2197.35,
     "cur": "$"
    },
@@ -4538,7 +4579,7 @@
    "kwh": null,
    "hv": false,
    "price": {
-    "cash": 847.4,
+    "cash": 817,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
@@ -4933,7 +4974,7 @@
    "cat": "bat",
    "model": "DEYE SE-F16-C",
    "sup": "RaTech",
-   "avail": "yes",
+   "avail": "soon",
    "kwh": null,
    "hv": false,
    "price": {
