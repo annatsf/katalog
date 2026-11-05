@@ -2126,6 +2126,21 @@
   },
   {
    "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-10K-SG05LP3-EU-SM2 (10 кВт, 3 фази, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "kw": 10,
+   "ph": 3,
+   "hv": false,
+   "price": {
+    "cash": 1445,
+    "vat": 1734,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1WJygXNdcUWrtCPcCqOQH5CmbOdM6nDnY/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-6K-SG06LP1-EU-BM2 (6 кВт, 1 фаза, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "soon",
@@ -2180,21 +2195,6 @@
     "vat": 8340,
     "cur": "$"
    }
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-10K-SG05LP3-EU-SM2 (10 кВт, 3 фази, 2 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "soon",
-   "kw": 10,
-   "ph": 3,
-   "hv": false,
-   "price": {
-    "cash": 1445,
-    "vat": 1734,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1WJygXNdcUWrtCPcCqOQH5CmbOdM6nDnY/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -2441,6 +2441,20 @@
   },
   {
    "cat": "bat",
+   "model": "Акумуляторний блок Deye HV BOS-G-Pack5.1 (BOS-G pro) (5,12 кВт·год/51,2 В)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "kwh": 5.12,
+   "hv": true,
+   "price": {
+    "cash": 765,
+    "vat": 918,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1KBwYAD5N_fOxcBkx5w4ItK2lm46XXc5C/view?usp=sharing"
+  },
+  {
+   "cat": "bat",
    "model": "Акумуляторна стійка Deye BOS-A-Rack14 для Deye BOS-A-Pack7.68",
    "sup": "Atmo",
    "avail": "yes",
@@ -2454,23 +2468,9 @@
   },
   {
    "cat": "bat",
-   "model": "Акумуляторний блок Deye HV BOS-G-Pack5.1 (BOS-G pro) (5,12 кВт·год/51,2 В)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kwh": 5.12,
-   "hv": true,
-   "price": {
-    "cash": 765,
-    "vat": 918,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1KBwYAD5N_fOxcBkx5w4ItK2lm46XXc5C/view?usp=sharing"
-  },
-  {
-   "cat": "bat",
    "model": "Акумуляторний блок Deye LV SE-F5 Pro-C (5,12 кВт·год/51,2 В)",
    "sup": "Atmo",
-   "avail": "soon",
+   "avail": "yes",
    "kwh": 5.12,
    "hv": false,
    "price": {
@@ -2484,7 +2484,7 @@
    "cat": "bat",
    "model": "Акумуляторний блок Deye SE-F12-C (11,8 кВт·год/51,2 В LV)",
    "sup": "Atmo",
-   "avail": "soon",
+   "avail": "yes",
    "kwh": 11.8,
    "hv": false,
    "price": {
@@ -2803,7 +2803,7 @@
    "cat": "inv",
    "model": "Deye SUN-10K-SG05LP3-EU-SM2",
    "sup": "Sakoenergy",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 10,
    "ph": 3,
    "hv": false,
@@ -2817,7 +2817,7 @@
    "cat": "inv",
    "model": "Deye SUN-12K-SG05LP3-EU-SM2",
    "sup": "Sakoenergy",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 12,
    "ph": 3,
    "hv": false,
@@ -2831,7 +2831,7 @@
    "cat": "inv",
    "model": "Deye SUN-15K-SG05LP3-EU-SM2",
    "sup": "Sakoenergy",
-   "avail": "no",
+   "avail": "soon",
    "kw": 15,
    "ph": 3,
    "hv": false,
@@ -2859,7 +2859,7 @@
    "cat": "inv",
    "model": "Deye SUN-20K-SG05LP3-EU-SM2",
    "sup": "Sakoenergy",
-   "avail": "no",
+   "avail": "yes",
    "kw": 20,
    "ph": 3,
    "hv": false,
@@ -2873,7 +2873,7 @@
    "cat": "inv",
    "model": "Deye SUN20K-SG01HP3-EU-BM4 (20кВт/HV)",
    "sup": "Sakoenergy",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 20,
    "ph": 3,
    "hv": true,
@@ -2899,7 +2899,7 @@
    "cat": "inv",
    "model": "Deye SUN-50K-SG01HP3-EU-BM4 (50кВт/HV)",
    "sup": "Sakoenergy",
-   "avail": "no",
+   "avail": "yes",
    "kw": 50,
    "ph": 3,
    "hv": true,
@@ -2938,7 +2938,7 @@
    "cat": "bat",
    "model": "Акумулятор високовольтний Deye BOS-G Pro 5.1 kwt",
    "sup": "Sakoenergy",
-   "avail": "no",
+   "avail": "soon",
    "kwh": 5.1,
    "hv": true,
    "price": {
@@ -3059,18 +3059,6 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
-  },
-  {
-   "cat": "bat",
-   "model": "Аккумуляторная батарея Deye RW-M6.1-B LiFePO4 6.14 кВт/ч",
-   "sup": "Sakoenergy",
-   "avail": "no",
-   "kwh": null,
-   "hv": false,
-   "price": {
-    "cash": 850,
-    "cur": "$"
-   }
   },
   {
    "cat": "bat",
@@ -5301,13 +5289,13 @@
     "cur": "$/Вт",
     "cashTiers": [
      0.172,
-     0.165,
-     0.165
+     null,
+     null
     ],
     "vatTiers": [
      null,
-     0.192,
-     0.192
+     0.2,
+     0.2
     ]
    }
   },
