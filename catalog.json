@@ -682,7 +682,7 @@
    "cat": "pan",
    "model": "Солнечная панель LONGI LR8-66HVD-650M-650 HI-MO X10 Bifocal (40,98V 15,86A)(2382х1134х30), 32,5кг,Q36",
    "sup": "YugTorg",
-   "avail": "no",
+   "avail": "yes",
    "watt": 650,
    "dim": "2382×1134",
    "size": "large",
@@ -1887,7 +1887,7 @@
    "cat": "bat",
    "model": "Акумуляторная батарея DEYE BOS-G PRO, LiFePO4, HV, 51.2v 100AH, 5.12kwh",
    "sup": "YugTorg",
-   "avail": "yes",
+   "avail": "soon",
    "kwh": 5.12,
    "hv": true,
    "price": {
@@ -2126,21 +2126,6 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-10K-SG05LP3-EU-SM2 (10 кВт, 3 фази, 2 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kw": 10,
-   "ph": 3,
-   "hv": false,
-   "price": {
-    "cash": 1445,
-    "vat": 1734,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1WJygXNdcUWrtCPcCqOQH5CmbOdM6nDnY/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-6K-SG06LP1-EU-BM2 (6 кВт, 1 фаза, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "soon",
@@ -2186,7 +2171,7 @@
    "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-125K-SG02HP3-EU-GM10 (125 кВт, 3 фази, 10 МРРТ, HV)",
    "sup": "Atmo",
-   "avail": "no",
+   "avail": "soon",
    "kw": 125,
    "ph": 3,
    "hv": true,
@@ -2195,6 +2180,21 @@
     "vat": 8340,
     "cur": "$"
    }
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-10K-SG05LP3-EU-SM2 (10 кВт, 3 фази, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kw": 10,
+   "ph": 3,
+   "hv": false,
+   "price": {
+    "cash": 1445,
+    "vat": 1734,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1WJygXNdcUWrtCPcCqOQH5CmbOdM6nDnY/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -2212,21 +2212,6 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-12K-SG02LP1-EU-AM3-PLUS (12 кВт, 1 фаза, 3 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kw": 12,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 1420,
-    "vat": 1704,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-15K-SG05LP3-EU-SM2 (15 кВт, 3 фази, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "soon",
@@ -2239,6 +2224,21 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-12K-SG02LP1-EU-AM3-PLUS (12 кВт, 1 фаза, 3 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kw": 12,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 1420,
+    "vat": 1704,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -2259,7 +2259,7 @@
    "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-10K-SG02LP1-EU-AM3-PLUS (10 кВт, 1 фаза, 3 МРРТ, LV)",
    "sup": "Atmo",
-   "avail": "soon",
+   "avail": "no",
    "kw": 10,
    "ph": 1,
    "hv": false,
@@ -2269,21 +2269,6 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
-  },
-  {
-   "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-8K-SG05LP1-EU-AM2-PLUS (8 кВт, 1 фаза, 2 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kw": 8,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 1000,
-    "vat": 1200,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1YHCxJQRYnJ22ErJt5DtO5X7xYQk78zOs/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -2401,6 +2386,21 @@
   },
   {
    "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-8K-SG05LP1-EU-AM2-PLUS (8 кВт, 1 фаза, 2 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kw": 8,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 1000,
+    "vat": 1200,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1YHCxJQRYnJ22ErJt5DtO5X7xYQk78zOs/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-6K-SG05LP1-AM2-P (6 кВт, 1 фаза, 2 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
@@ -2410,19 +2410,6 @@
    "price": {
     "cash": 765,
     "vat": 918,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
-   "model": "Акумуляторний блок Deye SE-G5.1 Pro-B (5,12 кВт·год/51,2 В)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kwh": 5.12,
-   "hv": false,
-   "price": {
-    "cash": 755,
-    "vat": 906,
     "cur": "$"
    }
   },
@@ -2454,20 +2441,6 @@
   },
   {
    "cat": "bat",
-   "model": "Акумуляторний блок Deye SE-F12-C (11,8 кВт·год/51,2 В LV)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kwh": 11.8,
-   "hv": false,
-   "price": {
-    "cash": 1485,
-    "vat": 1782,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
-  },
-  {
-   "cat": "bat",
    "model": "Акумуляторна стійка Deye BOS-A-Rack14 для Deye BOS-A-Pack7.68",
    "sup": "Atmo",
    "avail": "yes",
@@ -2476,33 +2449,6 @@
    "price": {
     "cash": 370,
     "vat": 389.47,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
-   "model": "Акумуляторний блок Deye LV SE-F5 Pro-C (5,12 кВт·год/51,2 В)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kwh": 5.12,
-   "hv": false,
-   "price": {
-    "cash": 745,
-    "vat": 894,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
-  },
-  {
-   "cat": "bat",
-   "model": "Система керування Deye CONTROL BOX BOS-A-PDU-2 для Deye BOS-A-Pack7.68",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kwh": null,
-   "hv": true,
-   "price": {
-    "cash": 914.6,
-    "vat": 1098.2,
     "cur": "$"
    }
   },
@@ -2522,14 +2468,28 @@
   },
   {
    "cat": "bat",
-   "model": "Акумуляторний блок Deye SE-F16-C (16 кВт·год/51,2 В LV)",
+   "model": "Акумуляторний блок Deye LV SE-F5 Pro-C (5,12 кВт·год/51,2 В)",
    "sup": "Atmo",
    "avail": "soon",
-   "kwh": 16,
+   "kwh": 5.12,
    "hv": false,
    "price": {
-    "cash": 1750,
-    "vat": 2100,
+    "cash": 745,
+    "vat": 894,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/13XgNTbMR14KwYPdPGNOn0R_AVzgw7Y-p/view?usp=sharing"
+  },
+  {
+   "cat": "bat",
+   "model": "Акумуляторний блок Deye SE-F12-C (11,8 кВт·год/51,2 В LV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kwh": 11.8,
+   "hv": false,
+   "price": {
+    "cash": 1485,
+    "vat": 1782,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
@@ -2544,6 +2504,33 @@
    "price": {
     "cash": 1900,
     "vat": 2280,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
+   "model": "Акумуляторний блок Deye SE-F16-C (16 кВт·год/51,2 В LV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kwh": 16,
+   "hv": false,
+   "price": {
+    "cash": 1750,
+    "vat": 2100,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1kQOYqIg_OWglAX8LWNRcVgH86fAMxGoe/view?usp=sharing"
+  },
+  {
+   "cat": "bat",
+   "model": "Акумуляторний блок Deye SE-G5.1 Pro-B (5,12 кВт·год/51,2 В)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kwh": 5.12,
+   "hv": false,
+   "price": {
+    "cash": 755,
+    "vat": 906,
     "cur": "$"
    }
   },
@@ -2578,7 +2565,7 @@
    "cat": "bat",
    "model": "Комплект Deye BOS-B Pro Стійка + БМС + АКБ (10 АКБ по 16,08 = 160 кВт-год)",
    "sup": "Atmo",
-   "avail": "no",
+   "avail": "soon",
    "kwh": 160,
    "hv": true,
    "price": {
@@ -2591,12 +2578,25 @@
    "cat": "bat",
    "model": "Комплект Deye BOS-B Pro Стійка + БМС + АКБ (15 АКБ по 16,08 = 240 кВт-год)",
    "sup": "Atmo",
-   "avail": "no",
+   "avail": "soon",
    "kwh": 240,
    "hv": true,
    "price": {
     "cash": 25699.9,
     "vat": 30611.56,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
+   "model": "Система керування Deye CONTROL BOX BOS-A-PDU-2 для Deye BOS-A-Pack7.68",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kwh": null,
+   "hv": true,
+   "price": {
+    "cash": 914.6,
+    "vat": 1098.2,
     "cur": "$"
    }
   },
@@ -2942,7 +2942,7 @@
    "kwh": 5.1,
    "hv": true,
    "price": {
-    "cash": 760,
+    "cash": 770,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1KBwYAD5N_fOxcBkx5w4ItK2lm46XXc5C/view?usp=sharing"
@@ -2955,7 +2955,7 @@
    "kwh": null,
    "hv": true,
    "price": {
-    "cash": 760,
+    "cash": 770,
     "cur": "$"
    }
   },
@@ -3064,7 +3064,7 @@
    "cat": "bat",
    "model": "Аккумуляторная батарея Deye RW-M6.1-B LiFePO4 6.14 кВт/ч",
    "sup": "Sakoenergy",
-   "avail": "yes",
+   "avail": "no",
    "kwh": null,
    "hv": false,
    "price": {
@@ -3140,7 +3140,20 @@
   },
   {
    "cat": "inv",
-   "model": "Однофазний інвертор Deye SUN 10-K-SG02LP1-EU AM3-P (10кВт/48В)",
+   "model": "Однофазний інвертор Deye SUN 6-K SG06LP1 EU-CM2 (6 кВт/48В)",
+   "sup": "Intersolar",
+   "avail": "soon",
+   "kw": 6,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 900,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
+   "model": "Однофазний інвертор Deye SUN 10-K SG06LP1 EU-CM3 (10кВт/48В)",
    "sup": "Intersolar",
    "avail": "yes",
    "kw": 10,
@@ -3149,6 +3162,19 @@
    "price": {
     "cash": 1470,
     "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
+   "model": "Однофазний інвертор Deye SUN 12-K-SG02LP1-EU AM3-P (12кВт/48В)",
+   "sup": "Intersolar",
+   "avail": "soon",
+   "kw": 12,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 1700,
+    "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
   },
@@ -3156,7 +3182,7 @@
    "cat": "inv",
    "model": "Однофазний інвертор Deye SUN 16-K-SG01LP1-EU-AM3-P (16кВт/48В)",
    "sup": "Intersolar",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 16,
    "ph": 1,
    "hv": false,
@@ -3183,7 +3209,7 @@
    "cat": "inv",
    "model": "Трифазний інвертор Deye SUN-12K-SG-05-LP3-EU-SM2 (12кВт/48В)",
    "sup": "Intersolar",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 12,
    "ph": 3,
    "hv": false,
@@ -3250,7 +3276,7 @@
    "cat": "bat",
    "model": "Акумуляторна батарея Deye SE-F16-С 51.2V 314Ah з колесами (16 кВт*год)",
    "sup": "Intersolar",
-   "avail": "yes",
+   "avail": "soon",
    "kwh": 16,
    "hv": false,
    "price": {
@@ -3402,7 +3428,7 @@
    "cat": "pan",
    "model": "Сонячна панель Sunerise JC615-132-210R-DG - 630 Вт (Двостороння) Розміри: 2382*1134*30мм Вага: 32,4кг",
    "sup": "SunRise",
-   "avail": "no",
+   "avail": "soon",
    "watt": 615,
    "dim": "2382×1134",
    "size": "large"
@@ -3523,12 +3549,12 @@
    "cat": "bat",
    "model": "Блок керування кластером високовольтної батареї BOS-B-PDU2-А Deye",
    "sup": "Price H",
-   "avail": "yes",
+   "avail": "soon",
    "kwh": null,
    "hv": true,
    "price": {
     "cur": "$",
-    "cash": 900,
+    "cash": 905,
     "vat": 1080
    }
   },
@@ -3541,7 +3567,6 @@
    "hv": true,
    "price": {
     "cur": "$",
-    "cash": 520,
     "vat": 620
    }
   },
@@ -4134,19 +4159,6 @@
   },
   {
    "cat": "pan",
-   "model": "https://helius.ua/product/sonyachna-panel-longi-hi-mo-7-lr8-66hgd-610m-610-vt-bifacial-double-glass/",
-   "sup": "Price H",
-   "avail": "yes",
-   "watt": 610,
-   "dim": null,
-   "size": "large",
-   "price": {
-    "cur": "$",
-    "cash": 102.5
-   }
-  },
-  {
-   "cat": "pan",
    "model": "Canadian Solar 450w CS6.2-48TD-450 full black",
    "sup": "Solarity",
    "avail": "soon",
@@ -4417,7 +4429,7 @@
    "cat": "inv",
    "model": "Deye SUN-15K-SG05LP3-EU-SM2",
    "sup": "Solarity",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 15,
    "ph": 3,
    "hv": false,
@@ -5330,7 +5342,7 @@
    "ph": null,
    "hv": false,
    "price": {
-    "cash": 420,
+    "cash": 410,
     "cur": "$"
    }
   },
@@ -5344,18 +5356,6 @@
    "hv": false,
    "price": {
     "cash": 690,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
-   "model": "Deye SE-F16-С 51.2V 314 Аh, 109 кг, LiFePO4, 16 kWh",
-   "sup": "Avtonomka",
-   "avail": "yes",
-   "kwh": 16,
-   "hv": false,
-   "price": {
-    "cash": 1770,
     "cur": "$"
    }
   },
@@ -5387,7 +5387,7 @@
    "cat": "bat",
    "model": "Felicity FLB48100WG1-H 51.2V 100Ah LiFePO4",
    "sup": "Avtonomka",
-   "avail": "yes",
+   "avail": "no",
    "kwh": 5.12,
    "hv": false,
    "price": {
@@ -5403,7 +5403,7 @@
    "kwh": 8.76,
    "hv": false,
    "price": {
-    "cash": 1150,
+    "cash": 1170,
     "cur": "$"
    }
   },
@@ -5487,7 +5487,7 @@
    "kwh": 16,
    "hv": false,
    "price": {
-    "cash": 1720,
+    "cash": 1770,
     "cur": "$"
    }
   },
