@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05",
+ "generated": "2026-11-06",
  "note": "Постачальники вживу: YugTorg, Atmo, Sakoenergy, Intersolar, SunRise, Price H, RaTech, Avtonomka, Slavik, Solarity (дзеркало). Altek/Vimmer — снимок. Бренди: Deye + Felicity. Ціни: Готівка/ПДВ під постачальника, Solarity −5%.",
  "items": [
   {
@@ -3626,24 +3626,24 @@
    "cat": "bat",
    "model": "Deye https://helius.ua/product/akumulyatorna-batareya-ep6-plus-fox-ess-lifepo4-192v-576-kwh-ip65-z-pidigrivom/",
    "sup": "Price H",
-   "avail": "soon",
+   "avail": "yes",
    "kwh": null,
    "hv": false,
    "price": {
     "cur": "$",
-    "cash": 890
+    "vat": 1070
    }
   },
   {
    "cat": "bat",
    "model": "Deye https://helius.ua/product/akumulyatorna-batareya-m6-w-mira-lifepo4-192v-576-kwh-ip65-z-pidigrivom/",
    "sup": "Price H",
-   "avail": "soon",
+   "avail": "yes",
    "kwh": null,
    "hv": false,
    "price": {
     "cur": "$",
-    "cash": 860
+    "vat": 1070
    }
   },
   {
