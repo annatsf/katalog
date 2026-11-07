@@ -1755,7 +1755,7 @@
    "cat": "bat",
    "model": "Аккумуляторная батарея Deye LiFePO4 SE-F12-С 51,2V 230Ah 11.8KWh, BMS230@16S до 6 parallel(1stack), CAN&RS485, 6000Cycles, (400 × 559 × 233), 84kg",
    "sup": "YugTorg",
-   "avail": "soon",
+   "avail": "yes",
    "kwh": 11.8,
    "hv": false,
    "price": {
@@ -2257,20 +2257,6 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-20K-SG01HP3-EU-AM2 (20 кВт, 3 фази, 2 МРРТ, HV)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kw": 20,
-   "ph": 3,
-   "hv": true,
-   "price": {
-    "cash": 1560,
-    "vat": 1872,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-10K-SG02LP1-EU-AM3-PLUS (10 кВт, 1 фаза, 3 МРРТ, LV)",
    "sup": "Atmo",
    "avail": "no",
@@ -2323,6 +2309,20 @@
    "price": {
     "cash": 6650,
     "vat": 7980,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-20K-SG01HP3-EU-AM2 (20 кВт, 3 фази, 2 МРРТ, HV)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kw": 20,
+   "ph": 3,
+   "hv": true,
+   "price": {
+    "cash": 1560,
+    "vat": 1872,
     "cur": "$"
    }
   },
@@ -2549,20 +2549,6 @@
   },
   {
    "cat": "bat",
-   "model": "Акумуляторний блок Deye HV BOS-A-Pack7.68 (7,68 кВт·год/38,4 В)",
-   "sup": "Atmo",
-   "avail": "no",
-   "kwh": 7.68,
-   "hv": true,
-   "price": {
-    "cash": 1150,
-    "vat": 1380,
-    "cur": "$"
-   },
-   "ds": "https://drive.google.com/file/d/1T3AVp7cqEuV7th5H5DY0gHnFiwLGTnPy/view?usp=sharing"
-  },
-  {
-   "cat": "bat",
    "model": "Комплект Deye BOS-B Pro Стійка + БМС + АКБ (10 АКБ по 16,08 = 160 кВт-год)",
    "sup": "Atmo",
    "avail": "soon",
@@ -2586,6 +2572,20 @@
     "vat": 30611.56,
     "cur": "$"
    }
+  },
+  {
+   "cat": "bat",
+   "model": "Акумуляторний блок Deye HV BOS-A-Pack7.68 (7,68 кВт·год/38,4 В)",
+   "sup": "Atmo",
+   "avail": "no",
+   "kwh": 7.68,
+   "hv": true,
+   "price": {
+    "cash": 1150,
+    "vat": 1380,
+    "cur": "$"
+   },
+   "ds": "https://drive.google.com/file/d/1T3AVp7cqEuV7th5H5DY0gHnFiwLGTnPy/view?usp=sharing"
   },
   {
    "cat": "bat",
@@ -5376,18 +5376,6 @@
    "hv": false,
    "price": {
     "cash": 1000,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "bat",
-   "model": "Felicity FLB48100WG1-H 51.2V 100Ah LiFePO4",
-   "sup": "Avtonomka",
-   "avail": "no",
-   "kwh": 5.12,
-   "hv": false,
-   "price": {
-    "cash": 800,
     "cur": "$"
    }
   },
