@@ -2741,19 +2741,9 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1480,
+    "cash": 1450,
     "cur": "$"
    }
-  },
-  {
-   "cat": "inv",
-   "model": "Deye SUN-10K-SG02LP1-EU",
-   "sup": "Sakoenergy",
-   "avail": "soon",
-   "kw": 10,
-   "ph": 1,
-   "hv": false,
-   "ds": "https://drive.google.com/file/d/1_2IJVisGWHWa-_OaFEXJv5Z1QKdz5iT_/view?usp=sharing"
   },
   {
    "cat": "inv",
@@ -2873,7 +2863,7 @@
    "ph": 3,
    "hv": false,
    "price": {
-    "cash": 2350,
+    "cash": 2300,
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
@@ -4458,7 +4448,7 @@
    "ph": 3,
    "hv": false,
    "price": {
-    "cash": 2451.95,
+    "cash": 2400.65,
     "vat": 2953.55,
     "cur": "$"
    },
@@ -4520,7 +4510,7 @@
    "ph": 3,
    "hv": true,
    "price": {
-    "cash": 4085.95,
+    "cash": 4034.65,
     "vat": 4801.3,
     "cur": "$"
    }
