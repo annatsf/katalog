@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11",
+ "generated": "2026-11-12",
  "note": "Постачальники вживу: YugTorg, Atmo, Sakoenergy, Intersolar, SunRise, Price H, RaTech, Avtonomka, Slavik, Solarity (дзеркало). Altek/Vimmer — снимок. Бренди: Deye + Felicity. Ціни: Готівка/ПДВ під постачальника, Solarity −5%.",
  "items": [
   {
@@ -2314,20 +2314,6 @@
   },
   {
    "cat": "inv",
-   "model": "Інвертор гібридний Deye SUN-8K-SG06LP1-EU-BM3 (8 кВт, 1 фаза, 3 МРРТ, LV)",
-   "sup": "Atmo",
-   "avail": "soon",
-   "kw": 8,
-   "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 1000,
-    "vat": 1200,
-    "cur": "$"
-   }
-  },
-  {
-   "cat": "inv",
    "model": "Інвертор гібридний Deye SUN-100K-SG02HP3-EU-GM10 (100 кВт, 3 фази, 10 МРРТ, HV)",
    "sup": "Atmo",
    "avail": "soon",
@@ -2337,6 +2323,20 @@
    "price": {
     "cash": 6650,
     "vat": 7980,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "inv",
+   "model": "Інвертор гібридний Deye SUN-8K-SG06LP1-EU-BM3 (8 кВт, 1 фаза, 3 МРРТ, LV)",
+   "sup": "Atmo",
+   "avail": "soon",
+   "kw": 8,
+   "ph": 1,
+   "hv": false,
+   "price": {
+    "cash": 1000,
+    "vat": 1200,
     "cur": "$"
    }
   },
@@ -2442,6 +2442,19 @@
   },
   {
    "cat": "bat",
+   "model": "Акумуляторний блок Deye GB-W-Pack12-2-A3 (12,03 кВт·год/51,2 В HV)",
+   "sup": "Atmo",
+   "avail": "yes",
+   "kwh": 12.03,
+   "hv": true,
+   "price": {
+    "cash": 1575,
+    "vat": 1890,
+    "cur": "$"
+   }
+  },
+  {
+   "cat": "bat",
    "model": "Акумуляторний блок Deye HV BOS-B-Pack16-A3-Pro (BOS-B-Pro) (16,08 кВт·год/51,2 В)",
    "sup": "Atmo",
    "avail": "yes",
@@ -2453,19 +2466,6 @@
     "cur": "$"
    },
    "ds": "https://drive.google.com/file/d/1O2WQEq4Xekvqq_nOEvhy5pz7TEOUMzwJ/view?usp=sharing"
-  },
-  {
-   "cat": "bat",
-   "model": "Акумуляторний блок Deye GB-W-Pack12-2-A3 (12,03 кВт·год/51,2 В HV)",
-   "sup": "Atmo",
-   "avail": "yes",
-   "kwh": 12.03,
-   "hv": true,
-   "price": {
-    "cash": 1575,
-    "vat": 1890,
-    "cur": "$"
-   }
   },
   {
    "cat": "bat",
@@ -3729,18 +3729,6 @@
     "cur": "$",
     "cash": 1710,
     "vat": 2040
-   }
-  },
-  {
-   "cat": "bat",
-   "model": "Акумуляторна батарея SE-F16Max Deye (LiFePO4 51,2V 314Ah 16 kWh heated) з підігрівом",
-   "sup": "Price H",
-   "avail": "soon",
-   "kwh": 16,
-   "hv": false,
-   "price": {
-    "cur": "$",
-    "cash": 1880
    }
   },
   {
