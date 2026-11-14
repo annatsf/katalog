@@ -2751,7 +2751,7 @@
    "cat": "inv",
    "model": "Deye SUN-8K-SG06LP1-EU",
    "sup": "Sakoenergy",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 8,
    "ph": 1,
    "hv": false,
@@ -2815,7 +2815,7 @@
    "ph": 1,
    "hv": false,
    "price": {
-    "cash": 1800,
+    "cash": 1770,
     "cur": "$"
    }
   },
@@ -5085,7 +5085,7 @@
    "cat": "bat",
    "model": "DEYE SE-F12-C",
    "sup": "RaTech",
-   "avail": "soon",
+   "avail": "yes",
    "kwh": null,
    "hv": false,
    "price": {
@@ -5536,7 +5536,7 @@
    "kwh": 14.34,
    "hv": false,
    "price": {
-    "cash": 1600,
+    "cash": 1700,
     "cur": "$"
    }
   },
