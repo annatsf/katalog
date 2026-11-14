@@ -2736,7 +2736,7 @@
   },
   {
    "cat": "inv",
-   "model": "Deye SUN-6K-SG06LP1-EU",
+   "model": "Deye SUN-6K-SG05LP1-EU",
    "sup": "Sakoenergy",
    "avail": "soon",
    "kw": 6,
@@ -2745,7 +2745,17 @@
    "price": {
     "cash": 900,
     "cur": "$"
-   }
+   },
+   "ds": "https://drive.google.com/file/d/1YHCxJQRYnJ22ErJt5DtO5X7xYQk78zOs/view?usp=sharing"
+  },
+  {
+   "cat": "inv",
+   "model": "Deye SUN-6K-SG06LP1-EU",
+   "sup": "Sakoenergy",
+   "avail": "soon",
+   "kw": 6,
+   "ph": 1,
+   "hv": false
   },
   {
    "cat": "inv",
@@ -2754,11 +2764,7 @@
    "avail": "soon",
    "kw": 8,
    "ph": 1,
-   "hv": false,
-   "price": {
-    "cash": 1220,
-    "cur": "$"
-   }
+   "hv": false
   },
   {
    "cat": "inv",
@@ -2860,10 +2866,14 @@
    "cat": "inv",
    "model": "Deye SUN-15K-SG05LP3-EU-SM2",
    "sup": "Sakoenergy",
-   "avail": "soon",
+   "avail": "yes",
    "kw": 15,
    "ph": 3,
    "hv": false,
+   "price": {
+    "cash": 1980,
+    "cur": "$"
+   },
    "ds": "https://drive.google.com/file/d/1Dq_9rWU3w6A4Cm4MXoC3zxrmno9D1mUF/view?usp=sharing"
   },
   {
@@ -2937,7 +2947,7 @@
    "cat": "inv",
    "model": "Deye SUN-80K-SG02HP3-EU-ЕM6 (80кВт/HV)",
    "sup": "Sakoenergy",
-   "avail": "yes",
+   "avail": "soon",
    "kw": 80,
    "ph": 3,
    "hv": true,
@@ -3020,15 +3030,6 @@
     "cash": 1150,
     "cur": "$"
    }
-  },
-  {
-   "cat": "inv",
-   "model": "Deye SUN-50K-G04 (50 кВт)",
-   "sup": "Sakoenergy",
-   "avail": "soon",
-   "kw": 50,
-   "ph": null,
-   "hv": false
   },
   {
    "cat": "bat",
