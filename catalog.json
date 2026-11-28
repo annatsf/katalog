@@ -1661,7 +1661,7 @@
    "cat": "bat",
    "model": "Аккумуляторная батарея Deye LiFePO4 WD-G24200 26,6V 200Ah 5.12KWh, BMS100@16S до 16 parallel(1stack), CAN&RS485 ,6000Cycles, (390*540*160), 41kg",
    "sup": "YugTorg",
-   "avail": "soon",
+   "avail": "yes",
    "kwh": 5.12,
    "hv": false,
    "price": {
@@ -1672,13 +1672,13 @@
   },
   {
    "cat": "bat",
-   "model": "Аккумуляторная батарея Deye LiFePO4 SE-F5 Pro-С 51,2V 100Ah 5KWh, BMS100@16S до 32 parallel(1stack), CAN&RS485 ,wi-fi,6000Cycles, (404*547*141), 44kg Акция от 8 шт. — 800.00 $ от 16 шт. — 790.00 $",
+   "model": "Аккумуляторная батарея Deye LiFePO4 SE-F5 Pro-С 51,2V 100Ah 5KWh, BMS100@16S до 32 parallel(1stack), CAN&RS485 ,wi-fi,6000Cycles, (404*547*141), 44kg",
    "sup": "YugTorg",
    "avail": "yes",
    "kwh": 5,
    "hv": false,
    "price": {
-    "cash": 810,
+    "cash": 780,
     "cur": "у.е.",
     "vat": 920
    },
@@ -1714,13 +1714,13 @@
   },
   {
    "cat": "bat",
-   "model": "Аккумуляторная батарея Deye LiFePO4 SE-G5.1 Pro-B 51,2V 100AH, 5,12kW BMS50A@16S до 32 parallel CAN/RS485, IP21, 6000Cycles, (445*133*540),45kg Акция от 8 шт. — 810.00 $ от 16 шт. — 800.00 $",
+   "model": "Аккумуляторная батарея Deye LiFePO4 SE-G5.1 Pro-B 51,2V 100AH, 5,12kW BMS50A@16S до 32 parallel CAN/RS485, IP21, 6000Cycles, (445*133*540),45kg",
    "sup": "YugTorg",
    "avail": "yes",
    "kwh": 5.12,
    "hv": false,
    "price": {
-    "cash": 820,
+    "cash": 800,
     "cur": "у.е.",
     "vat": 930
    }
@@ -1800,7 +1800,7 @@
    "kwh": 16,
    "hv": false,
    "price": {
-    "cash": 1780,
+    "cash": 1770,
     "cur": "у.е.",
     "vat": 2100
    },
